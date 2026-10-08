@@ -25,7 +25,7 @@ The installer includes eleven plugins. They update together with SMA.
 | Image Occlusion | Creates image occlusion items. |
 | Import | Imports web pages, browser tabs, and RSS or Atom feeds. |
 | LaTeX | Renders LaTeX formulas in elements. |
-| [Local API](src/Plugins/SuperMemoAssistant.Plugins.LocalApi/README.md) | Runs a token-protected HTTP server on this computer, so that browser extensions and scripts can add elements and navigate. It is off by default. |
+| [Local API](src/Plugins/SuperMemoAssistant.Plugins.LocalApi/README.md) | Runs a token-protected HTTP server on your computer, so that browser extensions and scripts can add elements and navigate. It is off by default. |
 | OmniMemo | Adds the OmniMemo window, which opens from any application with Alt+Shift+F. |
 | PDF | Reads PDF files incrementally and extracts text, images, and page ranges. |
 | Writing | Compiles a branch into one Markdown or HTML document, and imports a Markdown outline as a branch of topics. |
