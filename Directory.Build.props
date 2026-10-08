@@ -26,11 +26,11 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Package">
-    <Version>3.1.0</Version>
+    <Version>3.1.1</Version>
     <Product>$(AssemblyName)</Product>
-    <Authors>Alexis;SuperMemo.wiki;SMA Community</Authors>
-    <Company>SuperMemo.wiki</Company>
-    <Copyright>© SuperMemo.wiki and SMA community contributors</Copyright>
+    <Authors>SMA Community</Authors>
+    <Company>SMA Community</Company>
+    <Copyright>© 2018 SuperMemo, © 2026 SMA community contributors</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>

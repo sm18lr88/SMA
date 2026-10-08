@@ -32,17 +32,9 @@
              TextWrapping="Wrap"
              IsReadOnly="True"
              IsReadOnlyCaretVisible="True"
-             xml:space="preserve"
+             Text="{Binding LicenseText, Mode=OneTime}"
              VerticalScrollBarVisibility="Auto"
-             Margin="0 0 0 20">MIT License
-
-Copyright (c) 2018 SuperMemo Assistant
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</TextBox>
+             Margin="0 0 0 20" />
 
     <TextBlock Grid.Row="2"
                FontSize="14"
@@ -58,12 +50,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
              IsReadOnlyCaretVisible="True"
              xml:space="preserve"
              VerticalScrollBarVisibility="Auto"
-             Margin="0 0 0 20">SuperMemo has a rare but dangerous bug which this Plugin can sometime trigger.
-      
-This bug happens when SuperMemo writes to a file that it mistakenly thinks doesn't exist. A popup title "Error!" will appear with a message talking about "Non-empty filespace slot #xxxx".
+             Margin="0 0 0 20">SuperMemo has a rare but serious bug that this plugin can sometimes trigger.
 
-Your collection can become corrupted as a result. Please make sure to use regular backups. I will not be responsible in case your collection is damaged.
-    </TextBox>
+The bug happens when SuperMemo writes to a file that it wrongly believes does not exist. An "Error!" popup then appears, with a message about a "Non-empty filespace slot #xxxx".
+
+Your collection can be damaged as a result. Back up your collection regularly. As the license above says, the plugin comes without any warranty.</TextBox>
 
     <CheckBox Grid.Row="4"
               Content="I have read and agree to the terms of the Import plugin license"

@@ -30,9 +30,9 @@
 
       <TextBlock FontSize="14">
         Home Page: 
-        <Hyperlink NavigateUri="https://github.com/supermemo/"
+        <Hyperlink NavigateUri="https://github.com/sm18lr88/SMA"
                    RequestNavigate="Hyperlink_RequestNavigate">
-          https://github.com/supermemo/
+          https://github.com/sm18lr88/SMA
         </Hyperlink>
       </TextBlock>
     </StackPanel>

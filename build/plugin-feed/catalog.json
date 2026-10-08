@@ -6,7 +6,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.Books",
     "DisplayName": "Books",
     "Description": "Imports EPUB books and Kindle highlights into SuperMemo as incremental-reading topics.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.Books/src/SuperMemoAssistant.Plugins.Books/SuperMemoAssistant.Plugins.Books.csproj"
   },
@@ -14,7 +14,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.Dictionary",
     "DisplayName": "Dictionary",
     "Description": "Looks up the selected word in Oxford Dictionaries and creates SuperMemo elements from the definitions.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.Dictionary/src/SuperMemoAssistant.Plugins.Dictionary/SuperMemoAssistant.Plugins.Dictionary.csproj"
   },
@@ -22,7 +22,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.Email",
     "DisplayName": "Email",
     "Description": "Improves email support in SuperMemo.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.Email/src/SuperMemoAssistant.Plugins.Email/SuperMemoAssistant.Plugins.Email.csproj"
   },
@@ -30,7 +30,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.Formulation",
     "DisplayName": "Formulation",
     "Description": "Checks items against the 20 rules of formulating knowledge and suggests how to improve them.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.Formulation/src/SuperMemoAssistant.Plugins.Formulation/SuperMemoAssistant.Plugins.Formulation.csproj"
   },
@@ -38,7 +38,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.ImageOcclusion",
     "DisplayName": "Image Occlusion",
     "Description": "Creates image occlusion items, an alternative to the built-in SuperMemo template.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.ImageOcclusion/src/SuperMemoAssistant.Plugins.ImageOcclusion/SuperMemoAssistant.Plugins.ImageOcclusion.csproj"
   },
@@ -46,7 +46,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.Import",
     "DisplayName": "Import",
     "Description": "Imports web pages, browser tabs, and RSS or Atom feeds into SuperMemo.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.Import/src/SuperMemoAssistant.Plugins.Import/SuperMemoAssistant.Plugins.Import.csproj"
   },
@@ -54,7 +54,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.LaTeX",
     "DisplayName": "LaTeX",
     "Description": "Renders LaTeX formulas in SuperMemo elements.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.LateX/src/SuperMemoAssistant.Plugins.LaTeX/SuperMemoAssistant.Plugins.LaTeX.csproj"
   },
@@ -62,7 +62,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.LocalApi",
     "DisplayName": "Local API",
     "Description": "Runs a token-protected HTTP server on this computer, so that browser extensions and scripts can add elements to SuperMemo and navigate.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.LocalApi/src/SuperMemoAssistant.Plugins.LocalApi/SuperMemoAssistant.Plugins.LocalApi.csproj"
   },
@@ -70,7 +70,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.OmniMemo",
     "DisplayName": "OmniMemo",
     "Description": "Adds the OmniMemo window, which opens from any application with Alt+Shift+F.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.OmniMemo/src/SuperMemoAssistant.Plugins.OmniMemo/SuperMemoAssistant.Plugins.OmniMemo.csproj"
   },
@@ -78,7 +78,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.PDF",
     "DisplayName": "PDF",
     "Description": "Reads PDF files incrementally in SuperMemo and extracts text, images, and page ranges.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.PDF/src/SuperMemoAssistant.Plugins.PDF/SuperMemoAssistant.Plugins.PDF.csproj"
   },
@@ -86,7 +86,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.Themes",
     "DisplayName": "Themes",
     "Description": "Themes SuperMemo's windows, cards and status bar from a library of color palettes. Optional: it rewrites sm20.exe from the original, and restoring is one switch.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.Themes/src/SuperMemoAssistant.Plugins.Themes/SuperMemoAssistant.Plugins.Themes.csproj"
   },
@@ -94,7 +94,7 @@
     "PackageName": "SuperMemoAssistant.Plugins.Writing",
     "DisplayName": "Writing",
     "Description": "Compiles a branch into one Markdown or HTML document and imports a Markdown outline as a branch of topics.",
-    "Author": "SuperMemo.wiki; SMA Community",
+    "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.Writing/src/SuperMemoAssistant.Plugins.Writing/SuperMemoAssistant.Plugins.Writing.csproj"
   }

@@ -2,6 +2,12 @@
 
 **English** | [简体中文](CHANGELOG.zh-CN.md)
 
+## 3.1.1 - 2026-10-08
+
+- **License screens.** The setup wizard and the Import plugin show the current license of this project, read from its `LICENSE` file, instead of an outdated copy from 2018. The Import plugin's warning about a SuperMemo bug no longer speaks for the former author.
+- **What's new window.** The window that SMA shows after an update lists the changes of the 3.x versions, and its link opens the home page of this project.
+- **Publisher.** The program files, the installer, and the plugin catalog name the SMA Community as publisher. The licenses of the Books, Formulation, Local API, and Writing plugins name their 2026 authors.
+
 ## 3.1.0 - 2026-10-07
 
 - **Privacy: no telemetry.** SMA and its plugins no longer send anything to Sentry or to any other service. The plugins had built-in reporting keys of the former upstream project and reported errors without asking. The plugin browser no longer sends a device identifier. The `SMA_SENTRY_DSN` setting and the `SuperMemoAssistant.Services.Sentry` library are removed; plugins derive from `SMAPluginBase`. Errors are written only to the local log files. "Open logs folder" in the menu of the notification-area icon opens them, so that you can attach a log to an issue yourself.
@@ -50,7 +56,7 @@
 
 - Every plugin crashed when it loaded, because the plugin base created a second WPF `Application`.
 - Plugins did not ship their NuGet and native dependencies. PluginHost now loads them through the `deps.json` of each plugin.
-- The registry, control, and element-window readers truncated x64 pointers.
+- The registry, control, and element-window readers returned wrong values on x64.
 - The update check cancelled itself before it ran, and it released a semaphore that it never took.
 - `RemoteTask` hung when a callback threw an exception. `RemoteCancellationToken` lost earlier registrations.
 - A `MarshalType` ordering bug sized `bool` as 4 bytes.
@@ -91,7 +97,7 @@
 ## 19.1-community-r11.2 - 2026-10-06
 
 - HTML source files are now unique, persistent files in the `sma/ImportedHtml` folder of the collection. This fixes missing files and failed PDF imports that came from the dependency on `Windows TEMP/sm_element_0.htm`.
-- SMA checks that the file exists before it calls the native SuperMemo interface. It logs the path and the file state before and after the call.
+- SMA checks that the file exists before it asks SuperMemo to import it. It logs the path and the file state before and after the import.
 - The verified Unicode titles, BOM-free HTML, and hidden PDF metadata are unchanged.
 - The user confirmed that two PDFs, with Chinese and Japanese file names, imported again successfully.
 - The full package includes this Core fix and the updated in-app logs. A fresh installation, an upgrade, a recovery, and the backups passed checks in separate folders.
@@ -100,7 +106,7 @@
 
 - The full installer supports in-place upgrades that keep the settings and the collection list. It also supports program recovery.
 - Staging checks, backups of the old program and of the PDF DLL, and rollback on failure were added. The installer updates the PDF DLL only when its checksum is different.
-- The installer checks the SHA-256 of the SuperMemo EXE directly.
+- The installer checks that the SuperMemo program is the verified version.
 
 ## r9–r11
 

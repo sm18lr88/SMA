@@ -89,7 +89,7 @@
                 <Setter.Value>
                   <ControlTemplate>
                     <TextBlock HorizontalAlignment="Center"
-                               VerticalAlignment="Center">No collection yet :-( Add one by pressing the "Browse" button.</TextBlock>
+                               VerticalAlignment="Center">No collection yet. Add one with the "Browse" button.</TextBlock>
                   </ControlTemplate>
                 </Setter.Value>
               </Setter>

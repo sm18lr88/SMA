@@ -38,6 +38,8 @@
     <Resource Include="$(RepoRoot)assets\images\icons\plugin-default.png" Link="Resources\plugin-default.png" />
     <Resource Include="$(RepoRoot)assets\images\animations\robot-flashing.gif" Link="Resources\robot-flashing.gif" />
     <EmbeddedResource Include="$(RepoRoot)ChangeLogs" Link="Resources\ChangeLogs" />
+    <!-- The setup wizard shows the repository LICENSE itself, so the license screen can never go stale. -->
+    <EmbeddedResource Include="$(RepoRoot)LICENSE" Link="Resources\LICENSE" LogicalName="SuperMemoAssistant.Resources.LICENSE" />
     <Content Include="$(RepoRoot)assets\data\quotes.tsv" Link="quotes.tsv" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 

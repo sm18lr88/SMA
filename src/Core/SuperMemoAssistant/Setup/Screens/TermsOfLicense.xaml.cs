@@ -36,6 +36,7 @@
 
 namespace SuperMemoAssistant.Setup.Screens
 {
+  using System.IO;
   using SMA.Configs;
   using Sys.ComponentModel;
 
@@ -59,6 +60,9 @@ namespace SuperMemoAssistant.Setup.Screens
     #region Properties & Fields - Public
 
     public CoreCfg StartupCfg { get; }
+
+    /// <summary>The repository LICENSE, embedded at build time.</summary>
+    public string LicenseText { get; } = LoadLicense();
 
     /// <summary>Proxy for the agreement state, used to raise property changed on <see cref="IsSetup" /></summary>
     public bool HasAgreedToTermsOfLicense
@@ -102,6 +106,14 @@ namespace SuperMemoAssistant.Setup.Screens
 
     /// <inheritdoc />
     public override void OnDisplayed() { }
+
+    private static string LoadLicense()
+    {
+      using var stream = typeof(TermsOfLicense).Assembly.GetManifestResourceStream("SuperMemoAssistant.Resources.LICENSE");
+      using var reader = new StreamReader(stream);
+
+      return reader.ReadToEnd();
+    }
 
     /// <inheritdoc />
     public override void OnNext()

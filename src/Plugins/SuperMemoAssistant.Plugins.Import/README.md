@@ -11,4 +11,4 @@ The original plugin is [supermemo/SuperMemoAssistant.Plugins.Import](https://git
 ![](https://addons.cdn.mozilla.net/user-media/previews/full/231/231432.png?modified=1580082709)
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsupermemo%2FSuperMemoAssistant.Plugins.Import.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsupermemo%2FSuperMemoAssistant.Plugins.Import?ref=badge_large)
+MIT. See [LICENSE](LICENSE).

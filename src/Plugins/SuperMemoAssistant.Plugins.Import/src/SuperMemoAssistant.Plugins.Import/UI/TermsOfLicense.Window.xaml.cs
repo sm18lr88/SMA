@@ -52,6 +52,9 @@ namespace SuperMemoAssistant.Plugins.Import.UI
 
     public ICommand OkCommand { get; }
 
+    /// <summary>The plugin's LICENSE, embedded at build time.</summary>
+    public string LicenseText { get; } = LoadLicense();
+
     public bool HasAgreedToTermsOfLicense { get; set; }
     public bool HasAgreedToBugWaiver      { get; set; }
 
@@ -70,6 +73,14 @@ namespace SuperMemoAssistant.Plugins.Import.UI
     private void Ok()
     {
       DialogResult = true;
+    }
+
+    private static string LoadLicense()
+    {
+      using var stream = typeof(TermsOfLicense).Assembly.GetManifestResourceStream("SuperMemoAssistant.Plugins.Import.LICENSE");
+      using var reader = new System.IO.StreamReader(stream);
+
+      return reader.ReadToEnd();
     }
 
     public static bool AskConsent()

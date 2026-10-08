@@ -75,7 +75,7 @@ dotnet vpk pack `
   --packId SuperMemoAssistant `
   --packVersion $Version `
   --packTitle 'SuperMemo Assistant' `
-  --packAuthors 'SuperMemo.wiki; SMA Community' `
+  --packAuthors 'SMA Community' `
   --packDir $publishDir `
   --mainExe SuperMemoAssistant.exe `
   --runtime win-x64 `

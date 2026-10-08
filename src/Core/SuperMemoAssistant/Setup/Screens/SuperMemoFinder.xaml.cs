@@ -193,7 +193,7 @@ namespace SuperMemoAssistant.Setup.Screens
 
     private static string BuildDescriptionText() => @"Select your **SuperMemo executable** (`sm20.exe`). You can:
 - Use the <kbd>Browse</kbd> button,
-- Double click on one of the suggested item from the list below.
+- Double-click one of the suggested items in the list below.
 
 If you need help, visit https://github.com/sm18lr88/SMA/issues   
 **Supported versions**: *SuperMemo 20 (64-bit)*";

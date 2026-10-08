@@ -19,6 +19,10 @@
     <PackageReference Include="UAParser" />
   </ItemGroup>
   <ItemGroup>
+    <!-- The terms window shows the plugin's own LICENSE, so it can never go stale. -->
+    <EmbeddedResource Include="$(RepoRoot)src\Plugins\SuperMemoAssistant.Plugins.Import\LICENSE" Link="Resources\LICENSE" LogicalName="SuperMemoAssistant.Plugins.Import.LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="$(RepoRoot)src\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
     <ProjectReference Include="$(RepoRoot)libs\PluginManager\src\PluginManager.Interop\PluginManager.Interop.csproj" />
     <ProjectReference Include="$(RepoRoot)libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />

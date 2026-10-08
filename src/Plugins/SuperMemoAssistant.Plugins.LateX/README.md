@@ -9,4 +9,4 @@ The original plugin is [supermemo/SuperMemoAssistant.Plugins.LateX](https://gith
 ### Use LaTeX right in your SuperMemo
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsupermemo%2FSuperMemoAssistant.Plugins.LateX.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsupermemo%2FSuperMemoAssistant.Plugins.LateX?ref=badge_large)
+MIT. See [LICENSE](LICENSE).

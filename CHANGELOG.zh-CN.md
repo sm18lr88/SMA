@@ -4,6 +4,12 @@
 
 > 英文版 [CHANGELOG](CHANGELOG.md) 是主要版本,包含完整的变更列表。本文件给出 3.0.0 的摘要,并保留 SuperMemo 19.1 各版本的中文原文。
 
+## 3.1.1 — 2026-10-08
+
+- **许可证界面:** 设置向导和 Import 插件显示本项目当前的许可证(读取自 `LICENSE` 文件),不再显示 2018 年的过时副本。Import 插件关于 SuperMemo 缺陷的警告不再以原作者的口吻表述。
+- **更新内容窗口:** SMA 更新后显示的窗口列出 3.x 版本的变更,其链接打开本项目主页。
+- **发布者:** 程序文件、安装程序和插件目录将 SMA 社区列为发布者。Books、Formulation、Local API 和 Writing 插件的许可证注明其 2026 年的作者。
+
 ## 3.1.0 — 2026-10-07
 
 - **隐私:不再有遥测。** SMA 及其插件不再向 Sentry 或任何其他服务发送数据。此前插件内置了原上游项目的报告密钥,会在未经询问的情况下报告错误。插件浏览器不再发送设备标识符。`SMA_SENTRY_DSN` 设置和 `SuperMemoAssistant.Services.Sentry` 库已移除;插件改为继承 `SMAPluginBase`。错误只写入本地日志文件。通知区域图标菜单中的“Open logs folder”会打开日志文件夹,你可以自行把日志附加到 issue 中。
@@ -28,13 +34,13 @@
 - **插件 RPC:** 插件运行在独立进程中,通过命名管道 RPC 与 SMA 通信。插件必须针对 `net10.0-windows` 和 Interop 3.0 或更高版本重新编译。
 - **PDF:** PDF 插件改用 PDFium 引擎,没有评估限制,并随安装程序提供。查看器支持在表单字段中输入文字,以及 NextPage、PrevPage、FirstPage、LastPage 命名操作。
 - **插件与更新:** 安装程序包含七个插件。“浏览插件”从本项目在 GitHub Pages 上的插件源安装和更新插件。SMA 从本项目的 GitHub Releases 更新自身。
-- **修复:** 插件加载时崩溃、插件缺少依赖、x64 指针被截断、`OnSMStarted` 和 `OnSMStopped` 调用错误的处理程序、`AtFlags` 取值错误、插件包被锁定等问题。
+- **修复:** 插件加载时崩溃、插件缺少依赖、x64 上读取的值错误、`OnSMStarted` 和 `OnSMStopped` 调用错误的处理程序、`AtFlags` 取值错误、插件包被锁定等问题。
 - **隐私:** 应用只有设置 `SMA_SENTRY_DSN` 时才发送崩溃报告,但插件仍会自行报告。3.1.0 已全部移除。
 
 ## 19.1-community-r11.2 — 2026-10-06
 
 - HTML 源文件改为集合 `sma/ImportedHtml` 中的唯一持久文件，解决依赖 `Windows TEMP/sm_element_0.htm` 引起的文件缺失与 PDF 导入失败。
-- 在调用 SuperMemo 原生接口前验证文件存在，并记录调用前后的路径和文件状态。
+- 在请求 SuperMemo 导入前验证文件存在，并记录导入前后的路径和文件状态。
 - 保留已验证的 Unicode 标题、无 BOM HTML 和隐藏 PDF 元数据；本次没有更换 PDF SDK。
 - 用户确认中文和日文文件名的两个 PDF 均重新导入成功。
 - 完整包包含这次 Core 修复和更新后的程序内日志；独立目录的全新安装、升级、恢复与备份检查通过。
