@@ -91,7 +91,8 @@ namespace SuperMemoAssistant.Services.IO.HotKeys
 
     public void OnActualHotKeyChanged(object before, object after)
     {
-      if (before == null || before == after)
+      // A hotkey that had no key yet must also be registered when it gets one.
+      if (Equals(before, after))
         return;
 
       HotKeyChanged?.Invoke(

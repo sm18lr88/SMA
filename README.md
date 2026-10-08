@@ -14,25 +14,23 @@ To install SMA, see the [installation guide](docs/installation.md).
 
 ## Plugins
 
-The installer includes eleven plugins. They update together with SMA.
+The installer includes nine plugins. They update together with SMA.
 
 | Plugin | What it does |
 | --- | --- |
 | Books | Imports EPUB books and Kindle highlights as incremental-reading topics. |
 | Dictionary | Looks up the selected word and creates elements from the definitions. |
-| Email | Improves email support in SuperMemo. |
 | Formulation | Checks items against the 20 rules of formulating knowledge and suggests how to improve them. |
 | Image Occlusion | Creates image occlusion items. |
 | Import | Imports web pages, browser tabs, and RSS or Atom feeds. |
 | LaTeX | Renders LaTeX formulas in elements. |
 | [Local API](src/Plugins/SuperMemoAssistant.Plugins.LocalApi/README.md) | Runs a token-protected HTTP server on your computer, so that browser extensions and scripts can add elements and navigate. It is off by default. |
-| OmniMemo | Adds the OmniMemo window, which opens from any application with Alt+Shift+F. |
 | PDF | Reads PDF files incrementally and extracts text, images, and page ranges. |
 | Writing | Compiles a branch into one Markdown or HTML document, and imports a Markdown outline as a branch of topics. |
 
 "Browse plugins" in SMA also installs and updates plugins from the [plugin feed](docs/plugin-feed.md).
 
-**Command palette.** Press Ctrl+Alt+Shift+P to find a command of SMA or of a plugin by its name, and to run it. The palette also shows the hotkey of each command. It lists only the commands that can run in the window that you came from.
+**Command palette.** Press Ctrl+Alt+Shift+P to find a command of SMA or of a plugin by its name, and to run it. The palette also shows the hotkey of each command. It lists only the commands that can run in the window that you came from. To change the hotkey, open the SMA settings (Ctrl+Alt+Shift+O) and go to the Hotkeys tab.
 
 **Optional, not in the installer:** the [Themes plugin](src/Plugins/SuperMemoAssistant.Plugins.Themes/README.md) themes the windows, cards, and status bar of SuperMemo. It is off until you turn it on. To add themes, it modifies SuperMemo's own files. It keeps a backup of the originals, and turning the plugin off restores them. Install it from "Browse plugins".
 

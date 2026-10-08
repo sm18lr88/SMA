@@ -10,8 +10,9 @@ internal sealed partial class HiddenDesktop : IDisposable
   private const int  JobObjectExtendedLimitInformation  = 9;
   private const uint JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE = 0x2000;
 
-  private readonly nint _desktop;
-  private readonly nint _job;
+  private readonly nint       _desktop;
+  private readonly nint       _job;
+  private readonly List<nint> _tracked = [];
 
   public HiddenDesktop()
   {
@@ -38,10 +39,21 @@ internal sealed partial class HiddenDesktop : IDisposable
   {
     if (!AssignProcessToJobObject(_job, processHandle))
       throw new Win32Exception(Marshal.GetLastWin32Error(), "AssignProcessToJobObject");
+
+    _tracked.Add(processHandle);
   }
 
-  /// <summary>Kills every process started on this desktop (the whole job), so their files can be deleted.</summary>
-  public void TerminateProcesses() => TerminateJobObject(_job, 1);
+  /// <summary>
+  ///   Kills every process started on this desktop (the whole job) and waits until the tracked ones exited. Terminating a
+  ///   job does not wait, and an SMA that is still exiting holds the single-instance lock that the next test's SMA needs.
+  /// </summary>
+  public void TerminateProcesses()
+  {
+    TerminateJobObject(_job, 1);
+
+    foreach (var process in _tracked)
+      WaitForSingleObject(process, 15_000);
+  }
 
   public void Dispose()
   {
@@ -71,6 +83,9 @@ internal sealed partial class HiddenDesktop : IDisposable
   [LibraryImport("kernel32.dll")]
   [return: MarshalAs(UnmanagedType.Bool)]
   private static partial bool TerminateJobObject(nint job, uint exitCode);
+
+  [LibraryImport("kernel32.dll")]
+  private static partial uint WaitForSingleObject(nint handle, uint milliseconds);
 
   [LibraryImport("kernel32.dll")]
   [return: MarshalAs(UnmanagedType.Bool)]

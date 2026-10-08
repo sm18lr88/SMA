@@ -62,7 +62,7 @@
                   <ControlTemplate>
                     <TextBlock HorizontalAlignment="Center"
                                VerticalAlignment="Center">
-                      No plugins installed yet :-( Browse online plugins and pick a few ones to get started.
+                      No plugins are installed. Open "Browse Plugins" to install some.
                     </TextBlock>
                   </ControlTemplate>
                 </Setter.Value>

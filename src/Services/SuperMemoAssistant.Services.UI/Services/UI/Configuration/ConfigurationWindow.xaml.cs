@@ -90,14 +90,15 @@ namespace SuperMemoAssistant.Services.UI.Configuration
         HotKeyManager = hotKeyManager;
       }
 
-      Title = string.IsNullOrWhiteSpace(title) == false
-        ? title
-        : $"{Svc.Plugin.Name} Plugin Settings";
-
       CancelCommand = new AsyncRelayCommand(CancelChangesAsync, null, HandleExceptionAsync);
       SaveCommand   = new RelayCommand(SaveChanges);
       
       InitializeComponent();
+
+      // After InitializeComponent, which sets the title of the XAML.
+      Title = string.IsNullOrWhiteSpace(title) == false
+        ? title
+        : $"{Svc.Plugin.Name} Plugin Settings";
     }
 
     #endregion
@@ -228,7 +229,7 @@ namespace SuperMemoAssistant.Services.UI.Configuration
     /// <returns>New instance or <see langword="null" /></returns>
     public static ConfigurationWindow ShowAndActivate(string title, params INotifyPropertyChanged[] configModels)
     {
-      return ShowAndActivate(null, null, configModels);
+      return ShowAndActivate(title, null, configModels);
     }
 
     /// <summary>Instantiates a new <see cref="ConfigurationWindow" /> if none other exist</summary>

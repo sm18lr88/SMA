@@ -42,7 +42,7 @@ To move the settings folder, use one of these methods:
 
 ## Plugins
 
-The installer includes eleven plugins: Books, Dictionary, Email, Formulation, Image Occlusion, Import, LaTeX, Local API, OmniMemo, PDF, and Writing. They update together with SMA.
+The installer includes nine plugins: Books, Dictionary, Formulation, Image Occlusion, Import, LaTeX, Local API, PDF, and Writing. They update together with SMA.
 
 **Themes** is an optional plugin that is not in the installer. It themes the windows, cards, and status bar of SuperMemo. It changes `sm20.exe`, so it is off until you turn it on in its settings. Install it with "Browse plugins" and restart SMA.
 

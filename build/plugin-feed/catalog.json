@@ -19,14 +19,6 @@
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.Dictionary/src/SuperMemoAssistant.Plugins.Dictionary/SuperMemoAssistant.Plugins.Dictionary.csproj"
   },
   {
-    "PackageName": "SuperMemoAssistant.Plugins.Email",
-    "DisplayName": "Email",
-    "Description": "Improves email support in SuperMemo.",
-    "Author": "SMA Community",
-    "Labels": [ "Official" ],
-    "Project": "src/Plugins/SuperMemoAssistant.Plugins.Email/src/SuperMemoAssistant.Plugins.Email/SuperMemoAssistant.Plugins.Email.csproj"
-  },
-  {
     "PackageName": "SuperMemoAssistant.Plugins.Formulation",
     "DisplayName": "Formulation",
     "Description": "Checks items against the 20 rules of formulating knowledge and suggests how to improve them.",
@@ -65,14 +57,6 @@
     "Author": "SMA Community",
     "Labels": [ "Official" ],
     "Project": "src/Plugins/SuperMemoAssistant.Plugins.LocalApi/src/SuperMemoAssistant.Plugins.LocalApi/SuperMemoAssistant.Plugins.LocalApi.csproj"
-  },
-  {
-    "PackageName": "SuperMemoAssistant.Plugins.OmniMemo",
-    "DisplayName": "OmniMemo",
-    "Description": "Adds the OmniMemo window, which opens from any application with Alt+Shift+F.",
-    "Author": "SMA Community",
-    "Labels": [ "Official" ],
-    "Project": "src/Plugins/SuperMemoAssistant.Plugins.OmniMemo/src/SuperMemoAssistant.Plugins.OmniMemo/SuperMemoAssistant.Plugins.OmniMemo.csproj"
   },
   {
     "PackageName": "SuperMemoAssistant.Plugins.PDF",

@@ -2,6 +2,22 @@
 
 **English** | [简体中文](CHANGELOG.zh-CN.md)
 
+## 3.1.2 - 2026-10-09
+
+- **Command palette.** Ctrl+Alt+Shift+P opens the palette again. Before, the palette did not open while SuperMemo showed an element. The palette and the other windows that hotkeys open now come to the front and take the keyboard focus.
+- **Hotkeys settings.** The SMA settings have a new Hotkeys tab. You can change the hotkeys of the command palette and of the settings window there, or restore their defaults. Plugins keep their hotkeys in their own settings.
+- **Hotkeys of plugins.** Hotkeys that only work in the element window work again, and a hotkey that you clear and then set to a new key works at once.
+- **Hotkey conflicts.** The Hotkeys tab tells you when a plugin already uses the key that you press, and keeps the old key.
+- **Books.** The window of "Import a book or Kindle highlights" opens again. Before, it failed to open.
+- **Plugin list.** The plugins that come with SMA are no longer marked as development plugins, show the Official label, and Image Occlusion shows its full name.
+- **Plugin windows.** Every window and dialog of a plugin comes to the front when it opens, also from a hotkey. Before, some opened behind SuperMemo.
+- **Browse Plugins.** The list no longer offers the plugins that come with SMA: they are already installed. The setup wizard says so too.
+- **Settings windows.** The settings window of each plugin shows the plugin name in its title, and the change log in the About tab wraps long lines.
+- **Update log.** The log file records the result of each update check.
+- **Removed plugins.** SMA no longer installs the Email and OmniMemo plugins. They were never finished: Email did nothing, and OmniMemo showed an empty window that could not be closed.
+- **PDF settings.** The settings window of the PDF plugin has the title "PDF Settings".
+- **Messages.** The command palette shows a hint in its search box. Messages about empty lists and download errors are clearer and point to the issue tracker of this project.
+
 ## 3.1.1 - 2026-10-08
 
 - **License screens.** The setup wizard and the Import plugin show the current license of this project, read from its `LICENSE` file, instead of an outdated copy from 2018. The Import plugin's warning about a SuperMemo bug no longer speaks for the former author.

@@ -707,7 +707,7 @@ namespace SuperMemoAssistant.SuperMemo.SuperMemo20.UI
 
     /// <inheritdoc />
     protected override IntPtr WindowHandle =>
-      SMProcess.Memory.Read<IntPtr>(new IntPtr(ElementWdwPtr.Read<int>() + Core.Natives.Control.HandleOffset));
+      SMProcess.Memory.Read<IntPtr>(ElementWdwPtr.Read<IntPtr>() + Core.Natives.Control.HandleOffset);
     /// <inheritdoc />
     public override string WindowClass => SMConst.UI.ElementWindowClassName;
 

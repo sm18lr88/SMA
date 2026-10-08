@@ -1,0 +1,63 @@
+<UserControl x:Class="SuperMemoAssistant.UI.Settings.HotKeySettings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:local="clr-namespace:SuperMemoAssistant.UI.Settings"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="600"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}">
+  <Grid Margin="8">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <TextBlock Grid.Row="0"
+               Margin="0 0 0 10"
+               TextWrapping="Wrap"
+               FontSize="13">Click a box, then press the new key combination. It must include Ctrl, Alt, Shift, or Win. Press Esc to clear it. The changes apply at once. Plugin hotkeys are in the settings of each plugin.</TextBlock>
+
+    <DataGrid Grid.Row="1"
+              AutomationProperties.Name="Hotkeys"
+              ItemsSource="{Binding HotKeys}"
+              AutoGenerateColumns="False"
+              CanUserAddRows="False"
+              CanUserDeleteRows="False"
+              SelectionUnit="Cell"
+              GridLinesVisibility="Horizontal">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Action"
+                            Width="*"
+                            Binding="{Binding Data.Description}"
+                            IsReadOnly="True" />
+        <DataGridTemplateColumn Header="Hotkey" Width="200">
+          <DataGridTemplateColumn.CellTemplate>
+            <DataTemplate DataType="{x:Type local:HotKeyBinding}">
+              <mah:HotKeyBox mah:TextBoxHelper.Watermark="(None)"
+                             AreModifierKeysRequired="True"
+                             Loaded="HotKeyBox_Loaded"
+                             HotKey="{Binding HotKey, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True}" />
+            </DataTemplate>
+          </DataGridTemplateColumn.CellTemplate>
+        </DataGridTemplateColumn>
+        <DataGridTextColumn Header="Default"
+                            Width="auto"
+                            Binding="{Binding DefaultHotKey}"
+                            IsReadOnly="True" />
+        <DataGridTemplateColumn Width="auto">
+          <DataGridTemplateColumn.CellTemplate>
+            <DataTemplate DataType="{x:Type local:HotKeyBinding}">
+              <Button Content="Reset"
+                      ToolTip="Restore the default hotkey"
+                      AutomationProperties.Name="{Binding Data.Description, StringFormat='Restore the default hotkey of {0}'}"
+                      Margin="4 2"
+                      Command="{Binding ResetCommand}" />
+            </DataTemplate>
+          </DataGridTemplateColumn.CellTemplate>
+        </DataGridTemplateColumn>
+      </DataGrid.Columns>
+    </DataGrid>
+  </Grid>
+</UserControl>

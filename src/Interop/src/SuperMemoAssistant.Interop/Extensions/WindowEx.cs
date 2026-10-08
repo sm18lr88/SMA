@@ -36,6 +36,7 @@ using System.Windows;
 namespace SuperMemoAssistant.Extensions
 {
   using System;
+  using Sys.IO.Devices;
 
   /// <summary>
   /// Extension methods for System.Windows.Window
@@ -46,8 +47,12 @@ namespace SuperMemoAssistant.Extensions
 
     public static void ShowAndActivate(this Window wdw)
     {
-      wdw.Show();
-      wdw.ForceActivate();
+      // Show also activates the window, so it needs the foreground input too.
+      WithForegroundInput(() =>
+      {
+        wdw.Show();
+        Activate(wdw);
+      });
     }
 
     public static bool IsWindowOpen<T>(string name = "") where T : Window
@@ -57,7 +62,9 @@ namespace SuperMemoAssistant.Extensions
         : Application.Current.Windows.OfType<T>().Any(w => w.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
     }
 
-    public static void ForceActivate(this Window wdw)
+    public static void ForceActivate(this Window wdw) => WithForegroundInput(() => Activate(wdw));
+
+    private static void Activate(Window wdw)
     {
       if (wdw.WindowState == WindowState.Minimized)
       {
@@ -68,6 +75,29 @@ namespace SuperMemoAssistant.Extensions
       wdw.SetCurrentValue(Window.TopmostProperty, true);  // important
       wdw.SetCurrentValue(Window.TopmostProperty, false); // important
       wdw.Focus();         // important
+    }
+
+    /// <summary>
+    ///   Hotkeys run SMA code while another program is in front, and Windows only lets that program give the focus away.
+    ///   Sharing its input state while <paramref name="activate" /> runs lets an SMA window take the focus.
+    /// </summary>
+    private static void WithForegroundInput(Action activate)
+    {
+      var foreground       = Native.GetForegroundWindow();
+      var foregroundThread = foreground == IntPtr.Zero ? 0u : (uint)Native.GetWindowThreadProcessId(foreground, out _);
+      var currentThread    = Native.GetCurrentThreadId();
+      var attached         = foregroundThread != 0 && foregroundThread != currentThread
+        && Native.AttachThreadInput(currentThread, foregroundThread, true);
+
+      try
+      {
+        activate();
+      }
+      finally
+      {
+        if (attached)
+          Native.AttachThreadInput(currentThread, foregroundThread, false);
+      }
     }
 
     #endregion

@@ -231,12 +231,17 @@ namespace SuperMemoAssistant.UI.ViewModels
           if (plugins == null)
           {
             ErrorMessage =
-              "Error: Failed to fetch online plugins. Please check your internet connection and try again. If this issue persists, request assistance from our friendly community.";
+              "Error: SMA could not download the list of plugins. Check your internet connection and try again. If the problem continues, report it at https://github.com/sm18lr88/SMA/issues.";
             Plugins = null;
             return;
           }
 
-          Plugins      = new ObservableCollection<PluginPackage<PluginMetadata>>(plugins);
+          // The plugins that come with SMA are already installed and update with it. A second copy would run twice.
+          var bundled = PluginMgr.AllPlugins.Where(p => p.Metadata.IsBundled)
+                                 .Select(p => p.Package.Id)
+                                 .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+          Plugins      = new ObservableCollection<PluginPackage<PluginMetadata>>(plugins.Where(p => bundled.Contains(p.Id) == false));
           ErrorMessage = null;
         }
       }

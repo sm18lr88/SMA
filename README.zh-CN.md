@@ -16,25 +16,23 @@ SuperMemoAssistant(SMA)为 **SuperMemo 20(64 位)** 提供插件,运行在 **.NE
 
 ## 插件
 
-安装程序包含十一个插件,随 SMA 一起更新。
+安装程序包含九个插件,随 SMA 一起更新。
 
 | 插件 | 功能 |
 | --- | --- |
 | Books | 将 EPUB 图书和 Kindle 标注导入为渐进阅读主题。 |
 | Dictionary | 查询所选单词,并根据释义创建元素。 |
-| Email | 改进 SuperMemo 的电子邮件支持。 |
 | Formulation | 根据知识表述的 20 条规则检查卡片,并建议如何改进。 |
 | Image Occlusion | 创建图像遮挡卡片。 |
 | Import | 导入网页、浏览器标签页以及 RSS 或 Atom 订阅。 |
 | LaTeX | 在元素中渲染 LaTeX 公式。 |
 | [Local API](src/Plugins/SuperMemoAssistant.Plugins.LocalApi/README.md) | 在本机运行受令牌保护的 HTTP 服务器,浏览器扩展和脚本可以借此添加元素并跳转。默认关闭。 |
-| OmniMemo | 添加 OmniMemo 窗口,可在任意程序中按 Alt+Shift+F 打开。 |
 | PDF | 渐进阅读 PDF 文件,并摘录文字、图像和页面范围。 |
 | Writing | 将一个分支编译为一个 Markdown 或 HTML 文档,并把 Markdown 大纲导入为一个主题分支。 |
 
 SMA 的“浏览插件”还可以从[插件源](docs/plugin-feed.zh-CN.md)安装和更新插件。
 
-**命令面板:** 按 Ctrl+Alt+Shift+P,可以按名称查找并运行 SMA 或插件的命令。面板还显示每个命令的快捷键,并且只列出能在你刚才所在窗口中运行的命令。
+**命令面板:** 按 Ctrl+Alt+Shift+P,可以按名称查找并运行 SMA 或插件的命令。面板还显示每个命令的快捷键,并且只列出能在你刚才所在窗口中运行的命令。要更改快捷键,请打开 SMA 设置(Ctrl+Alt+Shift+O)并进入 Hotkeys 选项卡。
 
 **可选,不在安装程序中:** [Themes 插件](src/Plugins/SuperMemoAssistant.Plugins.Themes/README.md)为 SuperMemo 的窗口、卡片和状态栏设置主题。你打开它之前,它不会工作。为了添加主题,它会修改 SuperMemo 自己的文件。它会备份原文件,关闭该插件即可恢复。请从“浏览插件”安装。
 

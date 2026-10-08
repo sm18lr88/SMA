@@ -56,8 +56,11 @@ namespace SuperMemoAssistant.SMA.Commands
 
     private void Window_Deactivated(object sender, EventArgs e)
     {
-      if (_isClosing == false)
-        Close();
+      if (_isClosing)
+        return;
+
+      Anotar.Serilog.LogTo.Debug("Command palette closed: it lost the focus");
+      Close();
     }
 
     private void Choose(PaletteEntry entry)

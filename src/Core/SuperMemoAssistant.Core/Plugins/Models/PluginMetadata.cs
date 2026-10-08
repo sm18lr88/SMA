@@ -76,6 +76,17 @@ namespace SuperMemoAssistant.Plugins.Models
     /// </summary>
     public bool IsDevelopment { get; set; }
 
+    /// <summary>
+    ///   Whether the plugin ships with SMA. Bundled plugins load like development plugins, from their own folder, but
+    ///   the UI does not show them as development plugins.
+    /// </summary>
+    [JsonIgnore]
+    public bool IsBundled { get; set; }
+
+    /// <summary>Whether the UI marks the plugin as a development plugin.</summary>
+    [JsonIgnore]
+    public bool IsDevelopmentBuild => IsDevelopment && IsBundled == false;
+
     /// <summary>The plugin's labels (e.g. "Official", "Verified")</summary>
     public IEnumerable<string> Labels { get; set; } = Array.Empty<string>();
 
@@ -88,12 +99,12 @@ namespace SuperMemoAssistant.Plugins.Models
     /// <summary>When was the plugin last updated</summary>
     public DateTime? UpdatedAt { get; set; }
 
-    /// <summary>Whether this is an official (SuperMemo.wiki) plugin</summary>
+    /// <summary>Whether this is an official plugin of SMA</summary>
     [JsonIgnore]
     public bool IsOfficial => Labels?.Contains(OfficialLabel) ?? false;
 
     /// <summary>
-    ///   Whether the plugin has been verified by the SuperMemo.wiki team. This is a minor
+    ///   Whether the SMA maintainers verified the plugin. This is a minor
     ///   endorsement
     /// </summary>
     [JsonIgnore]

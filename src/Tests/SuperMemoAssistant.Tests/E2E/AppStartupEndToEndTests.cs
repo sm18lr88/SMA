@@ -15,13 +15,11 @@ public sealed partial class AppStartupEndToEndTests
   [
     "SuperMemoAssistant.Plugins.Books",
     "SuperMemoAssistant.Plugins.Dictionary",
-    "SuperMemoAssistant.Plugins.Email",
     "SuperMemoAssistant.Plugins.Formulation",
     "SuperMemoAssistant.Plugins.ImageOcclusion",
     "SuperMemoAssistant.Plugins.Import",
     "SuperMemoAssistant.Plugins.LaTeX",
     "SuperMemoAssistant.Plugins.LocalApi",
-    "SuperMemoAssistant.Plugins.OmniMemo",
     "SuperMemoAssistant.Plugins.PDF",
     "SuperMemoAssistant.Plugins.Template",
     "SuperMemoAssistant.Plugins.Writing",

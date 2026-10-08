@@ -22,13 +22,11 @@ if (-not $Version) {
 $bundledPlugins = @(
   'src\Plugins\SuperMemoAssistant.Plugins.Books\src\SuperMemoAssistant.Plugins.Books\SuperMemoAssistant.Plugins.Books.csproj',
   'src\Plugins\SuperMemoAssistant.Plugins.Dictionary\src\SuperMemoAssistant.Plugins.Dictionary\SuperMemoAssistant.Plugins.Dictionary.csproj',
-  'src\Plugins\SuperMemoAssistant.Plugins.Email\src\SuperMemoAssistant.Plugins.Email\SuperMemoAssistant.Plugins.Email.csproj',
   'src\Plugins\SuperMemoAssistant.Plugins.Formulation\src\SuperMemoAssistant.Plugins.Formulation\SuperMemoAssistant.Plugins.Formulation.csproj',
   'src\Plugins\SuperMemoAssistant.Plugins.ImageOcclusion\src\SuperMemoAssistant.Plugins.ImageOcclusion\SuperMemoAssistant.Plugins.ImageOcclusion.csproj',
   'src\Plugins\SuperMemoAssistant.Plugins.Import\src\SuperMemoAssistant.Plugins.Import\SuperMemoAssistant.Plugins.Import.csproj',
   'src\Plugins\SuperMemoAssistant.Plugins.LateX\src\SuperMemoAssistant.Plugins.LaTeX\SuperMemoAssistant.Plugins.LaTeX.csproj',
   'src\Plugins\SuperMemoAssistant.Plugins.LocalApi\src\SuperMemoAssistant.Plugins.LocalApi\SuperMemoAssistant.Plugins.LocalApi.csproj',
-  'src\Plugins\SuperMemoAssistant.Plugins.OmniMemo\src\SuperMemoAssistant.Plugins.OmniMemo\SuperMemoAssistant.Plugins.OmniMemo.csproj',
   'src\Plugins\SuperMemoAssistant.Plugins.PDF\src\SuperMemoAssistant.Plugins.PDF\SuperMemoAssistant.Plugins.PDF.csproj',
   'src\Plugins\SuperMemoAssistant.Plugins.Writing\src\SuperMemoAssistant.Plugins.Writing\SuperMemoAssistant.Plugins.Writing.csproj'
 )

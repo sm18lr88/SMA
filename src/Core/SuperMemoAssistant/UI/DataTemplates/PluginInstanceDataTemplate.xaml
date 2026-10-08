@@ -80,7 +80,8 @@
                           Margin="8 0"
                           Icon="Solid_Bug"
                           Foreground="DarkRed"
-                          Visibility="{Binding Metadata.IsDevelopment, Converter={StaticResource BoolToVis}}" />
+                          ToolTip="Development plugin"
+                          Visibility="{Binding Metadata.IsDevelopmentBuild, Converter={StaticResource BoolToVis}}" />
 
           <!--Official badge-->
           <TextBlock VerticalAlignment="Center"
@@ -181,7 +182,7 @@
                 <Style.Triggers>
                   <MultiDataTrigger>
                     <MultiDataTrigger.Conditions>
-                      <Condition Binding="{Binding IsDevelopment}" Value="True" />
+                      <Condition Binding="{Binding Metadata.IsDevelopmentBuild}" Value="True" />
                       <Condition Binding="{Binding Status}" Value="{x:Static pluginModels:PluginStatus.Stopped}" />
                     </MultiDataTrigger.Conditions>
 

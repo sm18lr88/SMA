@@ -236,6 +236,9 @@ namespace SuperMemoAssistant.Plugins
     {
       var metadata = CreateDevMetadata(packageName, fileVersionInfo);
       metadata.Description = "Included with SuperMemo Assistant";
+      metadata.IsBundled   = true;
+      metadata.Author      = "SMA Community";
+      metadata.Labels      = new[] { PluginMetadata.OfficialLabel };
       return metadata;
     }
 

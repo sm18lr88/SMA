@@ -20,13 +20,32 @@
 
   <Border x:Name="Root" BorderBrush="{StaticResource Accent}" BorderThickness="1" Background="White">
     <StackPanel>
-      <TextBox x:Name="QueryBox"
-               Text="{Binding Query, UpdateSourceTrigger=PropertyChanged}"
-               AutomationProperties.Name="Command"
-               FontSize="16"
-               Padding="12 10"
-               BorderThickness="0 0 0 1"
-               BorderBrush="{StaticResource Accent}" />
+      <Grid>
+        <TextBox x:Name="QueryBox"
+                 Text="{Binding Query, UpdateSourceTrigger=PropertyChanged}"
+                 AutomationProperties.Name="Command"
+                 FontSize="16"
+                 Padding="12 10"
+                 BorderThickness="0 0 0 1"
+                 BorderBrush="{StaticResource Accent}" />
+        <TextBlock Text="Type to find a command"
+                   IsHitTestVisible="False"
+                   FontSize="16"
+                   Margin="15 0 12 1"
+                   VerticalAlignment="Center"
+                   Foreground="{StaticResource Muted}">
+          <TextBlock.Style>
+            <Style TargetType="{x:Type TextBlock}">
+              <Setter Property="Visibility" Value="Collapsed" />
+              <Style.Triggers>
+                <DataTrigger Binding="{Binding Query}" Value="">
+                  <Setter Property="Visibility" Value="Visible" />
+                </DataTrigger>
+              </Style.Triggers>
+            </Style>
+          </TextBlock.Style>
+        </TextBlock>
+      </Grid>
 
       <ListBox x:Name="ResultsList"
                ItemsSource="{Binding Results}"

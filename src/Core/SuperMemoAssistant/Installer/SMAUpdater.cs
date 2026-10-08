@@ -58,16 +58,19 @@ namespace SuperMemoAssistant.Installer
         if (update == null)
         {
           State = SMAUpdateState.UpToDate;
+          LogTo.Information("SMA is up to date");
           return;
         }
 
         targetVersion = update.TargetFullRelease.Version.ToString();
+        LogTo.Information("Downloading the SMA {Version} update", targetVersion);
 
         State = SMAUpdateState.Downloading;
         await manager.DownloadUpdatesAsync(update, progress => ProgressPct = progress).ConfigureAwait(false);
 
         manager.WaitExitThenApplyUpdates(update.TargetFullRelease, silent: true, restart: false);
         State = SMAUpdateState.Updated;
+        LogTo.Information("SMA {Version} is downloaded and installs when SMA closes", targetVersion);
       }
       catch (Exception ex)
       {

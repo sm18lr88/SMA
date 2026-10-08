@@ -54,7 +54,7 @@ namespace SuperMemoAssistant.Plugins.ImageOcclusion
     #region Properties Impl - Public
 
     /// <inheritdoc />
-    public override string Name => "ImageOcclusion";
+    public override string Name => "Image Occlusion";
 
     #endregion
 

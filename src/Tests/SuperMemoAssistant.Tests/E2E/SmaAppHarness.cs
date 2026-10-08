@@ -99,9 +99,30 @@ internal sealed class SmaAppHarness : IDisposable
 
   public void Launch(string exePath, string arguments)
   {
+    WaitForEarlierInstances(exePath);
+
     _process = NativeProcess.StartSuspended(exePath, arguments, Path.GetDirectoryName(exePath), _desktop.StartupDesktop, _environment);
     _desktop.Track(_process.ProcessHandle);
     NativeProcess.Resume(_process.ThreadHandle);
+  }
+
+  /// <summary>
+  ///   An SMA of an earlier test can still be exiting. It holds the single-instance lock of its executable, and an SMA
+  ///   started now would hand over to it and quit.
+  /// </summary>
+  private static void WaitForEarlierInstances(string exePath)
+  {
+    foreach (var running in System.Diagnostics.Process.GetProcessesByName(Path.GetFileNameWithoutExtension(exePath)))
+      using (running)
+      {
+        try
+        {
+          if (string.Equals(running.MainModule?.FileName, Path.GetFullPath(exePath), StringComparison.OrdinalIgnoreCase))
+            running.WaitForExit(TimeSpan.FromSeconds(15));
+        }
+        catch (System.ComponentModel.Win32Exception) { } // a process of another session or that already exited
+        catch (InvalidOperationException) { }
+      }
   }
 
   public bool HasExited

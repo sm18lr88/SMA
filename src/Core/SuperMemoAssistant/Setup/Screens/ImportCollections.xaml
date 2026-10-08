@@ -50,7 +50,7 @@
                   <ControlTemplate>
                     <TextBlock HorizontalAlignment="Center"
                                VerticalAlignment="Center">
-                      You don't appear to have created any collection in SuperMemo yet :-(
+                      SMA found no SuperMemo collection. You can add one later with the "Browse" button of the collection list.
                     </TextBlock>
                   </ControlTemplate>
                 </Setter.Value>

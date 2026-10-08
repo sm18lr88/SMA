@@ -1,5 +1,19 @@
 # SuperMemo Assistant change log. SMA shows this file after an update.
 
+[3.1.2 / 2026-10-09]
+- Fixed: Ctrl+Alt+Shift+P opens the command palette again, also while SuperMemo shows an element.
+- Fixed: Windows that hotkeys open come to the front and take the keyboard focus.
+- Added: A Hotkeys tab in the SMA settings, to change the hotkeys of SMA or restore their defaults.
+- Fixed: Hotkeys that only work in the element window work again.
+- Added: The Hotkeys tab warns when a plugin already uses a key.
+- Fixed: The Books import window opens again.
+- Fixed: The plugins that come with SMA are no longer marked as development plugins.
+- Changed: Clearer messages, and a hint in the search box of the command palette.
+- Fixed: Plugin windows and dialogs come to the front when they open.
+- Fixed: "Browse plugins" no longer offers the plugins that come with SMA.
+- Fixed: Plugin settings windows show the plugin name, and this change log wraps long lines.
+- Removed: The Email and OmniMemo plugins, which were never finished.
+
 [3.1.1 / 2026-10-08]
 - Fixed: The license screens show the current license of this project.
 - Fixed: This window lists the changes of the current versions, and its link opens the home page of this project.

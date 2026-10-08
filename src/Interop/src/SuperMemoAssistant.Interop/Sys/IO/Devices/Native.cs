@@ -117,6 +117,13 @@ namespace SuperMemoAssistant.Sys.IO.Devices
     [DllImport("user32.dll")]
     internal static extern int GetWindowThreadProcessId(IntPtr hWnd, out int lpdwProcessId);
 
+    [DllImport("user32.dll")]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    internal static extern bool AttachThreadInput(uint idAttach, uint idAttachTo, [MarshalAs(UnmanagedType.Bool)] bool fAttach);
+
+    [DllImport("kernel32.dll")]
+    internal static extern uint GetCurrentThreadId();
+
     /// <summary>Returns the handle for the given process's module name</summary>
     /// <param name="lpModuleName"></param>
     /// <returns></returns>

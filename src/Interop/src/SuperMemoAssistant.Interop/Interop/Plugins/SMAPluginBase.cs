@@ -91,6 +91,10 @@ namespace SuperMemoAssistant.Interop.Plugins
         Svc.Configuration = new PluginConfigurationService(this);
         Svc.HotKeyManager = HotKeyManager.Instance.Initialize(Svc.Configuration, Svc.KeyboardHotKey);
 
+        // Plugins open their windows from hotkeys and palette commands while SuperMemo is in front, and Windows keeps the
+        // new windows of a background process behind it. Each plugin window that should take the focus takes it when it loads.
+        EventManager.RegisterClassHandler(typeof(Window), FrameworkElement.LoadedEvent, new RoutedEventHandler(BringLoadedWindowToFront));
+
         LogTo.Information("Plugin {AssemblyName} version {AssemblyVersion} initialized", AssemblyName, AssemblyVersion);
       }
       catch (Exception ex)
@@ -100,6 +104,26 @@ namespace SuperMemoAssistant.Interop.Plugins
       }
     }
 
+
+    private static void BringLoadedWindowToFront(object sender, RoutedEventArgs e)
+    {
+      if (sender is not Window { ShowActivated: true } window)
+        return;
+
+      // Loaded can come before the window is visible, for example in ShowDialog: activate it once it shows. IsActive is not
+      // enough: a window that Windows keeps in the background is still active in its own thread.
+      window.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Loaded, new Action(() =>
+      {
+        var handle = new System.Windows.Interop.WindowInteropHelper(window).Handle;
+
+        if (window.IsVisible == false || Sys.IO.Devices.Native.GetForegroundWindow() == handle)
+          return;
+
+        window.ForceActivate();
+        LogTo.Debug("Brought window {Title} to the front: {InFront}", window.Title,
+                    Sys.IO.Devices.Native.GetForegroundWindow() == handle);
+      }));
+    }
 
     /// <inheritdoc />
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1063:Implement IDisposable Correctly", Justification = "<Pending>")]

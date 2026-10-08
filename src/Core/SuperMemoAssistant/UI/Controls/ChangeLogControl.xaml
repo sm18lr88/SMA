@@ -43,7 +43,7 @@
       <TextBox Text="{Binding ChangeLog, Mode=OneWay}"
                FontSize="13"
                AcceptsReturn="True"
-               TextWrapping="NoWrap"
+               TextWrapping="Wrap"
                IsReadOnly="True"
                IsReadOnlyCaretVisible="True"
                VerticalScrollBarVisibility="Auto"

@@ -20,6 +20,8 @@ namespace SuperMemoAssistant.SMA.Commands
     /// <summary>The id of the hotkey that opens the palette. The palette does not list itself.</summary>
     public const string HotKeyId = "CommandPalette";
 
+    private const string SettingsPrefix = "Settings:";
+
     private static readonly TimeSpan ForegroundWait = TimeSpan.FromMilliseconds(500);
 
     private static CommandPaletteWindow _window;
@@ -33,11 +35,20 @@ namespace SuperMemoAssistant.SMA.Commands
         return;
       }
 
+      var stopwatch  = System.Diagnostics.Stopwatch.StartNew();
       var foreground = GetForegroundWindow();
       var registry   = Core.SMA.Commands;
-      var model      = new CommandPaletteModel(Entries(registry), registry.LastUsed, ContextOf(foreground));
+      var context    = ContextOf(foreground);
+      var model      = new CommandPaletteModel(Entries(registry), registry.LastUsed, context);
 
       _window = new CommandPaletteWindow(model);
+      _window.Closing += (_, _) =>
+      {
+        // Plugins run in their own processes, which Windows keeps behind the foreground window. The palette still has the
+        // focus here, so it can let the plugin of the chosen command bring its windows and dialogs to the front.
+        if (_window.Chosen?.Command is { } command && PluginProcessId(command) is { } processId)
+          AllowSetForegroundWindow((uint)processId);
+      };
       _window.Closed += (_, _) =>
       {
         var chosen = _window.Chosen;
@@ -47,6 +58,9 @@ namespace SuperMemoAssistant.SMA.Commands
           Run(registry, chosen, foreground);
       };
       _window.ShowAndActivate();
+
+      LogTo.Debug("Command palette shown in {Elapsed} ms over {Context}, active: {IsActive}",
+                  stopwatch.ElapsedMilliseconds, context, _window?.IsActive);
     }
 
     private static IEnumerable<PaletteEntry> Entries(CommandRegistry registry) =>
@@ -59,10 +73,25 @@ namespace SuperMemoAssistant.SMA.Commands
       SMAPluginManager.Instance.AllPlugins
                       .Where(p => p.HasSettings)
                       .Select(p => new PaletteEntry(
-                                new PaletteCommand(PaletteCommand.SmaOwner, p.Metadata.DisplayName, "Settings:" + p.Package.Id,
+                                new PaletteCommand(PaletteCommand.SmaOwner, p.Metadata.DisplayName, SettingsPrefix + p.Package.Id,
                                                    $"Open the {p.Metadata.DisplayName} settings", null, HotKeyScopes.Global),
                                 () => p.Plugin.ShowSettings()))
                       .ToList();
+
+    private static int? PluginProcessId(PaletteCommand command)
+    {
+      var packageId = command.Owner == PaletteCommand.SmaOwner
+        ? command.Id.StartsWith(SettingsPrefix, StringComparison.Ordinal) ? command.Id[SettingsPrefix.Length..] : null
+        : command.Owner;
+
+      if (packageId == null)
+        return null;
+
+      var plugin = SMAPluginManager.Instance.AllPlugins
+                                   .FirstOrDefault(p => string.Equals(p.Package.Id, packageId, StringComparison.OrdinalIgnoreCase));
+
+      return plugin?.Process?.Id;
+    }
 
     private static PaletteContext ContextOf(IntPtr foreground)
     {
@@ -70,8 +99,16 @@ namespace SuperMemoAssistant.SMA.Commands
       if (sm == null || foreground == IntPtr.Zero || sm.ProcessId <= 0)
         return PaletteContext.OtherApplication;
 
-      if (sm.UI.ElementWdw.IsAvailable && foreground == sm.UI.ElementWdw.Handle)
-        return PaletteContext.ElementWindow;
+      try
+      {
+        if (sm.UI.ElementWdw.IsAvailable && foreground == sm.UI.ElementWdw.Handle)
+          return PaletteContext.ElementWindow;
+      }
+      catch (Exception ex)
+      {
+        // The context only orders the commands: the palette must open even when SMA cannot read it.
+        LogTo.Warning(ex, "The command palette could not tell whether the element window is in the foreground");
+      }
 
       GetWindowThreadProcessId(foreground, out var processId);
       return processId == sm.ProcessId ? PaletteContext.SuperMemo : PaletteContext.OtherApplication;
@@ -118,6 +155,10 @@ namespace SuperMemoAssistant.SMA.Commands
 
     [LibraryImport("user32.dll")]
     private static partial IntPtr GetForegroundWindow();
+
+    [LibraryImport("user32.dll")]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    private static partial bool AllowSetForegroundWindow(uint processId);
 
     [LibraryImport("user32.dll")]
     [return: MarshalAs(UnmanagedType.Bool)]

@@ -44,7 +44,7 @@ SMA 只能从上面的程序目录或 `app-dev` 构建目录运行,便携 zip �
 
 ## 插件
 
-安装程序包含十一个插件:Books、Dictionary、Email、Formulation、Image Occlusion、Import、LaTeX、Local API、OmniMemo、PDF 和 Writing,随 SMA 一起更新。
+安装程序包含九个插件:Books、Dictionary、Formulation、Image Occlusion、Import、LaTeX、Local API、PDF 和 Writing,随 SMA 一起更新。
 
 **Themes** 是可选插件,不在安装程序中。它为 SuperMemo 的窗口、卡片和状态栏设置主题。它会修改 `sm20.exe`,因此在你于其设置中打开它之前,它一直处于关闭状态。请通过“浏览插件”安装,然后重启 SMA。
 

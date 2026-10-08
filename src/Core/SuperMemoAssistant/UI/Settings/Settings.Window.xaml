@@ -79,6 +79,10 @@
                               MaxWidth="350" />
       </TabItem>
 
+      <TabItem Header="Hotkeys" Padding="4, 4" mah:ControlsHelper.HeaderFontSize="18">
+        <settings:HotKeySettings />
+      </TabItem>
+
       <TabItem Header="Logging" Padding="4, 4" mah:ControlsHelper.HeaderFontSize="18" HorizontalContentAlignment="Left">
         <forgeControls:DynamicForm Model="{Binding Path=DataContext.LoggerConfig, ElementName=tcSettings}"
                               MaxWidth="350" />

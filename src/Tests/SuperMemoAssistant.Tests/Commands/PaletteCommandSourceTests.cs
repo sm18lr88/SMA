@@ -59,6 +59,22 @@ public sealed class PaletteCommandSourceTests : IDisposable
   }
 
   [Fact]
+  public void AClearedHotKeyIsRegisteredAgain_WhenItGetsANewKey()
+  {
+    var hook    = new RecordingKeyboardHook();
+    var hotKeys = new HotKeyManager().Initialize(new ConfigurationService(new DirectoryPath(_configDir.FullName)), hook);
+    hotKeys.RegisterGlobal("Palette", "Show the command palette", HotKeyScopes.Global, CtrlAltShiftK, () => { });
+    var palette = hotKeys.HotKeys.Single();
+
+    palette.ActualHotKey = null;
+    Assert.DoesNotContain(CtrlAltShiftK, hook.Registered);
+
+    palette.ActualHotKey = CtrlAltShiftJ;
+    Assert.Contains(CtrlAltShiftJ, hook.Registered);
+    Assert.Same(palette, hotKeys.Match(CtrlAltShiftJ));
+  }
+
+  [Fact]
   public void APluginCommandRunsInThePluginProcess_AndFailsAsRemotingExceptionOnceThePluginIsGone()
   {
     var registry = new CommandRegistry();
@@ -108,6 +124,19 @@ public sealed class PaletteCommandSourceTests : IDisposable
   }
 
   private sealed class HostWithoutPalette : MarshalByRefObject;
+
+  private sealed class RecordingKeyboardHook : IKeyboardHookService
+  {
+    public HashSet<HotKey> Registered { get; } = [];
+
+    public event EventHandler<KeyboardHookEventArgs>? KeyboardPressed { add { } remove { } }
+
+    public Action<HotKey>? MainCallback { get; set; }
+
+    public void RegisterHotKey(HotKey hotkey, Action callback, HotKeyScopes scope = HotKeyScopes.SM) => Registered.Add(hotkey);
+
+    public bool UnregisterHotKey(HotKey hotkey) => Registered.Remove(hotkey);
+  }
 
   private sealed class NoKeyboardHook : IKeyboardHookService
   {

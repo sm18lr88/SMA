@@ -56,7 +56,7 @@
                     <ControlTemplate>
                       <TextBlock HorizontalAlignment="Center"
                                  VerticalAlignment="Center">
-                        No plugins available yet :-( This might be a bug, request assistance to our friendly community.
+                        No plugins are available. Check your internet connection. If the problem continues, report it at https://github.com/sm18lr88/SMA/issues.
                       </TextBlock>
                     </ControlTemplate>
                   </Setter.Value>

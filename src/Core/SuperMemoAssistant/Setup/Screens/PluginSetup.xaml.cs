@@ -79,7 +79,7 @@ namespace SuperMemoAssistant.Setup.Screens
 
     /// <inheritdoc />
     public override string Description =>
-      "*SuperMemo Assistant* adds new functionalities to SM through its **plugins**.\nInstall one or a few plugins to use SMA.";
+      "*SuperMemo Assistant* adds features to SuperMemo through **plugins**. Its main plugins are already installed.\nYou can add optional plugins below, or later from *Browse Plugins* in the settings.";
 
     #endregion
 
