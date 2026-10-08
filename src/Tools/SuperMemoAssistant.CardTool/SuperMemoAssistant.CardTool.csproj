@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Console front end of the card editing commands (list, show, element-color, css, html, theme, backups, restore, snapshot, diff). -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>sma-cards</AssemblyName>
+    <RootNamespace>SuperMemoAssistant.CardTool</RootNamespace>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Themes\SuperMemoAssistant.Themes\SuperMemoAssistant.Themes.csproj" />
+  </ItemGroup>
+</Project>

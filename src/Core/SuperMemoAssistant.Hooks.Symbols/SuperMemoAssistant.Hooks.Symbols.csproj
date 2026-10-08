@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Resolves SuperMemo 20 x64 native symbols from sm20.exe (Delphi extended RTTI + anchored code shapes). -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RootNamespace>SuperMemoAssistant.Hooks.Symbols</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Iced" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuperMemoAssistant.Hooks.Common\SuperMemoAssistant.Hooks.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pinned\*.json" LogicalName="Pinned.%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="SuperMemoAssistant.Tests" />
+  </ItemGroup>
+</Project>

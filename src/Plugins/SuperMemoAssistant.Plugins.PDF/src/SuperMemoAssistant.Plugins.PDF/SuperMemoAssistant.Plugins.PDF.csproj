@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- PDF reader and extractor. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant.Plugins.PDF</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" PrivateAssets="all" />
+    <PackageReference Include="FastMember" />
+    <PackageReference Include="FontAwesome5" />
+    <PackageReference Include="Forge.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(RepoRoot)src\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\PluginManager\src\PluginManager.Interop\PluginManager.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Plugins\SuperMemoAssistant.Plugins.Dictionary.Interop\src\SuperMemoAssistant.Plugins.Dictionary.Interop\SuperMemoAssistant.Plugins.Dictionary.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Plugins\SuperMemoAssistant.Plugins.PDF\libs\SuperMemoAssistant.Pdfium.Wpf\SuperMemoAssistant.Pdfium.Wpf.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Services\SuperMemoAssistant.Services.ToastNotifications\SuperMemoAssistant.Services.ToastNotifications.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Services\SuperMemoAssistant.Services.UI\SuperMemoAssistant.Services.UI.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="..\..\assets\images\icons\pageMargin.png" Link="Resources\pageMargin.png" />
+    <Resource Include="..\..\assets\images\icons\sideBarBookmark.png" Link="Resources\sideBarBookmark.png" />
+    <Resource Include="..\..\assets\images\icons\collapseAll.png" Link="Resources\collapseAll.png" />
+    <Resource Include="..\..\assets\images\icons\expandAll.png" Link="Resources\expandAll.png" />
+    <EmbeddedResource Include="MathPix\MathPix.html" />
+  </ItemGroup>
+</Project>

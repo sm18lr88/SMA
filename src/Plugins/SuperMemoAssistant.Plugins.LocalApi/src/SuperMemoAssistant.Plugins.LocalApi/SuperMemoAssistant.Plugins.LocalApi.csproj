@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- A token-protected HTTP server on the loopback interface that adds elements to SuperMemo and navigates. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant.Plugins.LocalApi</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" PrivateAssets="all" />
+    <PackageReference Include="Forge.Forms" />
+    <PackageReference Include="HtmlAgilityPack" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(RepoRoot)src\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\PluginManager\src\PluginManager.Interop\PluginManager.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Services\SuperMemoAssistant.Services.UI\SuperMemoAssistant.Services.UI.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Services\SuperMemoAssistant.Services.ToastNotifications\SuperMemoAssistant.Services.ToastNotifications.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="SuperMemoAssistant.Tests" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4695 @@
+{
+ "difflib": [
+  {
+   "a": [],
+   "b": [],
+   "ops": []
+  },
+  {
+   "a": [
+    "a"
+   ],
+   "b": [],
+   "ops": [
+    [
+     "delete",
+     0,
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "a": [],
+   "b": [
+    "a"
+   ],
+   "ops": [
+    [
+     "insert",
+     0,
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "a": [
+    "a",
+    "b",
+    "c"
+   ],
+   "b": [
+    "a",
+    "b",
+    "c"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     3,
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "a": [
+    "a",
+    "b",
+    "c"
+   ],
+   "b": [
+    "a",
+    "x",
+    "c"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "replace",
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     "equal",
+     2,
+     3,
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "a": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "b": [
+    "a",
+    "c",
+    "d",
+    "e"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "delete",
+     1,
+     2,
+     1,
+     1
+    ],
+    [
+     "equal",
+     2,
+     4,
+     1,
+     3
+    ],
+    [
+     "insert",
+     4,
+     4,
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "a": [
+    "x",
+    "x",
+    "x",
+    "x",
+    "x"
+   ],
+   "b": [
+    "x",
+    "x",
+    "x"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     3,
+     0,
+     3
+    ],
+    [
+     "delete",
+     3,
+     5,
+     3,
+     3
+    ]
+   ]
+  },
+  {
+   "a": [
+    "a",
+    "b",
+    "c",
+    "a",
+    "b",
+    "c",
+    "a",
+    "b",
+    "c"
+   ],
+   "b": [
+    "a",
+    "b",
+    "c",
+    "b",
+    "c",
+    "a",
+    "b",
+    "c",
+    "a"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "insert",
+     1,
+     1,
+     1,
+     3
+    ],
+    [
+     "equal",
+     1,
+     7,
+     3,
+     9
+    ],
+    [
+     "delete",
+     7,
+     9,
+     9,
+     9
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 35",
+    "line 29",
+    "line 28",
+    "line 32",
+    "line 37",
+    "line 12",
+    "line 11",
+    "line 32",
+    "line 30",
+    "line 39",
+    "line 11",
+    "line 6",
+    "line 28",
+    "line 19"
+   ],
+   "b": [
+    "line 35",
+    "line 29",
+    "line 28",
+    "line 32",
+    "line 37",
+    "line 12",
+    "line 11",
+    "line 32",
+    "line 30",
+    "line 2",
+    "line 11",
+    "line 6",
+    "line 28",
+    "line 19"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     9,
+     0,
+     9
+    ],
+    [
+     "replace",
+     9,
+     10,
+     9,
+     10
+    ],
+    [
+     "equal",
+     10,
+     14,
+     10,
+     14
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 28",
+    "line 39",
+    "line 10",
+    "line 39",
+    "line 0",
+    "line 33",
+    "line 4",
+    "line 3",
+    "line 2",
+    "line 12",
+    "line 15",
+    "line 38"
+   ],
+   "b": [
+    "line 28",
+    "line 39",
+    "line 10",
+    "line 39",
+    "line 0",
+    "line 33",
+    "line 4",
+    "line 3",
+    "line 2",
+    "line 12",
+    "line 15",
+    "line 38"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     12,
+     0,
+     12
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 29",
+    "line 20",
+    "line 28",
+    "line 37",
+    "line 12",
+    "line 33",
+    "line 14",
+    "line 18",
+    "line 31",
+    "line 0",
+    "line 5",
+    "line 29",
+    "line 17",
+    "line 26",
+    "line 35",
+    "line 5",
+    "line 16",
+    "line 20",
+    "line 14",
+    "line 32",
+    "line 18",
+    "line 1",
+    "line 4",
+    "line 36"
+   ],
+   "b": [
+    "line 29",
+    "line 20",
+    "line 28",
+    "line 37",
+    "line 12",
+    "line 33",
+    "line 14",
+    "line 18",
+    "line 31",
+    "line 0",
+    "line 5",
+    "line 29",
+    "line 17",
+    "line 26",
+    "line 35",
+    "line 5",
+    "line 16",
+    "line 20",
+    "line 14",
+    "line 32",
+    "line 18",
+    "line 1",
+    "line 4",
+    "line 36"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     24,
+     0,
+     24
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 6",
+    "line 18",
+    "line 24",
+    "line 4",
+    "line 1",
+    "line 0",
+    "line 13",
+    "line 13",
+    "line 3",
+    "line 30",
+    "line 24",
+    "line 25"
+   ],
+   "b": [
+    "line 6",
+    "line 26",
+    "line 24",
+    "line 4",
+    "line 5",
+    "line 0",
+    "line 13",
+    "line 13",
+    "line 3",
+    "line 30",
+    "line 12",
+    "line 25"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "replace",
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     "equal",
+     2,
+     4,
+     2,
+     4
+    ],
+    [
+     "replace",
+     4,
+     5,
+     4,
+     5
+    ],
+    [
+     "equal",
+     5,
+     10,
+     5,
+     10
+    ],
+    [
+     "replace",
+     10,
+     11,
+     10,
+     11
+    ],
+    [
+     "equal",
+     11,
+     12,
+     11,
+     12
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 15",
+    "line 6",
+    "line 0",
+    "line 3"
+   ],
+   "b": [
+    "line 24",
+    "line 12",
+    "line 0",
+    "line 3",
+    "line 12"
+   ],
+   "ops": [
+    [
+     "replace",
+     0,
+     2,
+     0,
+     2
+    ],
+    [
+     "equal",
+     2,
+     4,
+     2,
+     4
+    ],
+    [
+     "insert",
+     4,
+     4,
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 26",
+    "line 13",
+    "line 0",
+    "line 17",
+    "line 37",
+    "line 19",
+    "line 1",
+    "line 13",
+    "line 11",
+    "line 25",
+    "line 38",
+    "line 36"
+   ],
+   "b": [
+    "line 26",
+    "line 13",
+    "line 0",
+    "line 17",
+    "line 37",
+    "line 19",
+    "line 1",
+    "line 13",
+    "line 11",
+    "line 25",
+    "line 38",
+    "line 36"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     12,
+     0,
+     12
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 9"
+   ],
+   "b": [
+    "line 0"
+   ],
+   "ops": [
+    [
+     "replace",
+     0,
+     1,
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 24",
+    "line 4",
+    "line 4",
+    "line 5",
+    "line 13",
+    "line 37",
+    "line 15",
+    "line 0",
+    "line 38"
+   ],
+   "b": [
+    "line 24",
+    "line 4",
+    "line 29",
+    "line 5",
+    "line 13",
+    "line 37",
+    "line 15",
+    "line 0",
+    "line 38",
+    "line 8"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     2,
+     0,
+     2
+    ],
+    [
+     "replace",
+     2,
+     3,
+     2,
+     3
+    ],
+    [
+     "equal",
+     3,
+     9,
+     3,
+     9
+    ],
+    [
+     "insert",
+     9,
+     9,
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 11",
+    "line 9",
+    "line 19",
+    "line 14",
+    "line 39",
+    "line 15",
+    "line 12",
+    "line 10",
+    "line 35",
+    "line 12",
+    "line 24",
+    "line 30"
+   ],
+   "b": [
+    "line 11",
+    "line 3",
+    "line 19",
+    "line 14",
+    "line 25",
+    "line 15",
+    "line 12",
+    "line 38",
+    "line 35",
+    "line 12",
+    "line 24",
+    "line 30"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "replace",
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     "equal",
+     2,
+     4,
+     2,
+     4
+    ],
+    [
+     "replace",
+     4,
+     5,
+     4,
+     5
+    ],
+    [
+     "equal",
+     5,
+     7,
+     5,
+     7
+    ],
+    [
+     "replace",
+     7,
+     8,
+     7,
+     8
+    ],
+    [
+     "equal",
+     8,
+     12,
+     8,
+     12
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 33",
+    "line 11",
+    "line 4",
+    "line 8",
+    "line 14",
+    "line 30",
+    "line 35",
+    "line 39",
+    "line 39"
+   ],
+   "b": [
+    "line 33",
+    "line 11",
+    "line 4",
+    "line 8",
+    "line 14",
+    "line 30",
+    "line 35",
+    "line 39",
+    "line 39"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     9,
+     0,
+     9
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 13",
+    "line 13",
+    "line 1",
+    "line 4",
+    "line 17",
+    "line 26",
+    "line 28",
+    "line 15"
+   ],
+   "b": [
+    "line 13",
+    "line 13",
+    "line 1",
+    "line 4",
+    "line 17",
+    "line 26",
+    "line 28",
+    "line 15"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     8,
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 11"
+   ],
+   "b": [
+    "line 8"
+   ],
+   "ops": [
+    [
+     "replace",
+     0,
+     1,
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 33",
+    "line 37",
+    "line 8",
+    "line 37",
+    "line 2",
+    "line 1",
+    "line 30",
+    "line 22",
+    "line 19",
+    "line 2"
+   ],
+   "b": [
+    "line 33",
+    "line 37",
+    "line 8",
+    "line 37",
+    "line 2",
+    "line 1",
+    "line 30",
+    "line 22",
+    "line 19",
+    "line 2"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     10,
+     0,
+     10
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 4",
+    "line 30",
+    "line 4",
+    "line 19",
+    "line 20",
+    "line 8",
+    "line 4",
+    "line 4",
+    "line 28",
+    "line 34",
+    "line 23",
+    "line 2",
+    "line 8",
+    "line 21",
+    "line 22",
+    "line 5",
+    "line 30",
+    "line 4",
+    "line 26"
+   ],
+   "b": [
+    "line 4",
+    "line 30",
+    "line 4",
+    "line 19",
+    "line 20",
+    "line 8",
+    "line 4",
+    "line 4",
+    "line 28",
+    "line 34",
+    "line 23",
+    "line 2",
+    "line 8",
+    "line 21",
+    "line 22",
+    "line 5",
+    "line 30",
+    "line 4",
+    "line 26"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     19,
+     0,
+     19
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 36",
+    "line 0",
+    "line 39",
+    "line 24",
+    "line 24",
+    "line 37",
+    "line 0",
+    "line 38",
+    "line 4",
+    "line 5",
+    "line 5",
+    "line 7",
+    "line 16",
+    "line 26",
+    "line 21"
+   ],
+   "b": [
+    "line 36",
+    "line 34",
+    "line 39",
+    "line 24",
+    "line 37",
+    "line 0",
+    "line 4",
+    "line 5",
+    "line 5",
+    "line 7",
+    "line 16",
+    "line 26",
+    "line 21"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "replace",
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     "equal",
+     2,
+     3,
+     2,
+     3
+    ],
+    [
+     "delete",
+     3,
+     4,
+     3,
+     3
+    ],
+    [
+     "equal",
+     4,
+     7,
+     3,
+     6
+    ],
+    [
+     "delete",
+     7,
+     8,
+     6,
+     6
+    ],
+    [
+     "equal",
+     8,
+     15,
+     6,
+     13
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 5",
+    "line 30",
+    "line 1",
+    "line 14",
+    "line 7",
+    "line 31",
+    "line 39",
+    "line 31",
+    "line 16",
+    "line 0",
+    "line 23",
+    "line 19",
+    "line 9",
+    "line 39",
+    "line 12",
+    "line 33",
+    "line 10",
+    "line 21",
+    "line 28"
+   ],
+   "b": [
+    "line 5",
+    "line 30",
+    "line 1",
+    "line 14",
+    "line 7",
+    "line 31",
+    "line 31",
+    "line 12",
+    "line 16",
+    "line 0",
+    "line 23",
+    "line 19",
+    "line 9",
+    "line 39",
+    "line 12",
+    "line 33",
+    "line 10",
+    "line 21",
+    "line 20",
+    "line 28"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     6,
+     0,
+     6
+    ],
+    [
+     "delete",
+     6,
+     7,
+     6,
+     6
+    ],
+    [
+     "equal",
+     7,
+     8,
+     6,
+     7
+    ],
+    [
+     "insert",
+     8,
+     8,
+     7,
+     8
+    ],
+    [
+     "equal",
+     8,
+     18,
+     8,
+     18
+    ],
+    [
+     "insert",
+     18,
+     18,
+     18,
+     19
+    ],
+    [
+     "equal",
+     18,
+     19,
+     19,
+     20
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 8",
+    "line 8",
+    "line 31",
+    "line 22",
+    "line 2",
+    "line 4"
+   ],
+   "b": [
+    "line 8",
+    "line 8",
+    "line 31",
+    "line 22",
+    "line 2",
+    "line 4"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     6,
+     0,
+     6
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 33",
+    "line 31",
+    "line 20",
+    "line 39",
+    "line 28",
+    "line 20",
+    "line 4",
+    "line 2",
+    "line 17",
+    "line 38",
+    "line 2",
+    "line 17",
+    "line 36",
+    "line 22",
+    "line 19",
+    "line 36",
+    "line 1",
+    "line 8",
+    "line 25",
+    "line 29"
+   ],
+   "b": [
+    "line 33",
+    "line 31",
+    "line 20",
+    "line 39",
+    "line 28",
+    "line 20",
+    "line 4",
+    "line 17",
+    "line 17",
+    "line 38",
+    "line 2",
+    "line 17",
+    "line 36",
+    "line 22",
+    "line 19",
+    "line 36",
+    "line 1",
+    "line 8",
+    "line 25",
+    "line 29"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     7,
+     0,
+     7
+    ],
+    [
+     "replace",
+     7,
+     8,
+     7,
+     8
+    ],
+    [
+     "equal",
+     8,
+     20,
+     8,
+     20
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 9",
+    "line 3",
+    "line 7",
+    "line 28",
+    "line 6",
+    "line 34",
+    "line 23",
+    "line 4",
+    "line 12",
+    "line 12",
+    "line 30",
+    "line 16",
+    "line 11",
+    "line 0",
+    "line 30",
+    "line 34",
+    "line 2",
+    "line 11",
+    "line 14",
+    "line 17",
+    "line 22",
+    "line 34",
+    "line 33",
+    "line 32"
+   ],
+   "b": [
+    "line 9",
+    "line 3",
+    "line 7",
+    "line 28",
+    "line 24",
+    "line 34",
+    "line 23",
+    "line 4",
+    "line 12",
+    "line 12",
+    "line 30",
+    "line 16",
+    "line 11",
+    "line 0",
+    "line 30",
+    "line 34",
+    "line 2",
+    "line 36",
+    "line 11",
+    "line 14",
+    "line 17",
+    "line 12",
+    "line 34",
+    "line 14",
+    "line 33",
+    "line 32"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     4,
+     0,
+     4
+    ],
+    [
+     "replace",
+     4,
+     5,
+     4,
+     5
+    ],
+    [
+     "equal",
+     5,
+     17,
+     5,
+     17
+    ],
+    [
+     "insert",
+     17,
+     17,
+     17,
+     18
+    ],
+    [
+     "equal",
+     17,
+     20,
+     18,
+     21
+    ],
+    [
+     "replace",
+     20,
+     21,
+     21,
+     22
+    ],
+    [
+     "equal",
+     21,
+     22,
+     22,
+     23
+    ],
+    [
+     "insert",
+     22,
+     22,
+     23,
+     24
+    ],
+    [
+     "equal",
+     22,
+     24,
+     24,
+     26
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 32",
+    "line 21",
+    "line 29",
+    "line 20",
+    "line 13",
+    "line 6",
+    "line 7",
+    "line 13",
+    "line 15",
+    "line 24",
+    "line 5",
+    "line 19",
+    "line 34",
+    "line 20",
+    "line 16",
+    "line 1",
+    "line 22",
+    "line 32",
+    "line 5",
+    "line 2"
+   ],
+   "b": [
+    "line 32",
+    "line 11",
+    "line 21",
+    "line 29",
+    "line 20",
+    "line 13",
+    "line 6",
+    "line 1",
+    "line 13",
+    "line 26",
+    "line 24",
+    "line 5",
+    "line 19",
+    "line 34",
+    "line 20",
+    "line 16",
+    "line 1",
+    "line 22",
+    "line 32",
+    "line 5",
+    "line 2"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "insert",
+     1,
+     1,
+     1,
+     2
+    ],
+    [
+     "equal",
+     1,
+     6,
+     2,
+     7
+    ],
+    [
+     "replace",
+     6,
+     7,
+     7,
+     8
+    ],
+    [
+     "equal",
+     7,
+     8,
+     8,
+     9
+    ],
+    [
+     "replace",
+     8,
+     9,
+     9,
+     10
+    ],
+    [
+     "equal",
+     9,
+     20,
+     10,
+     21
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 21",
+    "line 8",
+    "line 30",
+    "line 9",
+    "line 33",
+    "line 33",
+    "line 28",
+    "line 31",
+    "line 37",
+    "line 5",
+    "line 14",
+    "line 28",
+    "line 33",
+    "line 35",
+    "line 18",
+    "line 35",
+    "line 10"
+   ],
+   "b": [
+    "line 21",
+    "line 8",
+    "line 30",
+    "line 32",
+    "line 9",
+    "line 33",
+    "line 33",
+    "line 24",
+    "line 31",
+    "line 9",
+    "line 14",
+    "line 28",
+    "line 33",
+    "line 35",
+    "line 18",
+    "line 35",
+    "line 10"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     3,
+     0,
+     3
+    ],
+    [
+     "insert",
+     3,
+     3,
+     3,
+     4
+    ],
+    [
+     "equal",
+     3,
+     6,
+     4,
+     7
+    ],
+    [
+     "replace",
+     6,
+     7,
+     7,
+     8
+    ],
+    [
+     "equal",
+     7,
+     8,
+     8,
+     9
+    ],
+    [
+     "replace",
+     8,
+     10,
+     9,
+     10
+    ],
+    [
+     "equal",
+     10,
+     17,
+     10,
+     17
+    ]
+   ]
+  },
+  {
+   "a": [],
+   "b": [
+    "line 4",
+    "line 17"
+   ],
+   "ops": [
+    [
+     "insert",
+     0,
+     0,
+     0,
+     2
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 30",
+    "line 31",
+    "line 8",
+    "line 21",
+    "line 27",
+    "line 30",
+    "line 33"
+   ],
+   "b": [
+    "line 30",
+    "line 16",
+    "line 8",
+    "line 21",
+    "line 26",
+    "line 30",
+    "line 33"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "replace",
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     "equal",
+     2,
+     4,
+     2,
+     4
+    ],
+    [
+     "replace",
+     4,
+     5,
+     4,
+     5
+    ],
+    [
+     "equal",
+     5,
+     7,
+     5,
+     7
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 1",
+    "line 2",
+    "line 12",
+    "line 9",
+    "line 14",
+    "line 0",
+    "line 18",
+    "line 20",
+    "line 22",
+    "line 15",
+    "line 39",
+    "line 31",
+    "line 6",
+    "line 31",
+    "line 37",
+    "line 7",
+    "line 32",
+    "line 39",
+    "line 16",
+    "line 12",
+    "line 33",
+    "line 27"
+   ],
+   "b": [
+    "line 1",
+    "line 2",
+    "line 12",
+    "line 9",
+    "line 14",
+    "line 0",
+    "line 18",
+    "line 20",
+    "line 22",
+    "line 15",
+    "line 39",
+    "line 31",
+    "line 6",
+    "line 31",
+    "line 37",
+    "line 7",
+    "line 32",
+    "line 39",
+    "line 16",
+    "line 12",
+    "line 33",
+    "line 27"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     22,
+     0,
+     22
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 26",
+    "line 33",
+    "line 39",
+    "line 10",
+    "line 34",
+    "line 13",
+    "line 34",
+    "line 13",
+    "line 33",
+    "line 13",
+    "line 34",
+    "line 39"
+   ],
+   "b": [
+    "line 26",
+    "line 12",
+    "line 15",
+    "line 10",
+    "line 34",
+    "line 12",
+    "line 13",
+    "line 34",
+    "line 13",
+    "line 33",
+    "line 13",
+    "line 34",
+    "line 22",
+    "line 39"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "replace",
+     1,
+     3,
+     1,
+     3
+    ],
+    [
+     "equal",
+     3,
+     5,
+     3,
+     5
+    ],
+    [
+     "insert",
+     5,
+     5,
+     5,
+     6
+    ],
+    [
+     "equal",
+     5,
+     11,
+     6,
+     12
+    ],
+    [
+     "insert",
+     11,
+     11,
+     12,
+     13
+    ],
+    [
+     "equal",
+     11,
+     12,
+     13,
+     14
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 5",
+    "line 16",
+    "line 24",
+    "line 6",
+    "line 27",
+    "line 26",
+    "line 34",
+    "line 8",
+    "line 12",
+    "line 25",
+    "line 1",
+    "line 6",
+    "line 12",
+    "line 36",
+    "line 22",
+    "line 23",
+    "line 7",
+    "line 32",
+    "line 21",
+    "line 32",
+    "line 12",
+    "line 4",
+    "line 30"
+   ],
+   "b": [
+    "line 5",
+    "line 16",
+    "line 24",
+    "line 6",
+    "line 27",
+    "line 26",
+    "line 34",
+    "line 8",
+    "line 12",
+    "line 25",
+    "line 1",
+    "line 6",
+    "line 12",
+    "line 36",
+    "line 22",
+    "line 23",
+    "line 7",
+    "line 32",
+    "line 21",
+    "line 32",
+    "line 12",
+    "line 4",
+    "line 30"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     23,
+     0,
+     23
+    ]
+   ]
+  },
+  {
+   "a": [],
+   "b": [],
+   "ops": []
+  },
+  {
+   "a": [
+    "line 35",
+    "line 39",
+    "line 32",
+    "line 36",
+    "line 30",
+    "line 9",
+    "line 12",
+    "line 11",
+    "line 7",
+    "line 13",
+    "line 11",
+    "line 10",
+    "line 18",
+    "line 6",
+    "line 37",
+    "line 3",
+    "line 8",
+    "line 29",
+    "line 4",
+    "line 6",
+    "line 20",
+    "line 25",
+    "line 29",
+    "line 27"
+   ],
+   "b": [
+    "line 35",
+    "line 39",
+    "line 32",
+    "line 36",
+    "line 30",
+    "line 9",
+    "line 38",
+    "line 2",
+    "line 11",
+    "line 7",
+    "line 13",
+    "line 11",
+    "line 29",
+    "line 18",
+    "line 6",
+    "line 37",
+    "line 3",
+    "line 8",
+    "line 29",
+    "line 4",
+    "line 13",
+    "line 20",
+    "line 25",
+    "line 29",
+    "line 27"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     6,
+     0,
+     6
+    ],
+    [
+     "replace",
+     6,
+     7,
+     6,
+     8
+    ],
+    [
+     "equal",
+     7,
+     11,
+     8,
+     12
+    ],
+    [
+     "replace",
+     11,
+     12,
+     12,
+     13
+    ],
+    [
+     "equal",
+     12,
+     19,
+     13,
+     20
+    ],
+    [
+     "replace",
+     19,
+     20,
+     20,
+     21
+    ],
+    [
+     "equal",
+     20,
+     24,
+     21,
+     25
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 6",
+    "line 32",
+    "line 0",
+    "line 20",
+    "line 5"
+   ],
+   "b": [
+    "line 10",
+    "line 6",
+    "line 34",
+    "line 32",
+    "line 0",
+    "line 5"
+   ],
+   "ops": [
+    [
+     "insert",
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     "equal",
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     "insert",
+     1,
+     1,
+     2,
+     3
+    ],
+    [
+     "equal",
+     1,
+     3,
+     3,
+     5
+    ],
+    [
+     "delete",
+     3,
+     4,
+     5,
+     5
+    ],
+    [
+     "equal",
+     4,
+     5,
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 25",
+    "line 13",
+    "line 11",
+    "line 4",
+    "line 21"
+   ],
+   "b": [
+    "line 13",
+    "line 0",
+    "line 4",
+    "line 21"
+   ],
+   "ops": [
+    [
+     "delete",
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     "equal",
+     1,
+     2,
+     0,
+     1
+    ],
+    [
+     "replace",
+     2,
+     3,
+     1,
+     2
+    ],
+    [
+     "equal",
+     3,
+     5,
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 17",
+    "line 19",
+    "line 21",
+    "line 13",
+    "line 25",
+    "line 36",
+    "line 11"
+   ],
+   "b": [
+    "line 36",
+    "line 19",
+    "line 21",
+    "line 32",
+    "line 25",
+    "line 6"
+   ],
+   "ops": [
+    [
+     "replace",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "equal",
+     1,
+     3,
+     1,
+     3
+    ],
+    [
+     "replace",
+     3,
+     4,
+     3,
+     4
+    ],
+    [
+     "equal",
+     4,
+     5,
+     4,
+     5
+    ],
+    [
+     "replace",
+     5,
+     7,
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 16",
+    "line 28",
+    "line 25",
+    "line 32",
+    "line 3",
+    "line 12",
+    "line 24"
+   ],
+   "b": [
+    "line 16",
+    "line 28",
+    "line 25",
+    "line 32",
+    "line 3",
+    "line 12",
+    "line 24"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     7,
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 16",
+    "line 16",
+    "line 17"
+   ],
+   "b": [
+    "line 16"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "delete",
+     1,
+     3,
+     1,
+     1
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 4",
+    "line 35",
+    "line 38",
+    "line 2",
+    "line 24",
+    "line 10",
+    "line 24",
+    "line 30",
+    "line 10",
+    "line 31",
+    "line 34",
+    "line 39",
+    "line 38",
+    "line 3",
+    "line 27",
+    "line 31",
+    "line 26",
+    "line 18",
+    "line 33",
+    "line 25"
+   ],
+   "b": [
+    "line 4",
+    "line 35",
+    "line 38",
+    "line 2",
+    "line 24",
+    "line 10",
+    "line 24",
+    "line 30",
+    "line 10",
+    "line 34",
+    "line 39",
+    "line 38",
+    "line 3",
+    "line 27",
+    "line 31",
+    "line 26",
+    "line 17",
+    "line 33",
+    "line 15"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     9,
+     0,
+     9
+    ],
+    [
+     "delete",
+     9,
+     10,
+     9,
+     9
+    ],
+    [
+     "equal",
+     10,
+     17,
+     9,
+     16
+    ],
+    [
+     "replace",
+     17,
+     18,
+     16,
+     17
+    ],
+    [
+     "equal",
+     18,
+     19,
+     17,
+     18
+    ],
+    [
+     "replace",
+     19,
+     20,
+     18,
+     19
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 10"
+   ],
+   "b": [
+    "line 20",
+    "line 25",
+    "line 30"
+   ],
+   "ops": [
+    [
+     "replace",
+     0,
+     1,
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 15",
+    "line 2",
+    "line 33",
+    "line 6",
+    "line 29",
+    "line 9",
+    "line 15",
+    "line 38"
+   ],
+   "b": [
+    "line 13",
+    "line 9",
+    "line 33",
+    "line 6",
+    "line 29",
+    "line 9",
+    "line 16",
+    "line 38"
+   ],
+   "ops": [
+    [
+     "replace",
+     0,
+     2,
+     0,
+     2
+    ],
+    [
+     "equal",
+     2,
+     6,
+     2,
+     6
+    ],
+    [
+     "replace",
+     6,
+     7,
+     6,
+     7
+    ],
+    [
+     "equal",
+     7,
+     8,
+     7,
+     8
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 33",
+    "line 8",
+    "line 18",
+    "line 8",
+    "line 15",
+    "line 30",
+    "line 7",
+    "line 32",
+    "line 19",
+    "line 32",
+    "line 39"
+   ],
+   "b": [
+    "line 33",
+    "line 8",
+    "line 18",
+    "line 15",
+    "line 30",
+    "line 7",
+    "line 32",
+    "line 19",
+    "line 32",
+    "line 39"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     3,
+     0,
+     3
+    ],
+    [
+     "delete",
+     3,
+     4,
+     3,
+     3
+    ],
+    [
+     "equal",
+     4,
+     11,
+     3,
+     10
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 17",
+    "line 15",
+    "line 12",
+    "line 15",
+    "line 32",
+    "line 12",
+    "line 2",
+    "line 3",
+    "line 0",
+    "line 17",
+    "line 16",
+    "line 27",
+    "line 1",
+    "line 39",
+    "line 2",
+    "line 6",
+    "line 14",
+    "line 34",
+    "line 17",
+    "line 4"
+   ],
+   "b": [
+    "line 17",
+    "line 15",
+    "line 12",
+    "line 15",
+    "line 32",
+    "line 12",
+    "line 2",
+    "line 3",
+    "line 0",
+    "line 17",
+    "line 16",
+    "line 27",
+    "line 1",
+    "line 39",
+    "line 2",
+    "line 6",
+    "line 14",
+    "line 34",
+    "line 17",
+    "line 4"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     20,
+     0,
+     20
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 10",
+    "line 35",
+    "line 15",
+    "line 23",
+    "line 30",
+    "line 30",
+    "line 22",
+    "line 13",
+    "line 21",
+    "line 21",
+    "line 31",
+    "line 8",
+    "line 4",
+    "line 7",
+    "line 28",
+    "line 39",
+    "line 13",
+    "line 28",
+    "line 27",
+    "line 16",
+    "line 24"
+   ],
+   "b": [
+    "line 10",
+    "line 35",
+    "line 15",
+    "line 23",
+    "line 30",
+    "line 30",
+    "line 22",
+    "line 13",
+    "line 21",
+    "line 21",
+    "line 38",
+    "line 8",
+    "line 4",
+    "line 7",
+    "line 28",
+    "line 39",
+    "line 13",
+    "line 28",
+    "line 27",
+    "line 16",
+    "line 24"
+   ],
+   "ops": [
+    [
+     "equal",
+     0,
+     10,
+     0,
+     10
+    ],
+    [
+     "replace",
+     10,
+     11,
+     10,
+     11
+    ],
+    [
+     "equal",
+     11,
+     21,
+     11,
+     21
+    ]
+   ]
+  },
+  {
+   "a": [
+    "line 35",
+    "line 11",
+    "line 27",
+    "line 23",
+    "line 37",
+    "line 6",
+    "line 29",
+    "line 20",
+    "line 5"
+   ],
+   "b": [
+    "line 4",
+    "line 38",
+    "line 11",
+    "line 27",
+    "line 23",
+    "line 18",
+    "line 37",
+    "line 6",
+    "line 29",
+    "line 36",
+    "line 5"
+   ],
+   "ops": [
+    [
+     "replace",
+     0,
+     1,
+     0,
+     2
+    ],
+    [
+     "equal",
+     1,
+     4,
+     2,
+     5
+    ],
+    [
+     "insert",
+     4,
+     4,
+     5,
+     6
+    ],
+    [
+     "equal",
+     4,
+     7,
+     6,
+     9
+    ],
+    [
+     "replace",
+     7,
+     8,
+     9,
+     10
+    ],
+    [
+     "equal",
+     8,
+     9,
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "a": [
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 21",
+    "unique 94",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 41",
+    "<p>common line</p>",
+    "unique 34",
+    "<p>common line</p>",
+    "unique 91",
+    "<p>common line</p>",
+    "unique 63",
+    "<p>common line</p>",
+    "unique 0",
+    "<p>common line</p>",
+    "unique 9",
+    "unique 19",
+    "unique 3",
+    "unique 85",
+    "<p>common line</p>",
+    "unique 5",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 56",
+    "unique 15",
+    "unique 28",
+    "unique 95",
+    "unique 88",
+    "<p>common line</p>",
+    "unique 80",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 4",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 32",
+    "<p>common line</p>",
+    "unique 83",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 45",
+    "unique 64",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 46",
+    "<p>common line</p>",
+    "unique 29",
+    "unique 71",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 59",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 93",
+    "unique 68",
+    "unique 76",
+    "<p>common line</p>",
+    "unique 6",
+    "unique 11",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 24",
+    "unique 22",
+    "<p>common line</p>",
+    "unique 84",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 8",
+    "unique 13",
+    "unique 51",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 96",
+    "<p>common line</p>",
+    "unique 90",
+    "unique 73",
+    "<p>common line</p>",
+    "unique 48",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 38",
+    "<p>common line</p>",
+    "unique 74",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 50",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 40",
+    "unique 65",
+    "unique 52",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 79",
+    "<p>common line</p>",
+    "unique 89",
+    "<p>common line</p>",
+    "unique 37",
+    "<p>common line</p>",
+    "unique 14",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 69",
+    "<p>common line</p>",
+    "unique 20",
+    "unique 60",
+    "<p>common line</p>",
+    "unique 47",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 7",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 26",
+    "unique 10",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 77",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 42",
+    "<p>common line</p>",
+    "unique 33",
+    "<p>common line</p>",
+    "unique 98",
+    "unique 17",
+    "unique 12",
+    "unique 66",
+    "unique 27",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 70",
+    "unique 30",
+    "unique 78",
+    "unique 58",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 16",
+    "unique 43",
+    "<p>common line</p>",
+    "unique 86",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 72",
+    "unique 99",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 44",
+    "<p>common line</p>",
+    "unique 49",
+    "<p>common line</p>",
+    "unique 57",
+    "unique 1",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 61",
+    "unique 54",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 39",
+    "<p>common line</p>",
+    "unique 53",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 23",
+    "unique 67",
+    "<p>common line</p>",
+    "unique 92",
+    "unique 62",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 36",
+    "<p>common line</p>",
+    "unique 97",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 55",
+    "<p>common line</p>",
+    "unique 87",
+    "<p>common line</p>",
+    "unique 25",
+    "unique 81",
+    "unique 2",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 31",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 82",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 35",
+    "unique 18",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 75"
+   ],
+   "b": [
+    "<p>changed</p>",
+    "<p>common line</p>",
+    "unique 21",
+    "unique 94",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 41",
+    "<p>common line</p>",
+    "unique 34",
+    "<p>common line</p>",
+    "unique 91",
+    "<p>common line</p>",
+    "unique 63",
+    "<p>common line</p>",
+    "unique 0",
+    "<p>common line</p>",
+    "unique 9",
+    "unique 19",
+    "unique 3",
+    "unique 85",
+    "<p>common line</p>",
+    "unique 5",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 56",
+    "unique 15",
+    "unique 28",
+    "unique 95",
+    "unique 88",
+    "<p>common line</p>",
+    "unique 80",
+    "<p>common line</p>",
+    "<p>changed</p>",
+    "unique 4",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 32",
+    "<p>common line</p>",
+    "unique 83",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 45",
+    "unique 64",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 46",
+    "<p>common line</p>",
+    "unique 29",
+    "unique 71",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 59",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 93",
+    "<p>changed</p>",
+    "unique 76",
+    "<p>common line</p>",
+    "unique 6",
+    "unique 11",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 24",
+    "unique 22",
+    "<p>common line</p>",
+    "unique 84",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 8",
+    "unique 13",
+    "unique 51",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 96",
+    "<p>common line</p>",
+    "unique 90",
+    "unique 73",
+    "<p>common line</p>",
+    "unique 48",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 38",
+    "<p>common line</p>",
+    "unique 74",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>changed</p>",
+    "unique 50",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 40",
+    "unique 65",
+    "unique 52",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 79",
+    "<p>common line</p>",
+    "unique 89",
+    "<p>common line</p>",
+    "unique 37",
+    "<p>common line</p>",
+    "unique 14",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 69",
+    "<p>common line</p>",
+    "unique 20",
+    "unique 60",
+    "<p>common line</p>",
+    "unique 47",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 7",
+    "<p>changed</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 26",
+    "unique 10",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 77",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 42",
+    "<p>common line</p>",
+    "unique 33",
+    "<p>common line</p>",
+    "unique 98",
+    "unique 17",
+    "unique 12",
+    "unique 66",
+    "unique 27",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 70",
+    "unique 30",
+    "unique 78",
+    "unique 58",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 16",
+    "<p>changed</p>",
+    "<p>common line</p>",
+    "unique 86",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 72",
+    "unique 99",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 44",
+    "<p>common line</p>",
+    "unique 49",
+    "<p>common line</p>",
+    "unique 57",
+    "unique 1",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 61",
+    "unique 54",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 39",
+    "<p>common line</p>",
+    "unique 53",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 23",
+    "unique 67",
+    "<p>common line</p>",
+    "unique 92",
+    "unique 62",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>changed</p>",
+    "unique 36",
+    "<p>common line</p>",
+    "unique 97",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 55",
+    "<p>common line</p>",
+    "unique 87",
+    "<p>common line</p>",
+    "unique 25",
+    "unique 81",
+    "unique 2",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 31",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 82",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 35",
+    "unique 18",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 75"
+   ],
+   "ops": [
+    [
+     "replace",
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     "equal",
+     1,
+     37,
+     1,
+     37
+    ],
+    [
+     "replace",
+     37,
+     38,
+     37,
+     38
+    ],
+    [
+     "equal",
+     38,
+     74,
+     38,
+     74
+    ],
+    [
+     "replace",
+     74,
+     75,
+     74,
+     75
+    ],
+    [
+     "equal",
+     75,
+     111,
+     75,
+     111
+    ],
+    [
+     "replace",
+     111,
+     112,
+     111,
+     112
+    ],
+    [
+     "equal",
+     112,
+     148,
+     112,
+     148
+    ],
+    [
+     "replace",
+     148,
+     149,
+     148,
+     149
+    ],
+    [
+     "equal",
+     149,
+     185,
+     149,
+     185
+    ],
+    [
+     "replace",
+     185,
+     186,
+     185,
+     186
+    ],
+    [
+     "equal",
+     186,
+     222,
+     186,
+     222
+    ],
+    [
+     "replace",
+     222,
+     223,
+     222,
+     223
+    ],
+    [
+     "equal",
+     223,
+     250,
+     223,
+     250
+    ]
+   ]
+  },
+  {
+   "a": [
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 21",
+    "unique 94",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 41",
+    "<p>common line</p>",
+    "unique 34",
+    "<p>common line</p>",
+    "unique 91",
+    "<p>common line</p>",
+    "unique 63",
+    "<p>common line</p>",
+    "unique 0",
+    "<p>common line</p>",
+    "unique 9",
+    "unique 19",
+    "unique 3",
+    "unique 85",
+    "<p>common line</p>",
+    "unique 5",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 56",
+    "unique 15",
+    "unique 28",
+    "unique 95",
+    "unique 88",
+    "<p>common line</p>",
+    "unique 80",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 4",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 32",
+    "<p>common line</p>",
+    "unique 83",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 45",
+    "unique 64",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 46",
+    "<p>common line</p>",
+    "unique 29",
+    "unique 71",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 59",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 93",
+    "unique 68",
+    "unique 76",
+    "<p>common line</p>",
+    "unique 6",
+    "unique 11",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 24",
+    "unique 22",
+    "<p>common line</p>",
+    "unique 84",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 8",
+    "unique 13",
+    "unique 51",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 96",
+    "<p>common line</p>",
+    "unique 90",
+    "unique 73",
+    "<p>common line</p>",
+    "unique 48",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 38",
+    "<p>common line</p>",
+    "unique 74",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 50",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 40",
+    "unique 65",
+    "unique 52",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 79",
+    "<p>common line</p>",
+    "unique 89",
+    "<p>common line</p>",
+    "unique 37",
+    "<p>common line</p>",
+    "unique 14",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 69",
+    "<p>common line</p>",
+    "unique 20",
+    "unique 60",
+    "<p>common line</p>",
+    "unique 47",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 7",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 26",
+    "unique 10",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 77",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 42",
+    "<p>common line</p>",
+    "unique 33",
+    "<p>common line</p>",
+    "unique 98",
+    "unique 17",
+    "unique 12",
+    "unique 66",
+    "unique 27",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 70",
+    "unique 30",
+    "unique 78",
+    "unique 58",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 16",
+    "unique 43",
+    "<p>common line</p>",
+    "unique 86",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 72",
+    "unique 99",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 44",
+    "<p>common line</p>",
+    "unique 49",
+    "<p>common line</p>",
+    "unique 57",
+    "unique 1",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 61",
+    "unique 54",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 39",
+    "<p>common line</p>",
+    "unique 53",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 23",
+    "unique 67",
+    "<p>common line</p>",
+    "unique 92",
+    "unique 62",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 36",
+    "<p>common line</p>",
+    "unique 97",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 55",
+    "<p>common line</p>",
+    "unique 87",
+    "<p>common line</p>",
+    "unique 25",
+    "unique 81",
+    "unique 2",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 31",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 82",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 35",
+    "unique 18",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 75"
+   ],
+   "b": [
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 41",
+    "<p>common line</p>",
+    "unique 34",
+    "<p>common line</p>",
+    "unique 91",
+    "<p>common line</p>",
+    "unique 63",
+    "<p>common line</p>",
+    "unique 0",
+    "<p>common line</p>",
+    "unique 9",
+    "unique 19",
+    "unique 3",
+    "unique 85",
+    "<p>common line</p>",
+    "unique 5",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 56",
+    "unique 15",
+    "unique 28",
+    "unique 95",
+    "unique 88",
+    "<p>common line</p>",
+    "unique 80",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 4",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 32",
+    "<p>common line</p>",
+    "unique 83",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 45",
+    "unique 64",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 46",
+    "<p>common line</p>",
+    "unique 29",
+    "unique 71",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 59",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 93",
+    "unique 68",
+    "unique 76",
+    "<p>common line</p>",
+    "unique 6",
+    "unique 11",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 24",
+    "unique 22",
+    "<p>common line</p>",
+    "unique 84",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 8",
+    "unique 13",
+    "unique 51",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 96",
+    "<p>common line</p>",
+    "unique 90",
+    "unique 73",
+    "<p>common line</p>",
+    "unique 48",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 38",
+    "<p>common line</p>",
+    "unique 74",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 50",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 40",
+    "unique 65",
+    "unique 52",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 79",
+    "<p>common line</p>",
+    "unique 89",
+    "<p>common line</p>",
+    "unique 37",
+    "<p>common line</p>",
+    "unique 14",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 69",
+    "<p>common line</p>",
+    "unique 20",
+    "unique 60",
+    "<p>common line</p>",
+    "unique 47",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 7",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 26",
+    "unique 10",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 77",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 42",
+    "<p>common line</p>",
+    "unique 33",
+    "<p>common line</p>",
+    "unique 98",
+    "unique 17",
+    "unique 12",
+    "unique 66",
+    "unique 27",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 70",
+    "unique 30",
+    "unique 78",
+    "unique 58",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 16",
+    "unique 43",
+    "<p>common line</p>",
+    "unique 86",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 72",
+    "unique 99",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 44",
+    "<p>common line</p>",
+    "unique 49",
+    "<p>common line</p>",
+    "unique 57",
+    "unique 1",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 61",
+    "unique 54",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 39",
+    "<p>common line</p>",
+    "unique 53",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 23",
+    "unique 67",
+    "<p>common line</p>",
+    "unique 92",
+    "unique 62",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 36",
+    "<p>common line</p>",
+    "unique 97",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 55",
+    "<p>common line</p>",
+    "unique 87",
+    "<p>common line</p>",
+    "unique 25",
+    "unique 81",
+    "unique 2",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 31",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 82",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 35",
+    "unique 18",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "<p>common line</p>",
+    "unique 75",
+    "tail"
+   ],
+   "ops": [
+    [
+     "delete",
+     0,
+     5,
+     0,
+     0
+    ],
+    [
+     "equal",
+     5,
+     250,
+     0,
+     245
+    ],
+    [
+     "insert",
+     250,
+     250,
+     245,
+     246
+    ]
+   ]
+  }
+ ],
+ "replace": [
+  {
+   "find": "foo",
+   "repl": "bar",
+   "text": "a foo b foo",
+   "regex": false,
+   "ignore": false,
+   "out": "a bar b bar"
+  },
+  {
+   "find": "FOO",
+   "repl": "bar",
+   "text": "a foo b Foo",
+   "regex": false,
+   "ignore": true,
+   "out": "a bar b bar"
+  },
+  {
+   "find": "(f)(oo)",
+   "repl": "\\2\\1",
+   "text": "foo FOO",
+   "regex": true,
+   "ignore": true,
+   "out": "oof OOF"
+  },
+  {
+   "find": "(?P<x>o+)",
+   "repl": "[\\g<x>]",
+   "text": "foo boo",
+   "regex": true,
+   "ignore": false,
+   "out": "f[oo] b[oo]"
+  },
+  {
+   "find": "(a)(b)?",
+   "repl": "<\\1|\\2>",
+   "text": "ab a",
+   "regex": true,
+   "ignore": false,
+   "out": "<a|b> <a|>"
+  },
+  {
+   "find": "\\d+",
+   "repl": "#\\g<0>#",
+   "text": "a1b22",
+   "regex": true,
+   "ignore": false,
+   "out": "a#1#b#22#"
+  },
+  {
+   "find": "x",
+   "repl": "\\n",
+   "text": "axb",
+   "regex": true,
+   "ignore": false,
+   "out": "a\nb"
+  },
+  {
+   "find": "x",
+   "repl": "\\t\\\\",
+   "text": "axb",
+   "regex": true,
+   "ignore": false,
+   "out": "a\t\\b"
+  },
+  {
+   "find": "x",
+   "repl": "\\q",
+   "text": "axb",
+   "regex": true,
+   "ignore": false,
+   "error": true
+  },
+  {
+   "find": "x",
+   "repl": "\\-",
+   "text": "axb",
+   "regex": true,
+   "ignore": false,
+   "out": "a\\-b"
+  },
+  {
+   "find": "(x)",
+   "repl": "\\5",
+   "text": "axb",
+   "regex": true,
+   "ignore": false,
+   "error": true
+  },
+  {
+   "find": "x",
+   "repl": "\\0",
+   "text": "axb",
+   "regex": true,
+   "ignore": false,
+   "out": "a\u0000b"
+  },
+  {
+   "find": "x",
+   "repl": "\\101",
+   "text": "axb",
+   "regex": true,
+   "ignore": false,
+   "out": "aAb"
+  },
+  {
+   "find": "(a)(b)(c)",
+   "repl": "\\3\\2\\1",
+   "text": "abc",
+   "regex": true,
+   "ignore": false,
+   "out": "cba"
+  },
+  {
+   "find": "(?P<n>a)(?P=n)",
+   "repl": "X",
+   "text": "aa a",
+   "regex": true,
+   "ignore": false,
+   "out": "X a"
+  },
+  {
+   "find": "a.c",
+   "repl": "-",
+   "text": "abc a.c",
+   "regex": false,
+   "ignore": false,
+   "out": "abc -"
+  },
+  {
+   "find": "a.c",
+   "repl": "-",
+   "text": "abc a.c",
+   "regex": true,
+   "ignore": false,
+   "out": "- -"
+  },
+  {
+   "find": "(",
+   "repl": "x",
+   "text": "text",
+   "regex": true,
+   "ignore": false,
+   "error": true
+  },
+  {
+   "find": "[a-c]+",
+   "repl": "<$1>",
+   "text": "abcd",
+   "regex": true,
+   "ignore": false,
+   "out": "<$1>d"
+  },
+  {
+   "find": "(a)|b",
+   "repl": "[\\1]",
+   "text": "ab",
+   "regex": true,
+   "ignore": false,
+   "out": "[a][]"
+  },
+  {
+   "find": "\u00e9",
+   "repl": "e",
+   "text": "caf\u00e9 CAF\u00c9",
+   "regex": false,
+   "ignore": true,
+   "out": "cafe CAFe"
+  },
+  {
+   "find": "",
+   "repl": "-",
+   "text": "ab",
+   "regex": true,
+   "ignore": false,
+   "out": "-a-b-"
+  }
+ ],
+ "strip": [
+  {
+   "html": "<P style=\"color: red; font-size: 12pt\">x</P>",
+   "props": [
+    "color"
+   ],
+   "out": "<P style=\"font-size: 12pt\">x</P>"
+  },
+  {
+   "html": "<P style=\"color: red\">x</P>",
+   "props": [
+    "color"
+   ],
+   "out": "<P>x</P>"
+  },
+  {
+   "html": "<P STYLE='Color:red;BACKGROUND-COLOR:#fff'>x</P>",
+   "props": [
+    "color",
+    "background-color"
+   ],
+   "out": "<P>x</P>"
+  },
+  {
+   "html": "<P style = \"a: b ;; c: d\">x</P>",
+   "props": [
+    "x"
+   ],
+   "out": "<P style=\"a: b; c: d\">x</P>"
+  },
+  {
+   "html": "<P style=\"\">x</P>",
+   "props": [
+    "color"
+   ],
+   "out": "<P>x</P>"
+  },
+  {
+   "html": "<P style=\"color:red\">a</P><P style=\"font-size:1pt; color:blue\">b</P>",
+   "props": [
+    "color"
+   ],
+   "out": "<P>a</P><P style=\"font-size:1pt\">b</P>"
+  },
+  {
+   "html": "<P>no style</P>",
+   "props": [
+    "color"
+   ],
+   "out": "<P>no style</P>"
+  },
+  {
+   "html": "<P\nstyle=\"color: red;\n font-size: 9pt\">x</P>",
+   "props": [
+    "font-size"
+   ],
+   "out": "<P style=\"color: red\">x</P>"
+  },
+  {
+   "html": "<P style=\"font-family: 'A, B'; color: red\">x</P>",
+   "props": [
+    "color"
+   ],
+   "out": "<P style=\"font-family: 'A, B'\">x</P>"
+  }
+ ],
+ "html": {
+  "decode": [
+   {
+    "hex": "706c61696e206173636969",
+    "text": "plain ascii",
+    "codec": "utf-8"
+   },
+   {
+    "hex": "636166c3a92075746638",
+    "text": "caf\u00e9 utf8",
+    "codec": "utf-8"
+   },
+   {
+    "hex": "636166e920637031323532",
+    "text": "caf\u00e9 cp1252",
+    "codec": "cp1252"
+   },
+   {
+    "hex": "62616420812062797465",
+    "text": "bad \ufffd byte",
+    "codec": "cp1252"
+   },
+   {
+    "hex": "efbbbf7769746820626f6d",
+    "text": "\ufeffwith bom",
+    "codec": "utf-8"
+   },
+   {
+    "hex": "",
+    "text": "",
+    "codec": "utf-8"
+   },
+   {
+    "hex": "fffe",
+    "text": "\u00ff\u00fe",
+    "codec": "cp1252"
+   }
+  ],
+  "encode": [
+   {
+    "text": "plain",
+    "codec": "utf-8",
+    "hex": "706c61696e"
+   },
+   {
+    "text": "plain",
+    "codec": "cp1252",
+    "hex": "706c61696e"
+   },
+   {
+    "text": "caf\u00e9",
+    "codec": "utf-8",
+    "hex": "636166c3a9"
+   },
+   {
+    "text": "caf\u00e9",
+    "codec": "cp1252",
+    "hex": "636166e9"
+   },
+   {
+    "text": "\u65e5\u672c\u8a9e",
+    "codec": "utf-8",
+    "hex": "e697a5e69cace8aa9e"
+   },
+   {
+    "text": "\u65e5\u672c\u8a9e",
+    "codec": "cp1252",
+    "hex": "262332363038353b262332363431323b262333353438363b"
+   },
+   {
+    "text": "emoji \ud83d\ude00 here",
+    "codec": "utf-8",
+    "hex": "656d6f6a6920f09f98802068657265"
+   },
+   {
+    "text": "emoji \ud83d\ude00 here",
+    "codec": "cp1252",
+    "hex": "656d6f6a692026233132383531323b2068657265"
+   },
+   {
+    "text": "mixed \u00e9 \u20ac \u2603",
+    "codec": "utf-8",
+    "hex": "6d6978656420c3a920e282ac20e29883"
+   },
+   {
+    "text": "mixed \u00e9 \u20ac \u2603",
+    "codec": "cp1252",
+    "hex": "6d6978656420e92080202623393733313b"
+   },
+   {
+    "text": "",
+    "codec": "utf-8",
+    "hex": ""
+   },
+   {
+    "text": "",
+    "codec": "cp1252",
+    "hex": ""
+   }
+  ]
+ },
+ "ranges": [
+  {
+   "a": "42bdf22106f0847762f0f3cb4d764d",
+   "b": "bdbdf22106f07b7762f00c344d764d",
+   "ranges": [
+    [
+     0,
+     1
+    ],
+    [
+     6,
+     12
+    ]
+   ]
+  },
+  {
+   "a": "159a0f89f2c6dacae344",
+   "b": "ea650f89f2c6dacae344",
+   "ranges": [
+    [
+     0,
+     2
+    ]
+   ]
+  },
+  {
+   "a": "6f84df9ad7c5b3d076ac0e8f53a7356c88913f20f6f72db022d24d0a96dad4",
+   "b": "6f84df9ad7c5b3d076ac0e8f53a7356c88913f20f6f72db022d24d0a96dad4",
+   "ranges": []
+  },
+  {
+   "a": "17c1a98e78129e0327371065d095864f15ada0b846c1c0ebc5348adc799adf849bad05d4a10a",
+   "b": "17c1a97178129e03d8371065d095864f15ada0b846c1c0ebc5348adc799adf849bad05d4a1f5eeb4b4",
+   "ranges": [
+    [
+     3,
+     9
+    ],
+    [
+     37,
+     41
+    ]
+   ]
+  },
+  {
+   "a": "8efa0b1f0abd80e998a35aba5ea0bd8799c1350d439e71897aa75fde3134a4aa72e05628ac6f",
+   "b": "8efa0b1f0abd801698a35aba5ea04287993e350d439e71897aa75fdece34a4aa72e05628ac6f",
+   "ranges": [
+    [
+     7,
+     8
+    ],
+    [
+     14,
+     18
+    ],
+    [
+     28,
+     29
+    ]
+   ]
+  },
+  {
+   "a": "61a15d8eae2bb042d7958aedb1d594d6d112d34f6602f4de7110e993ae7422923d",
+   "b": "61a1a28eae2bb042d7958aedb1d594d6d112d34f6602f4de7110e993ae7422923d",
+   "ranges": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "a": "65dc1906f63d57997a0ad31b3aae4081f41fb471653e3d577a8c4103f9cc198a7f89d81af2a5001c40173f1923f7102cfaa150a124b3c5c79b",
+   "b": "65dc1906f63d57997a0ad31bc5ae40810b1fb471653e3d577a8c4103f9cc198a7f89d81af2a5001c40173f1923f7102cfaa150a124b3c5c79bdb3f41",
+   "ranges": [
+    [
+     12,
+     17
+    ],
+    [
+     57,
+     60
+    ]
+   ]
+  },
+  {
+   "a": "01c2285b15bfebc216dc1bbefea1d7d6eb097d6f8a24d972da420ea6bf863eed3fc037",
+   "b": "fec2285b15bf14c216dc1bbefea1d7d6eb097d6f7524d972da420ea6bf86c1ed3fc0c8",
+   "ranges": [
+    [
+     0,
+     1
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     20,
+     21
+    ],
+    [
+     30,
+     35
+    ]
+   ]
+  },
+  {
+   "a": "c7162f32c05b0cae3e0d3af691992d",
+   "b": "c7162f32c05b0cae3e0d3af691992d",
+   "ranges": []
+  },
+  {
+   "a": "331fa65c277b",
+   "b": "331fa65c2784",
+   "ranges": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "a": "c981bccbb3d62ac078d352d4f74fcd4c5331fef7e25f4588654ba17697",
+   "b": "c981bccbb3d62ac078d352d4f7b0cd4c5331fe08e25fba88654ba176976f9d0b",
+   "ranges": [
+    [
+     13,
+     14
+    ],
+    [
+     19,
+     23
+    ],
+    [
+     29,
+     32
+    ]
+   ]
+  },
+  {
+   "a": "f5c36658b87aa4f749d6f569ef0ef625cc",
+   "b": "f53c9958b87aa4f749d6f569ef0e0925cc",
+   "ranges": [
+    [
+     1,
+     3
+    ],
+    [
+     14,
+     15
+    ]
+   ]
+  },
+  {
+   "a": "827b6184465f12825617a05dd82e2b3c2f879512b6e7ac030faba9dfc2f8276bfac840a33d8c27dd39e08031bfbce6978736ad3afcb4",
+   "b": "827b6184465f12825617a05dd82e2b3c2f879512b6e7ac030faba9dfc2f8276bfac840a33d8c27dd39e08031bfbce6978736ad3afcb45d4c5b",
+   "ranges": [
+    [
+     54,
+     57
+    ]
+   ]
+  },
+  {
+   "a": "e83f3748a9d7995feaf69f5a23365cc8b733888ac41b45",
+   "b": "e83f3748a9d7995feaf69f5a23365cc8b733888ac41b458a7eb5aacee523b4fe",
+   "ranges": [
+    [
+     23,
+     32
+    ]
+   ]
+  },
+  {
+   "a": "394d8a3339395e60d5c8414acb63575b6780bd960fe3d0c4a19efe99f70f61013777fb58eb65636c12e339914e45ef2d190db87727ff",
+   "b": "39b28a3339395e60d5c8414acb63575b6780bd96f0e3d0c4a19efe99f70f61013777fb58eb65636c12e339914e45ef2d190db87727ff442911",
+   "ranges": [
+    [
+     1,
+     2
+    ],
+    [
+     20,
+     21
+    ],
+    [
+     54,
+     57
+    ]
+   ]
+  },
+  {
+   "a": "28af692066df71f8a13715d1276652c8fef222d86afa9b0bedeacde05ce91383bbbde5b9cd72016b84bd49eb63",
+   "b": "28af692066df71f8a13715d1279952c8fef222d86afa9b0bedeacde05ce91383bbbde5b9cd72016b84bd49eb63",
+   "ranges": [
+    [
+     13,
+     14
+    ]
+   ]
+  },
+  {
+   "a": "ce560e473856e2fb5e1e",
+   "b": "ce560e473856e2fb5e1ee5a2d0101a7ace14cb",
+   "ranges": [
+    [
+     10,
+     19
+    ]
+   ]
+  },
+  {
+   "a": "0d707b30c7f26154aa3bb13f1a948cee99fa7f880facb0a22f1dde2d01350f",
+   "b": "f28f8430c70d6154aa3bb13f1a948cee66fa7f880facb0a22f1dde2d01350f1b60a966f4aef5b311",
+   "ranges": [
+    [
+     0,
+     6
+    ],
+    [
+     16,
+     17
+    ],
+    [
+     31,
+     40
+    ]
+   ]
+  },
+  {
+   "a": "9cc92c965ed33ac7abce59c5b75eb9d4e075e3f6b08956c6",
+   "b": "9c362c96a12c3ac7abce59c5b75eb9d4e075e3f6b08956c6",
+   "ranges": [
+    [
+     1,
+     6
+    ]
+   ]
+  },
+  {
+   "a": "ef2f31a3791c18e6eeaabd002463cc35ad9f38e6296b7b184e49053975936a70d6a360ef5a2815390c3366822b37eecc7237f8b1",
+   "b": "ef2f31a3791c18e6eeaabd002463cc35ad9f38e6296b7b184e4905398a936a70d6a360ef5a28ea390c3399822b37eecc7237f8b1",
+   "ranges": [
+    [
+     28,
+     29
+    ],
+    [
+     38,
+     43
+    ]
+   ]
+  },
+  {
+   "a": "e3c2693b03ed9927aeb162f824bad8226d7f",
+   "b": "e33d693b03ed9927aeb19df824bad8226d7f",
+   "ranges": [
+    [
+     1,
+     2
+    ],
+    [
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "a": "e02b806fa554696fedd6bc61d1f7d0f01195095e310e4d961ff114",
+   "b": "e02b806fa554696fedd6bc61d1f7d0f01195095e310e4d691ff114",
+   "ranges": [
+    [
+     23,
+     24
+    ]
+   ]
+  },
+  {
+   "a": "fbdd13b0ef64934934e399d2e327694ef9",
+   "b": "fbdd13b0ef9b9349341c992d1cd8694ef9edf271",
+   "ranges": [
+    [
+     5,
+     20
+    ]
+   ]
+  },
+  {
+   "a": "93920fedbfb7987c0507434c0a54190068eeb5b911fa5e",
+   "b": "6c920fedbfb7987c0507434c0a54190068eeb5b911fa5eddad1a",
+   "ranges": [
+    [
+     0,
+     1
+    ],
+    [
+     23,
+     26
+    ]
+   ]
+  },
+  {
+   "a": "30e69f867effd685ad160fdb13547e45d3ac448f08561708f81eebefd4bd57965d254734d0b4",
+   "b": "30e69f867effd685ad160fdb13547e452c53448f08561708f81eebefd44257965d254734d0b4904fa14713d2f876ea",
+   "ranges": [
+    [
+     16,
+     18
+    ],
+    [
+     29,
+     30
+    ],
+    [
+     38,
+     47
+    ]
+   ]
+  },
+  {
+   "a": "8b0fa23bf9408f8934de26be11f9e5639fb15cc4cba1198a6d13a2a2c8901243d580d328fd7566283a3f029023dc89f7ec8994185978f956494c5b",
+   "b": "740fa23bf9408f8934de26be11f9e5639fb15cc4cba1198a6deca2a2c86f1243d580d328fd7566283ac0026f23dc89f7ec8994185978f956494c5b",
+   "ranges": [
+    [
+     0,
+     1
+    ],
+    [
+     25,
+     30
+    ],
+    [
+     41,
+     44
+    ]
+   ]
+  },
+  {
+   "a": "1b5c5a9f61424b184d6dc336ddc75d0d8f35433a4a9740c4b4",
+   "b": "e45ca59f6142b4184d6dc3c9ddc75d0d8f35433a4a9740c4b4",
+   "ranges": [
+    [
+     0,
+     12
+    ]
+   ]
+  },
+  {
+   "a": "7d20b5f835a0f20ab0e2d0ed9ce24ce9c466975b9955a28867421b1dd15b",
+   "b": "7d20b5f835a0f20ab0e2d0ed9ce24ce9c466975b9955a28867421b1dd15b",
+   "ranges": []
+  },
+  {
+   "a": "3ecebf8c2fede1a64a6f",
+   "b": "3ecebf8c2fede159b56fa2b7b0",
+   "ranges": [
+    [
+     7,
+     13
+    ]
+   ]
+  },
+  {
+   "a": "ae92988a5d3f71ae7f90de88e742f4ab5ae21a23d5d9951e79c3c46c26bb6d1cfc3cdcc7b90699bebdcce0be35fd4aa57000bd20004729",
+   "b": "ae92988a5d3f71ae7f90de88e742f4ab5ae21a232ad9951e79c3c46c26bb6d1cfc3cdcc7b90699bebdcce0be35fd4aa57000bd2000472990640f0ea0e3ba6de1",
+   "ranges": [
+    [
+     20,
+     21
+    ],
+    [
+     55,
+     64
+    ]
+   ]
+  }
+ ],
+ "windows": [
+  {
+   "a": "short",
+   "b": "shorter",
+   "out": [
+    "short",
+    "shorter"
+   ]
+  },
+  {
+   "a": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "b": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "out": [
+    "...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...",
+    "...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..."
+   ]
+  },
+  {
+   "a": "",
+   "b": "abc",
+   "out": [
+    "",
+    "abc"
+   ]
+  },
+  {
+   "a": "abc",
+   "b": "",
+   "out": [
+    "abc",
+    ""
+   ]
+  },
+  {
+   "a": "same",
+   "b": "same",
+   "out": [
+    "same",
+    "same"
+   ]
+  },
+  {
+   "a": "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789",
+   "b": "012345678901234567890123456789012345678901234567890123456789X01234567890123456789012345678901234567890123456789012345678",
+   "out": [
+    "...012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789",
+    "...012345678901234567890123456789X01234567890123456789012345678901234567890123456789012345678"
+   ]
+  }
+ ],
+ "splitlines": [
+  {
+   "text": "a\nb",
+   "out": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "text": "a\r\nb\r\n",
+   "out": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "text": "a\rb",
+   "out": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "text": "\n\na\n",
+   "out": [
+    "",
+    "",
+    "a"
+   ]
+  },
+  {
+   "text": "a\u000bb\fc",
+   "out": [
+    "a",
+    "b",
+    "c"
+   ]
+  },
+  {
+   "text": "a\u2028b\u2029c",
+   "out": [
+    "a",
+    "b",
+    "c"
+   ]
+  },
+  {
+   "text": "no break",
+   "out": [
+    "no break"
+   ]
+  },
+  {
+   "text": "",
+   "out": []
+  },
+  {
+   "text": "\r\n",
+   "out": [
+    ""
+   ]
+  },
+  {
+   "text": "a\u0085b",
+   "out": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "text": "a\u001cb\u001db\u001ec",
+   "out": [
+    "a",
+    "b",
+    "b",
+    "c"
+   ]
+  }
+ ],
+ "slots": [
+  {
+   "slot": 1,
+   "path": "C:/nope/coll/elements/1.HTM"
+  },
+  {
+   "slot": 5,
+   "path": "C:/nope/coll/elements/5.HTM"
+  },
+  {
+   "slot": 10,
+   "path": "C:/nope/coll/elements/10.HTM"
+  },
+  {
+   "slot": 11,
+   "path": "C:/nope/coll/elements/1/11.HTM"
+  },
+  {
+   "slot": 12,
+   "path": "C:/nope/coll/elements/1/12.HTM"
+  },
+  {
+   "slot": 25,
+   "path": "C:/nope/coll/elements/2/25.HTM"
+  },
+  {
+   "slot": 60,
+   "path": "C:/nope/coll/elements/5/60.HTM"
+  },
+  {
+   "slot": 309,
+   "path": "C:/nope/coll/elements/30/309.HTM"
+  },
+  {
+   "slot": 310,
+   "path": "C:/nope/coll/elements/30/310.HTM"
+  },
+  {
+   "slot": 311,
+   "path": "C:/nope/coll/elements/1/1/311.HTM"
+  },
+  {
+   "slot": 400,
+   "path": "C:/nope/coll/elements/1/9/400.HTM"
+  },
+  {
+   "slot": 9309,
+   "path": "C:/nope/coll/elements/30/30/9309.HTM"
+  },
+  {
+   "slot": 9310,
+   "path": "C:/nope/coll/elements/30/30/9310.HTM"
+  },
+  {
+   "slot": 9311,
+   "path": "C:/nope/coll/elements/1/1/1/9311.HTM"
+  },
+  {
+   "slot": 50000,
+   "path": "C:/nope/coll/elements/5/16/19/50000.HTM"
+  },
+  {
+   "slot": 279310,
+   "path": "C:/nope/coll/elements/30/30/30/279310.HTM"
+  },
+  {
+   "slot": 279311,
+   "path": "C:/nope/coll/elements/1/1/1/1/279311.HTM"
+  },
+  {
+   "slot": 300000,
+   "path": "C:/nope/coll/elements/1/3/9/29/300000.HTM"
+  },
+  {
+   "slot": 8379310,
+   "path": "C:/nope/coll/elements/30/30/30/30/8379310.HTM"
+  },
+  {
+   "slot": 8379311,
+   "path": "C:/nope/coll/elements/1/1/1/1/1/8379311.HTM"
+  }
+ ],
+ "color_text": [
+  {
+   "color": 4278190085,
+   "out": "default"
+  },
+  {
+   "color": 4278190095,
+   "out": "system-btnface"
+  },
+  {
+   "color": 4278190096,
+   "out": "system-btnshadow"
+  },
+  {
+   "color": 2147483653,
+   "out": "default"
+  },
+  {
+   "color": 2147483680,
+   "out": "system-32"
+  },
+  {
+   "color": 4294967295,
+   "out": "none"
+  },
+  {
+   "color": 536870911,
+   "out": "none"
+  },
+  {
+   "color": 1122867,
+   "out": "#332211"
+  },
+  {
+   "color": 2130706433,
+   "out": "special:0x7f000001"
+  },
+  {
+   "color": 16777215,
+   "out": "#FFFFFF"
+  },
+  {
+   "color": 0,
+   "out": "#000000"
+  },
+  {
+   "color": 16777216,
+   "out": "special:0x01000000"
+  },
+  {
+   "color": null,
+   "out": "-"
+  }
+ ],
+ "parse_color": [
+  {
+   "text": "#1E2A38",
+   "out": 3680798
+  },
+  {
+   "text": "1e2a38",
+   "out": 3680798
+  },
+  {
+   "text": " #ABCDEF ",
+   "out": 15715755
+  },
+  {
+   "text": "default",
+   "out": 4278190085
+  },
+  {
+   "text": "DEFAULT",
+   "out": 4278190085
+  },
+  {
+   "text": "#12345",
+   "error": true
+  },
+  {
+   "text": "#12345g",
+   "error": true
+  },
+  {
+   "text": "red",
+   "error": true
+  },
+  {
+   "text": "",
+   "error": true
+  },
+  {
+   "text": "#1234567",
+   "error": true
+  }
+ ],
+ "parse_numbers": [
+  {
+   "spec": "53,57,60-81",
+   "out": [
+    53,
+    57,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ]
+  },
+  {
+   "spec": "1",
+   "out": [
+    1
+   ]
+  },
+  {
+   "spec": "3-1",
+   "out": []
+  },
+  {
+   "spec": " 4 , 5-6 ",
+   "out": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "spec": "",
+   "out": []
+  },
+  {
+   "spec": "x",
+   "error": true
+  },
+  {
+   "spec": "1-",
+   "out": [
+    1
+   ]
+  },
+  {
+   "spec": "-3",
+   "error": true
+  },
+  {
+   "spec": "2,,3",
+   "out": [
+    2,
+    3
+   ]
+  }
+ ]
+}

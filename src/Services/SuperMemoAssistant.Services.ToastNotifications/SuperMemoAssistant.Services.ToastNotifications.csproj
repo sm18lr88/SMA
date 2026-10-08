@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Windows toast notifications exposed through the SMA API. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" />
+    <PackageReference Include="QueryString.NET" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+    <ProjectReference Include="..\..\..\libs\PluginManager\src\PluginManager.Interop\PluginManager.Interop.csproj" />
+    <ProjectReference Include="..\..\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
+  </ItemGroup>
+</Project>

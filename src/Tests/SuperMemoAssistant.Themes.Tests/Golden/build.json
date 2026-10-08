@@ -1,0 +1,23 @@
+{
+ "entry_ids": [
+  "0x96f",
+  "dark-visual-studio",
+  "humanoid-light",
+  "sagelight"
+ ],
+ "original_program_hash": "07c43ee0ee1849edaf50655c87e3ca5385f1197ad21f28a73579e7262c9642c5",
+ "program_hash": "07c43ee0ee1849edaf50655c87e3ca5385f1197ad21f28a73579e7262c9642c5",
+ "style_raw_sha256": {
+  "SMC_0X96F": "e1d7c7c011ed66734d7b5871d7bbae0b97d8a468fd3036667c22a0b81ffa44dd",
+  "SMC_DARK_VISUAL_STUDIO": "896058d168611e521eaf2e8e27d0e904bc5b51f713e4955d2ea108508c1a35e1",
+  "SMC_HUMANOID_LIGHT": "87d3388168069c9db06095796c65548d13721eb13733c794c497d788b16bc9a0",
+  "SMC_SAGELIGHT": "58507ed14542de3b3d1b1f89190f61becdcccbea8fc2afe612d155f39df652e1"
+ },
+ "style_count": 44,
+ "forms": {
+  "TELWIND": "0995d88203e0ff2c32a59a232f82583bc6f75df62e72ab7be089e4cfea809620",
+  "TSTATBAR": "f7a27780fb3ab240c2c8c3c5d486a1fbe5e1c3e5ba127bf2f2e7a8d156076896"
+ },
+ "elements": true,
+ "patched": true
+}

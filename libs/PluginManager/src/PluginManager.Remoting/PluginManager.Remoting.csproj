@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Named-pipe RPC between SMA and its plugin processes: by-reference proxies, synchronous calls, events. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RootNamespace>PluginManager.Remoting</RootNamespace>
+    <!-- SYSLIB0050: by-value RPC honours the [Serializable]/[NonSerialized] contract the plugin API was written against. -->
+    <NoWarn>$(NoWarn);SYSLIB0050</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="SuperMemoAssistant.Tests" />
+  </ItemGroup>
+</Project>

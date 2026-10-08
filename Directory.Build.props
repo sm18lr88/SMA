@@ -1,0 +1,45 @@
+<Project>
+  <!-- Repository-wide build policy. Projects set only what differs: OutputType, UseWPF, TargetFramework overrides. -->
+  <PropertyGroup Label="Build">
+    <RepoRoot>$(MSBuildThisFileDirectory)</RepoRoot>
+    <!-- Windows 10 SDK projection is required by toast notifications (ToastNotificationManagerCompat). -->
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <Platforms>x64</Platforms>
+    <Platform Condition=" '$(Platform)' == '' Or '$(Platform)' == 'AnyCPU' ">x64</Platform>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <!-- Legacy sources predate nullable reference types; new projects opt in individually. -->
+    <Nullable>disable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <Deterministic>true</Deterministic>
+    <DebugType>portable</DebugType>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <MSBuildTreatWarningsAsErrors>true</MSBuildTreatWarningsAsErrors>
+    <!-- CS1591: missing XML docs; CS0067: PropertyChanged events are raised by PropertyChanged.Fody after compilation; NU1701: legacy COM interop package (mshtml PIA); CA1416: Windows-only APIs in a Windows-only app;
+         SYSLIB0014: WebRequest kept for legacy plugin code paths; CS0618: obsolete members in legacy code. -->
+    <NoWarn>$(NoWarn);CS1591;CS0067;NU1701;CA1416;SYSLIB0014;CS0618</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+    <Version>3.1.0</Version>
+    <Product>$(AssemblyName)</Product>
+    <Authors>Alexis;SuperMemo.wiki;SMA Community</Authors>
+    <Company>SuperMemo.wiki</Company>
+    <Copyright>© SuperMemo.wiki and SMA community contributors</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Label="NuGet">
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- Pinned versions in Directory.Packages.props also override transitive ones (e.g. the vulnerable System.Drawing.Common 4.7.0). -->
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <NuGetAudit>true</NuGetAudit>
+    <NuGetAuditMode>all</NuGetAuditMode>
+  </PropertyGroup>
+</Project>

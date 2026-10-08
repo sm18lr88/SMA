@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Theme engine: palettes, VCL style recoloring, form resources and the sm20.exe builder. No WPF and no SMA dependencies. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant.Themes</RootNamespace>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="SuperMemoAssistant.Themes.Tests" />
+    <InternalsVisibleTo Include="SuperMemoAssistant.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The shipped palettes. Their licenses are in Assets\NOTICE.md. -->
+    <EmbeddedResource Include="Assets\themes.json" LogicalName="themes.json" />
+    <EmbeddedResource Include="Assets\native-themes.txt" LogicalName="native-themes.txt" />
+  </ItemGroup>
+</Project>

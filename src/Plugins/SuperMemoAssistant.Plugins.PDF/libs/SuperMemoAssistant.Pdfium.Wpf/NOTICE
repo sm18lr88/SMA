@@ -1,0 +1,9 @@
+SuperMemoAssistant.Pdfium.Wpf
+
+This viewer control derives from the WPF viewer source code that Patagames Software
+published under the Apache License 2.0 (see LICENSE in this folder).
+Copyright (c) Patagames Software.
+
+SMA community contributors changed the code: it targets .NET 10, it renders through
+SuperMemoAssistant.Pdfium and the PDFium C API, and the print, file-open, clipboard
+and zoom toolbars were removed.

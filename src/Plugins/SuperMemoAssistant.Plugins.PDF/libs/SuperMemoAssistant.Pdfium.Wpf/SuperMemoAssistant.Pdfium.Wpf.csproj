@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- WPF PDF viewer control over SuperMemoAssistant.Pdfium. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant.Pdfium.Wpf</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuperMemoAssistant.Pdfium\SuperMemoAssistant.Pdfium.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\*.png" />
+  </ItemGroup>
+</Project>

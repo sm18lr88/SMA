@@ -1,0 +1,1291 @@
+{
+ "session": {
+  "initial": {
+   "bin/DarkMode.css": "424f4459207b6261636b67726f756e642d636f6c6f723a20233230323032303b20636f6c6f723a20236464646464647d0d0a2e45787472616374207b434f4c4f523a20233838616166667d0d0a",
+   "bin/LightMode.css": "424f4459207b6261636b67726f756e642d636f6c6f723a20236666666666663b20636f6c6f723a20233030303030307d0d0a",
+   "bin/supermemo.css": "424f4459207b6261636b67726f756e642d636f6c6f723a20236666666666663b20636f6c6f723a20233030303030303b20666f6e742d73697a653a20313270747d0d0a2e436c6f7a65207b636f6c6f723a20236666303030307d0d0a",
+   "bin/supermemo.ini": "5b53757065724d656d6f5d0d0a4461726b206d6f64653d300d0a5b53797374656d735d0d0a53797374656d313d40524f4f54405c73797374656d735c636f6c6c0d0a5b5465726d696e6174696f6e5d0d0a436f6c6c656374696f6e3d40524f4f54405c73797374656d735c636f6c6c0d0a",
+   "sm20.exe": "4d5a2d6e6f742d612d7265616c2d657865",
+   "systems/coll/collection.ini": "5b44656661756c74735d0d0a5468656d653d57696e646f77730d0a",
+   "systems/coll/elements/1/11.HTM": "3c48544d4c3e3c424f44593e0a3c503e5175657374696f6e3a207768617420697320666f6f3f3c2f503e0a3c2f424f44593e3c2f48544d4c3e",
+   "systems/coll/elements/1/12.HTM": "3c48544d4c3e3c424f44593e0a3c50207374796c653d224241434b47524f554e442d434f4c4f523a2023666630223e416e737765723a20636166c3a920464f4f3c2f503e0a3c2f424f44593e3c2f48544d4c3e",
+   "systems/coll/elements/1/9/400.HTM": "3c48544d4c3e3c424f4459207374796c653d22666f6e742d66616d696c793a2047656f72676961223e0d0a3c503e4465657020736c6f7420666f6f3c2f503e3c2f424f44593e3c2f48544d4c3e",
+   "systems/coll/elements/2/25.HTM": "3c48544d4c3e3c424f44593e3c503e5765627669657720626f647920666f6f3c2f503e3c2f424f44593e3c2f48544d4c3e",
+   "systems/coll/elements/5.HTM": "3c48544d4c3e3c424f4459207374796c653d226261636b67726f756e642d636f6c6f723a20236666663b20636f6c6f723a2023303030223e0d0a3c503e416c70686120666f6f20746578743c2f503e0d0a3c50207374796c653d22666f6e742d73697a653a20313270743b20636f6c6f723a20726564223e5365636f6e6420666f6f206c696e653c2f503e0d0a3c2f424f44593e3c2f48544d4c3e",
+   "systems/coll/elements/7.HTM": "3c48544d4c3e3c424f44593e0a3c503e436166e920666f6f3c2f503e3c2f424f44593e3c2f48544d4c3e",
+   "systems/coll/info/compon.dat": "31d4300000000000010800050000ff000000000d1e0000000000000000000100000000000000000100000000050000ff0000000031d4300000000000010800ddeeff00000000000d1e0000000000000000000100000000000000000200000000050000ff0000000031d430000000000001080033221100000000000d1e0000000000000000000100000000000000000300000000050000ff0000000031d4720000000000030800050000ff000000000d1e0000000000000000000100000000000000000500000000050000ff000000000d1e0000000000000000000200000000000000000600000000050000ff00000000001e0000000000000000000300000000000000000700000000ff0000000000000031d4300000000000010800050000ff00000000001e0000000000000000000100000000000000000900000000050000ff0000000031d4510000000000020800050000ff00000000021e0000000000000000000100000000000000000000000000050000ff00000000991e0000000000000000000100000000000000000000000000050000ff0000000031d4300000000000010800050000ff000000000d1e0000000000000000000100000000000000000c00000000050000ff0000000031d4300000000000010800ffffff1f00000000101e0000000000000000000100000000000000000e00000000050000ff0000000031d43000000000000108000f0000ff000000000d1e0000000000000000000100000000000000001000000000050000ff0000000031d430000000000001080010000080000000000d1e0000000000000000000100000000000000001300000000050000ff0000000031d43000000000000108000100007f000000000d1e0000000000000000000100000000000000001500000000050000ff00000000",
+   "systems/coll/info/ElementInfo.dat": "000004000000680000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100080000009c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000a0000001201000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000b0000004601000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000d0000009b0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100ffffffffffffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000f000000cf01000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001100000003020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012000000ffffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010014000000370200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000006b020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "systems/coll/info/other.dat": "7363686564756c696e6720646174612074686174206d757374206e65766572206368616e6765",
+   "systems/coll/registry/template.mem": "010000000000000000000100000004000000000000000000000000000000010000000000000000000600000005000000000000003400000000000000010000000000000000000c00000006000000000000008096980000000000",
+   "systems/coll/registry/template.rtx": "4974656d00546f706963004265796f6e6400",
+   "systems/coll/registry/text.mem": "010000000000000000000000000000000000000000000b0000000000000001000000000000000000000000000000000000000000050000000000000001000000000000000000000000000000000000000000050000000000000001000000000000000000010000000b000000000000000000000000000000010000000000000000000000000000000000000000000b00000000000000010000000000000000000000000000000000000000000c00000000000000010000000000000000000d00000011000000000000000000000000000000010000000000000000001f0000001200000000000000000000000000000001000000000000000000320000000b000000000000000000000000000000010000000000000000003e0000000c000000000000000000000000000000010000000000000000004b0000000d00000000000000000000000000000001000000000000000000000000000000000000000000070000000000000001000000000000000000590000000d00000000000000000000000000000001000000000000000000000000000000000000000000190000000000000001000000000000000000670000000c000000000000000000000000000000010000000000000000000000000000000000000000003c0000000000000001000000000000000000740000001000000000000000000000000000000001000000000000000000850000000f00000000000000000000000000000001000000000000000000000000000000000000000000900100000000000001000000000000000000950000000e00000000000000000000000000000001000000000000000000000000000000000000000000050000000000000001000000000000000000a400000011000000000000000000000000000000",
+   "systems/coll/registry/text.rtx": "416c70686120746f7069630073686f727420696e6c696e65206e6f74650042657461206974656d207175657374696f6e006f6e6c7920696e6c696e650047616d6d6120696e6c696e650044656c746120636f6e6365707400c3897073696c6f6e207461736b005a657461207765627669657700457461206d697373696e672066696c65005468657461206e6f207265636f726400496f7461206465657020736c6f7400436166e9206c6567616379207469746c6500",
+   "systems/coll.KNO": "6b6e6f"
+  },
+  "steps": [
+   {
+    "args": [
+     "status"
+    ],
+    "compare_stderr": true,
+    "stdout": "collection: <root>\\systems\\coll\nrunning: no\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "collections"
+    ],
+    "compare_stderr": true,
+    "stdout": "<root>\\systems\\coll\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "list"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    1 topic    Topic        #332211   html[elements/5.HTM] | Alpha topic\n    2 item     Item         default   html[1/11.HTM], html[1/12.HTM], text[inline](#FF0000) | Beta item question\n    3 item     Item         default   text[inline](default) | Gamma inline\n    4 concept               default   image, type0x99 | Delta concept\n    5 task                  default   html[elements/7.HTM] | \u00c9psilon task\n    7 item     Item         none      webview[2/25.HTM] | Zeta webview\n    8 item                  system-btnface html[5/60.HTM] | Eta missing file\n    9 topic                 -          | Theta no record\n   10 item     Item         system-btnshadow html[9/400.HTM] | Iota deep slot\n   11 topic                 special:0x7f000001 html[elements/5.HTM] | Caf\u00e9 legacy title\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "list",
+     "--kind",
+     "item"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    2 item     Item         default   html[1/11.HTM], html[1/12.HTM], text[inline](#FF0000) | Beta item question\n    3 item     Item         default   text[inline](default) | Gamma inline\n    7 item     Item         none      webview[2/25.HTM] | Zeta webview\n    8 item                  system-btnface html[5/60.HTM] | Eta missing file\n   10 item     Item         system-btnshadow html[9/400.HTM] | Iota deep slot\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "list",
+     "--grep",
+     "ALPHA"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    1 topic    Topic        #332211   html[elements/5.HTM] | Alpha topic\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "list",
+     "--elements",
+     "1,3-4"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    1 topic    Topic        #332211   html[elements/5.HTM] | Alpha topic\n    3 item     Item         default   text[inline](default) | Gamma inline\n    4 concept               default   image, type0x99 | Delta concept\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "list",
+     "--template",
+     "item"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    2 item     Item         default   html[1/11.HTM], html[1/12.HTM], text[inline](#FF0000) | Beta item question\n    3 item     Item         default   text[inline](default) | Gamma inline\n    7 item     Item         none      webview[2/25.HTM] | Zeta webview\n   10 item     Item         system-btnshadow html[9/400.HTM] | Iota deep slot\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "list",
+     "--templates"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    1 template              default   html[1/11.HTM] | Item\n    2 template              #DDEEFF   html[elements/5.HTM] | Topic\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "show",
+     "1"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    1 topic    Topic        #332211   html[elements/5.HTM] | Alpha topic\n\n-- component 1: html, display-at=0x01, file=<root>\\systems\\coll\\elements\\5.HTM\n<HTML><BODY style=\"background-color: #fff; color: #000\">\r\n<P>Alpha foo text</P>\r\n<P style=\"font-size: 12pt; color: red\">Second foo line</P>\r\n</BODY></HTML>\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "show",
+     "2"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    2 item     Item         default   html[1/11.HTM], html[1/12.HTM], text[inline](#FF0000) | Beta item question\n\n-- component 1: html, display-at=0x01, file=<root>\\systems\\coll\\elements\\1\\11.HTM\n<HTML><BODY>\n<P>Question: what is foo?</P>\n</BODY></HTML>\n\n-- component 2: html, display-at=0x02, file=<root>\\systems\\coll\\elements\\1\\12.HTM\n<HTML><BODY>\n<P style=\"BACKGROUND-COLOR: #ff0\">Answer: caf\u00e9 FOO</P>\n</BODY></HTML>\n\n-- component 3: text, display-at=0x03, file=None\n[inline registry text, edit in SuperMemo] short inline note\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "show",
+     "3"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    3 item     Item         default   text[inline](default) | Gamma inline\n\n-- component 1: text, display-at=0x01, file=None\n[inline registry text, edit in SuperMemo] only inline\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "show",
+     "4"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    4 concept               default   image, type0x99 | Delta concept\n\n-- component 1: image, display-at=0x01, file=None\n\n-- component 2: type0x99, display-at=0x01, file=None\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "show",
+     "8"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    8 item                  system-btnface html[5/60.HTM] | Eta missing file\n\n-- component 1: html, display-at=0x01, file=<root>\\systems\\coll\\elements\\5\\60.HTM\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "show",
+     "11"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n   11 topic                 special:0x7f000001 html[elements/5.HTM] | Caf\u00e9 legacy title\n\n-- component 1: html, display-at=0x01, file=<root>\\systems\\coll\\elements\\5.HTM\n<HTML><BODY style=\"background-color: #fff; color: #000\">\r\n<P>Alpha foo text</P>\r\n<P style=\"font-size: 12pt; color: red\">Second foo line</P>\r\n</BODY></HTML>\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "show",
+     "6"
+    ],
+    "compare_stderr": true,
+    "stdout": "",
+    "stderr": "no element 6\n",
+    "code": 1,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "show",
+     "999"
+    ],
+    "compare_stderr": true,
+    "stdout": "",
+    "stderr": "no element 999\n",
+    "code": 1,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "element-color",
+     "#1E2A38",
+     "--kind",
+     "item"
+    ],
+    "compare_stderr": true,
+    "stdout": "5 record(s) selected for element color change.\n  will modify: <root>\\systems\\coll\\info\\compon.dat\nDRY RUN: 1 file(s) would change. Re-run with --apply to write.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "element-color",
+     "default",
+     "--elements",
+     "1"
+    ],
+    "compare_stderr": true,
+    "stdout": "1 record(s) selected for element color change.\n  will modify: <root>\\systems\\coll\\info\\compon.dat\nDRY RUN: 1 file(s) would change. Re-run with --apply to write.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "element-color",
+     "#112233",
+     "--with-templates",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "11 record(s) selected for element color change.\n  will modify: <root>\\systems\\coll\\info\\compon.dat\nWrote 1 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-element-color\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "element-color",
+     "#445566",
+     "--only-templates"
+    ],
+    "compare_stderr": true,
+    "stdout": "2 record(s) selected for element color change.\n  will modify: <root>\\systems\\coll\\info\\compon.dat\nDRY RUN: 1 file(s) would change. Re-run with --apply to write.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "element-color",
+     "zzz"
+    ],
+    "compare_stderr": false,
+    "stdout": "",
+    "stderr": "ValueError: color must be #RRGGBB or 'default', got 'zzz'\n",
+    "code": 1,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "list",
+     "--kind",
+     "item"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    2 item     Item         #112233   html[1/11.HTM], html[1/12.HTM], text[inline](#FF0000) | Beta item question\n    3 item     Item         #112233   text[inline](default) | Gamma inline\n    7 item     Item         #112233   webview[2/25.HTM] | Zeta webview\n    8 item                  #112233   html[5/60.HTM] | Eta missing file\n   10 item     Item         #112233   html[9/400.HTM] | Iota deep slot\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "list",
+     "--templates"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    1 template              #112233   html[1/11.HTM] | Item\n    2 template              #112233   html[elements/5.HTM] | Topic\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "backups"
+    ],
+    "compare_stderr": true,
+    "stdout": "<ts>-element-color\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "show"
+    ],
+    "compare_stderr": true,
+    "stdout": "== <root>\\bin\\supermemo.css\n  BODY {background-color: #ffffff; color: #000000; font-size: 12pt}\n  .Cloze {color: #ff0000}\n== <root>\\bin\\LightMode.css\n  BODY {background-color: #ffffff; color: #000000}\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "show",
+     "BODY"
+    ],
+    "compare_stderr": true,
+    "stdout": "== <root>\\bin\\supermemo.css\n  BODY {background-color: #ffffff; color: #000000; font-size: 12pt}\n== <root>\\bin\\LightMode.css\n  BODY {background-color: #ffffff; color: #000000}\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "show",
+     ".cloze",
+     "--mode",
+     "both"
+    ],
+    "compare_stderr": true,
+    "stdout": "== <root>\\bin\\supermemo.css\n  .Cloze {color: #ff0000}\n== <root>\\bin\\LightMode.css\n== <root>\\bin\\DarkMode.css\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "set",
+     "BODY",
+     "background-color",
+     "#101010"
+    ],
+    "compare_stderr": true,
+    "stdout": "  will modify: <root>\\bin\\supermemo.css\n  will modify: <root>\\bin\\LightMode.css\nDRY RUN: 2 file(s) would change. Re-run with --apply to write.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "eef22e0e2e3a54223838a201201808ed79e9985ef808036460e6572583fb21a9",
+     "bin/LightMode.css": "ce2c5f13910fc65a0c3c888079d9a6d27a2607c4f6b087a2229996db2994531b",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "set",
+     "BODY",
+     "background-color",
+     "#101010",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "  will modify: <root>\\bin\\supermemo.css\n  will modify: <root>\\bin\\LightMode.css\nWrote 2 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-css-set\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "0649b7f89e5579f3020d05a1f9cca6dd907b21c5c92befe719d3d98634202c85",
+     "bin/LightMode.css": "17779b352a8f7d0ea24813a93e8685e82979831ae9ed6e6216fa9b1aeb6f8069",
+     "bin/DarkMode.css": "8a1e65c5a67818125de7bdfb31aea81fbfdbc62e048103a3e4e65cf18c2898d1",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "set",
+     ".New",
+     "color",
+     "red",
+     "--mode",
+     "both",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "  will modify: <root>\\bin\\supermemo.css\n  will modify: <root>\\bin\\LightMode.css\n  will modify: <root>\\bin\\DarkMode.css\nWrote 3 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-css-set-2\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "96b8c30d3c7ff1125fb10ff002604e7461be27637cd33d334563eaa58184f36a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "983b458128d535b7346efc84491c9922524e7718fea08a841fea7be7c625d619",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "unset",
+     "BODY",
+     "font-size",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "  will modify: <root>\\bin\\supermemo.css\nWrote 1 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-css-unset\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "983b458128d535b7346efc84491c9922524e7718fea08a841fea7be7c625d619",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "set",
+     ".Extract",
+     "color",
+     "#abcdef",
+     "--mode",
+     "dark",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "  will modify: <root>\\bin\\DarkMode.css\nWrote 1 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-css-set-2-3\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "unset",
+     ".Missing",
+     "color"
+    ],
+    "compare_stderr": true,
+    "stdout": "Nothing to change.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "html",
+     "replace",
+     "foo",
+     "bar"
+    ],
+    "compare_stderr": true,
+    "stdout": "-- <root>\\systems\\coll\\elements\\5.HTM\n   - <P>Alpha foo text</P>\n   + <P>Alpha bar text</P>\n   - ...ize: 12pt; color: red\">Second foo line</P>\n   + ...ize: 12pt; color: red\">Second bar line</P>\n-- <root>\\systems\\coll\\elements\\1\\11.HTM\n   - <P>Question: what is foo?</P>\n   + <P>Question: what is bar?</P>\n-- <root>\\systems\\coll\\elements\\7.HTM\n   - <P>Caf\u00e9 foo</P></BODY></HTML>\n   + <P>Caf\u00e9 bar</P></BODY></HTML>\n-- <root>\\systems\\coll\\elements\\2\\25.HTM\n   - <HTML><BODY><P>Webview body foo</P></BODY></HTML>\n   + <HTML><BODY><P>Webview body bar</P></BODY></HTML>\n-- <root>\\systems\\coll\\elements\\1\\9\\400.HTM\n   - <P>Deep slot foo</P></BODY></HTML>\n   + <P>Deep slot bar</P></BODY></HTML>\n  will modify: <root>\\systems\\coll\\elements\\5.HTM\n  will modify: <root>\\systems\\coll\\elements\\1\\11.HTM\n  will modify: <root>\\systems\\coll\\elements\\7.HTM\n  will modify: <root>\\systems\\coll\\elements\\2\\25.HTM\n  will modify: <root>\\systems\\coll\\elements\\1\\9\\400.HTM\nDRY RUN: 5 file(s) would change. Re-run with --apply to write.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "d4b450a1e72dc8e68e2c0bfde86a6c8be07195f97cdd4db8bff170ba6a06e9cd"
+    }
+   },
+   {
+    "args": [
+     "html",
+     "replace",
+     "foo",
+     "\u65e5\u672c",
+     "--elements",
+     "5",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "-- <root>\\systems\\coll\\elements\\7.HTM\n   - <P>Caf\u00e9 foo</P></BODY></HTML>\n   + <P>Caf\u00e9 \u65e5\u672c</P></BODY></HTML>\n  will modify: <root>\\systems\\coll\\elements\\7.HTM\nWrote 1 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-html-replace\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "ca87588c72b651cddc86a794737e5836c4870228b7b67b0c32ecc55f9bea3d12",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "74aa8fc5f42b3d19b216ad6cf5c3ef732bc6af5c56c5192c563c63222357669f",
+     "elements/2/25.HTM": "ec3f7944a15b7de0594e9ceb9b7746455e2c4cfe41ddc6ed577be9fcaa04646a",
+     "elements/5.HTM": "8d50070bf89258c50b049b2f3a0b614accd4c35075c399901a13ab7a93976b15",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "html",
+     "replace",
+     "foo",
+     "bar",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "-- <root>\\systems\\coll\\elements\\5.HTM\n   - <P>Alpha foo text</P>\n   + <P>Alpha bar text</P>\n   - ...ize: 12pt; color: red\">Second foo line</P>\n   + ...ize: 12pt; color: red\">Second bar line</P>\n-- <root>\\systems\\coll\\elements\\1\\11.HTM\n   - <P>Question: what is foo?</P>\n   + <P>Question: what is bar?</P>\n-- <root>\\systems\\coll\\elements\\2\\25.HTM\n   - <HTML><BODY><P>Webview body foo</P></BODY></HTML>\n   + <HTML><BODY><P>Webview body bar</P></BODY></HTML>\n-- <root>\\systems\\coll\\elements\\1\\9\\400.HTM\n   - <P>Deep slot foo</P></BODY></HTML>\n   + <P>Deep slot bar</P></BODY></HTML>\n  will modify: <root>\\systems\\coll\\elements\\5.HTM\n  will modify: <root>\\systems\\coll\\elements\\1\\11.HTM\n  will modify: <root>\\systems\\coll\\elements\\2\\25.HTM\n  will modify: <root>\\systems\\coll\\elements\\1\\9\\400.HTM\nWrote 4 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-html-replace-2\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "0c6b661fafed4f5b9dd65b80e5c600abd333916002f6c90041618e462017c9d3",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "html",
+     "replace",
+     "--regex",
+     "--ignore-case",
+     "(f)(oo)",
+     "\\2\\1",
+     "--kind",
+     "item"
+    ],
+    "compare_stderr": true,
+    "stdout": "-- <root>\\systems\\coll\\elements\\1\\12.HTM\n   - ...UND-COLOR: #ff0\">Answer: caf\u00e9 FOO</P>\n   + ...UND-COLOR: #ff0\">Answer: caf\u00e9 OOF</P>\n  will modify: <root>\\systems\\coll\\elements\\1\\12.HTM\nDRY RUN: 1 file(s) would change. Re-run with --apply to write.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "0c6b661fafed4f5b9dd65b80e5c600abd333916002f6c90041618e462017c9d3",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "html",
+     "replace",
+     "nothing-matches",
+     "x"
+    ],
+    "compare_stderr": true,
+    "stdout": "Nothing to change.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "0c6b661fafed4f5b9dd65b80e5c600abd333916002f6c90041618e462017c9d3",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "html",
+     "strip-style",
+     "background-color",
+     "color"
+    ],
+    "compare_stderr": true,
+    "stdout": "-- <root>\\systems\\coll\\elements\\5.HTM\n   - <HTML><BODY style=\"background-color: #fff; color: #000\">\n   + <HTML><BODY>\n   - <P style=\"font-size: 12pt; color: red\">Second bar line</P>\n   + <P style=\"font-size: 12pt\">Second bar line</P>\n-- <root>\\systems\\coll\\elements\\1\\12.HTM\n   - <P style=\"BACKGROUND-COLOR: #ff0\">Answer: caf\u00e9 FOO</P>\n   + <P>Answer: caf\u00e9 FOO</P>\n  will modify: <root>\\systems\\coll\\elements\\5.HTM\n  will modify: <root>\\systems\\coll\\elements\\1\\12.HTM\nDRY RUN: 2 file(s) would change. Re-run with --apply to write.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "493e333b1a2cef09969bf4f643321a1c520e17c98951555d27c91af12f8e3860",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "0c6b661fafed4f5b9dd65b80e5c600abd333916002f6c90041618e462017c9d3",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "html",
+     "strip-style",
+     "background-color",
+     "COLOR",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "-- <root>\\systems\\coll\\elements\\5.HTM\n   - <HTML><BODY style=\"background-color: #fff; color: #000\">\n   + <HTML><BODY>\n   - <P style=\"font-size: 12pt; color: red\">Second bar line</P>\n   + <P style=\"font-size: 12pt\">Second bar line</P>\n-- <root>\\systems\\coll\\elements\\1\\12.HTM\n   - <P style=\"BACKGROUND-COLOR: #ff0\">Answer: caf\u00e9 FOO</P>\n   + <P>Answer: caf\u00e9 FOO</P>\n  will modify: <root>\\systems\\coll\\elements\\5.HTM\n  will modify: <root>\\systems\\coll\\elements\\1\\12.HTM\nWrote 2 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-html-strip-style\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "snapshot",
+     "s1"
+    ],
+    "compare_stderr": true,
+    "stdout": "Snapshot saved: <root>\\smcards-backups\\coll\\snapshots\\s1\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "3096e0b48ddf09a81456ce06be2406ece563d75fba98d89d864283a34588d054",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "element-color",
+     "#778899",
+     "--elements",
+     "2,3",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "2 record(s) selected for element color change.\n  will modify: <root>\\systems\\coll\\info\\compon.dat\nWrote 1 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-element-color-2\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "e0808a772d6ff40984d2e0308dd52cbe13c32a9ac9a77b62c21f160444fe7cab",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "c8689adf0752292d75f32aaaa4d90282c27b01f2d4eb61ceae3746876f01bc0a",
+     "bin/LightMode.css": "f4cbc3c8df10dacd47da16adf11fa46ffb04d5da3313346f1da9429231f663ec",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "css",
+     "set",
+     "BODY",
+     "color",
+     "#222222",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "  will modify: <root>\\bin\\supermemo.css\n  will modify: <root>\\bin\\LightMode.css\nWrote 2 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-css-set-2-3-4\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "e0808a772d6ff40984d2e0308dd52cbe13c32a9ac9a77b62c21f160444fe7cab",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "diff",
+     "s1"
+    ],
+    "compare_stderr": true,
+    "stdout": "== systems\\coll\\info\\compon.dat (671 -> 671 bytes)\n   @167: 11 22 33 -> 77 88 99 item 2 'Beta item question' header+0\n   @285: 11 22 33 -> 77 88 99 item 3 'Gamma inline' header+0\n== bin\\LightMode.css (70 -> 71 bytes)\n   + BODY {background-color: #101010; color: #222222;}\n== bin\\supermemo.css (97 -> 97 bytes)\n   + BODY {background-color: #101010; color: #222222; }\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "e0808a772d6ff40984d2e0308dd52cbe13c32a9ac9a77b62c21f160444fe7cab",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "backups"
+    ],
+    "compare_stderr": true,
+    "stdout": "<ts>-css-set\n<ts>-css-set-2\n<ts>-css-set-2-3\n<ts>-css-set-2-3-4\n<ts>-css-unset\n<ts>-element-color\n<ts>-element-color-2\n<ts>-html-replace\n<ts>-html-replace-2\n<ts>-html-strip-style\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "e0808a772d6ff40984d2e0308dd52cbe13c32a9ac9a77b62c21f160444fe7cab",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "restore",
+     "{backup:element-color#1}"
+    ],
+    "compare_stderr": true,
+    "stdout": "  will modify: <root>\\systems\\coll\\info\\compon.dat\nDRY RUN: 1 file(s) would change. Re-run with --apply to write.\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "e0808a772d6ff40984d2e0308dd52cbe13c32a9ac9a77b62c21f160444fe7cab",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "restore",
+     "{backup:element-color#1}",
+     "--apply"
+    ],
+    "compare_stderr": true,
+    "stdout": "  will modify: <root>\\systems\\coll\\info\\compon.dat\nWrote 1 file(s). Backup: <root>\\smcards-backups\\coll\\<ts>-pre-restore-<ts>-element-color\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "backups"
+    ],
+    "compare_stderr": true,
+    "stdout": "<ts>-css-set\n<ts>-css-set-2\n<ts>-css-set-2-3\n<ts>-css-set-2-3-4\n<ts>-css-unset\n<ts>-element-color\n<ts>-element-color-2\n<ts>-html-replace\n<ts>-html-replace-2\n<ts>-html-strip-style\n<ts>-pre-restore-<ts>-element-color\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "list",
+     "--kind",
+     "item"
+    ],
+    "compare_stderr": true,
+    "stdout": "    # kind     template     el.color  components | title\n    2 item     Item         default   html[1/11.HTM], html[1/12.HTM], text[inline](#FF0000) | Beta item question\n    3 item     Item         default   text[inline](default) | Gamma inline\n    7 item     Item         none      webview[2/25.HTM] | Zeta webview\n    8 item                  system-btnface html[5/60.HTM] | Eta missing file\n   10 item     Item         system-btnshadow html[9/400.HTM] | Iota deep slot\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "--collection",
+     "nomatch",
+     "list"
+    ],
+    "compare_stderr": true,
+    "stdout": "",
+    "stderr": "collection 'nomatch' matched 0: []\n",
+    "code": 1,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "restore",
+     "no-such-backup"
+    ],
+    "compare_stderr": false,
+    "stdout": "",
+    "stderr": "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\tmp\\\\tmpj4oidg9b\\\\SuperMemo\\\\smcards-backups\\\\coll\\\\no-such-backup\\\\manifest.json'\n",
+    "code": 1,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   },
+   {
+    "args": [
+     "diff",
+     "no-such-snapshot"
+    ],
+    "compare_stderr": false,
+    "stdout": "== systems\\coll\\info\\compon.dat (0 -> 671 bytes)\n   @0:  -> 31 d4 30 00 00 00 00 00 01 08 00 05 00 00 ff 00 00 00 00 0d 1e 00 00 00 00 00 00 00 00 00 01 00 template 1 'Item' header+-11\n== systems\\coll\\info\\ElementInfo.dat (0 -> 1298 bytes)\n   @0:  -> 00 00 04 00 00 00 68 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 \n== systems\\coll\\info\\other.dat (0 -> 38 bytes)\n   @0:  -> 73 63 68 65 64 75 6c 69 6e 67 20 64 61 74 61 20 74 68 61 74 20 6d 75 73 74 20 6e 65 76 65 72 20 \n== systems\\coll\\registry\\template.mem (0 -> 90 bytes)\n   @0:  -> 01 00 00 00 00 00 00 00 00 00 01 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 \n== systems\\coll\\registry\\template.rtx (0 -> 18 bytes)\n   @0:  -> 49 74 65 6d 00 54 6f 70 69 63 00 42 65 79 6f 6e 64 00 \n== systems\\coll\\registry\\text.mem (0 -> 660 bytes)\n   @0:  -> 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0b 00 00 00 00 00 00 00 01 00 \n== systems\\coll\\registry\\text.rtx (0 -> 181 bytes)\n   @0:  -> 41 6c 70 68 61 20 74 6f 70 69 63 00 73 68 6f 72 74 20 69 6e 6c 69 6e 65 20 6e 6f 74 65 00 42 65 \n== systems\\coll\\collection.ini (0 -> 27 bytes)\n   + Theme=Windows\n   + [Defaults]\n== bin\\DarkMode.css (0 -> 98 bytes)\n   + .Extract {COLOR: #abcdef;}\n   + .New {color: red;}\n   + BODY {background-color: #202020; color: #dddddd}\n== bin\\LightMode.css (0 -> 71 bytes)\n   + .New {color: red;}\n   + BODY {background-color: #101010; color: #222222;}\n== bin\\supermemo.css (0 -> 97 bytes)\n   + .Cloze {color: #ff0000}\n   + .New {color: red;}\n   + BODY {background-color: #101010; color: #222222; }\n== bin\\supermemo.ini (0 -> 157 bytes)\n   + Collection=<root>\\systems\\coll\n   + Dark mode=0\n   + System1=<root>\\systems\\coll\n   + [SuperMemo]\n   + [Systems]\n   + [Termination]\n",
+    "stderr": "",
+    "code": 0,
+    "files": {
+     "info/compon.dat": "8d5ff1a829766a2375431f683dc570cc37c8b774e40f172e94421626dfc4b4c4",
+     "info/other.dat": "14194b53b75d8258b7ead4ccbe96e8f12ea13e98cb4425628a9f0c892d857866",
+     "bin/supermemo.css": "47fec08cd5d6d0d836e6bc3c9ab1e82cde319dffda9ee43c767f213be292a1ef",
+     "bin/LightMode.css": "0cda8673120ab34d7975985e331b97f921ac34a814cf11dc0e94fd96659538c6",
+     "bin/DarkMode.css": "108f19a04763de3f7f4d43b8e8ad76400cf743023d27fe2139a0143d11e2b805",
+     "elements/1/11.HTM": "5f80227bfe24e5939f983f0a754d6f5226029dc2908dcfa16a78a9c3503f8313",
+     "elements/1/12.HTM": "c62a8607e0900bdfedbb47148dfce490374bc670367ac12f9ff81a134385bf94",
+     "elements/1/9/400.HTM": "24d3f38c249455478e97e1ea7ae45579059423ea882885cc443ba1341890212b",
+     "elements/2/25.HTM": "b3e490b89390e8acc271f996dbd99ec6a8f40c1d6777d079656b028131f251d5",
+     "elements/5.HTM": "3a88674bf3784921a019fb26266c4b555b661996f34da8b9f4e34e06bc5240eb",
+     "elements/7.HTM": "398f2c489b744aaa6540f0d43191548b5c003fef6b32cd0c01ef0a6e004144ec"
+    }
+   }
+  ]
+ }
+}

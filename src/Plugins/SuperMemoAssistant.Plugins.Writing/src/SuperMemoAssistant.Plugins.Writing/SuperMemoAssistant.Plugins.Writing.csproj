@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Incremental writing: compiles a branch into one document and imports a Markdown outline as a branch. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant.Plugins.Writing</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" PrivateAssets="all" />
+    <PackageReference Include="AngleSharp" />
+    <PackageReference Include="Forge.Forms" />
+    <PackageReference Include="Markdig" />
+    <PackageReference Include="ReverseMarkdown" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(RepoRoot)src\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\PluginManager\src\PluginManager.Interop\PluginManager.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Services\SuperMemoAssistant.Services.UI\SuperMemoAssistant.Services.UI.csproj" />
+  </ItemGroup>
+</Project>

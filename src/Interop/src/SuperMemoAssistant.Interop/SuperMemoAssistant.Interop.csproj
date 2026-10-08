@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Public plugin API of SuperMemo Assistant: contracts, base plugin types and shared services. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Title>SuperMemo Assistant Interop</Title>
+    <Description>Enables interactions between SuperMemo Assistant and Plugins.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="Nito.AsyncEx.Coordination" />
+    <PackageReference Include="Serilog" />
+    <PackageReference Include="Serilog.Exceptions" />
+    <PackageReference Include="Serilog.Sinks.Async" />
+    <PackageReference Include="Serilog.Sinks.Debug" />
+    <PackageReference Include="Serilog.Sinks.File" />
+    <PackageReference Include="SuperMemoAssistant.mshtml" />
+    <PackageReference Include="System.Data.OleDb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+    <ProjectReference Include="..\..\..\..\libs\PluginManager\src\PluginManager.Interop\PluginManager.Interop.csproj" />
+    <ProjectReference Include="..\..\..\..\libs\PluginManager\src\PluginManager.Remoting\PluginManager.Remoting.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="SuperMemoAssistant.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="$(RepoRoot)assets\images\icons\concept_icon.jpg" Link="Resources\concept_icon.jpg" />
+    <Resource Include="$(RepoRoot)assets\images\icons\item_icon.jpg" Link="Resources\item_icon.jpg" />
+    <Resource Include="$(RepoRoot)assets\images\icons\topic_icon.jpg" Link="Resources\topic_icon.jpg" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Native messaging host that connects the browser extension to the Import plugin. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant.Plugins.Import</RootNamespace>
+    <OutputType>Exe</OutputType>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="Lyre" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(RepoRoot)src\Plugins\SuperMemoAssistant.Plugins.Import\libs\SuperMemoAssistant.Plugins.Import.Interop\SuperMemoAssistant.Plugins.Import.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SuperMemoAssistant.Plugins.Import.BrowserExtension.Manifest.*.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

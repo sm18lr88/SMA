@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SuperMemoAssistant.Tests</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- UseWPF removes System.IO from the implicit usings; the tests use it throughout. -->
+    <Using Include="System.IO" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="xunit.runner.visualstudio" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\SuperMemoAssistant.Core\SuperMemoAssistant.Core.csproj" />
+    <ProjectReference Include="..\..\Core\SuperMemoAssistant.Hooks.Symbols\SuperMemoAssistant.Hooks.Symbols.csproj" />
+    <ProjectReference Include="..\..\Core\SuperMemoAssistant.Hooks.Common\SuperMemoAssistant.Hooks.Common.csproj" />
+    <ProjectReference Include="..\..\..\libs\PluginManager\src\PluginManager.Remoting\PluginManager.Remoting.csproj" />
+    <ProjectReference Include="..\..\Plugins\SuperMemoAssistant.Plugins.Formulation\src\SuperMemoAssistant.Plugins.Formulation\SuperMemoAssistant.Plugins.Formulation.csproj" />
+    <ProjectReference Include="..\..\Plugins\SuperMemoAssistant.Plugins.Books\src\SuperMemoAssistant.Plugins.Books\SuperMemoAssistant.Plugins.Books.csproj" />
+    <ProjectReference Include="..\..\Plugins\SuperMemoAssistant.Plugins.PDF\libs\SuperMemoAssistant.Pdfium.Wpf\SuperMemoAssistant.Pdfium.Wpf.csproj" />
+    <ProjectReference Include="..\..\Plugins\SuperMemoAssistant.Plugins.PDF\src\SuperMemoAssistant.Plugins.PDF\SuperMemoAssistant.Plugins.PDF.csproj" />
+    <ProjectReference Include="..\..\Tools\SuperMemoAssistant.PluginFeed\SuperMemoAssistant.PluginFeed.csproj" />
+    <ProjectReference Include="..\..\Plugins\SuperMemoAssistant.Plugins.Writing\src\SuperMemoAssistant.Plugins.Writing\SuperMemoAssistant.Plugins.Writing.csproj" />
+    <ProjectReference Include="..\..\Plugins\SuperMemoAssistant.Plugins.Themes\src\SuperMemoAssistant.Plugins.Themes\SuperMemoAssistant.Plugins.Themes.csproj" />
+    <ProjectReference Include="..\..\Plugins\SuperMemoAssistant.Plugins.LocalApi\src\SuperMemoAssistant.Plugins.LocalApi\SuperMemoAssistant.Plugins.LocalApi.csproj" />
+    <ProjectReference Include="..\..\Themes\SuperMemoAssistant.Themes\SuperMemoAssistant.Themes.csproj" />
+  </ItemGroup>
+</Project>

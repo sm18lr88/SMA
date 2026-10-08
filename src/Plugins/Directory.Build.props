@@ -1,0 +1,8 @@
+<Project>
+  <!-- Plugins are loaded at runtime by PluginHost, so each build output must carry its own NuGet dependencies. -->
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+
+  <PropertyGroup>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+</Project>

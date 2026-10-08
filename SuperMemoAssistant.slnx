@@ -1,0 +1,137 @@
+<Solution>
+  <Folder Name="/core/">
+    <Project Path="src/Core/SuperMemoAssistant.Core/SuperMemoAssistant.Core.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Core/SuperMemoAssistant.Hooks.Agent/SuperMemoAssistant.Hooks.Agent.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Core/SuperMemoAssistant.Hooks.Common/SuperMemoAssistant.Hooks.Common.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Core/SuperMemoAssistant.Hooks.Symbols/SuperMemoAssistant.Hooks.Symbols.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Core/SuperMemoAssistant/SuperMemoAssistant.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Interop/src/SuperMemoAssistant.Interop/SuperMemoAssistant.Interop.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Services/SuperMemoAssistant.Services.UI/SuperMemoAssistant.Services.UI.csproj">
+      <Platform Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/interop/" />
+  <Folder Name="/libs/">
+    <Project Path="libs/Extensions.System.IO/src/Extensions.System.IO.csproj" />
+    <Project Path="libs/PluginManager/src/PluginManager.Core/PluginManager.Core.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="libs/PluginManager/src/PluginManager.Interop/PluginManager.Interop.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="libs/PluginManager/src/PluginManager.PluginHost/PluginManager.PluginHost.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="libs/PluginManager/src/PluginManager.Remoting/PluginManager.Remoting.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="libs/Process.NET/src/Process.NET/Process.NET.csproj">
+      <Platform Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/plugins/">
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Books/src/SuperMemoAssistant.Plugins.Books/SuperMemoAssistant.Plugins.Books.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.DevSandbox/SuperMemoAssistant.Plugins.DevSandbox.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Dictionary.Interop/src/SuperMemoAssistant.Plugins.Dictionary.Interop/SuperMemoAssistant.Plugins.Dictionary.Interop.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Dictionary/src/SuperMemoAssistant.Plugins.Dictionary/SuperMemoAssistant.Plugins.Dictionary.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Email/src/SuperMemoAssistant.Plugins.Email/SuperMemoAssistant.Plugins.Email.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Formulation/src/SuperMemoAssistant.Plugins.Formulation/SuperMemoAssistant.Plugins.Formulation.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.ImageOcclusion/src/SuperMemoAssistant.Plugins.ImageOcclusion/SuperMemoAssistant.Plugins.ImageOcclusion.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Import/libs/SuperMemoAssistant.Plugins.Import.BrowserNativeHost/SuperMemoAssistant.Plugins.Import.BrowserNativeHost.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Import/libs/SuperMemoAssistant.Plugins.Import.Interop/SuperMemoAssistant.Plugins.Import.Interop.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Import/src/SuperMemoAssistant.Plugins.Import/SuperMemoAssistant.Plugins.Import.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.LateX/src/SuperMemoAssistant.Plugins.LaTeX/SuperMemoAssistant.Plugins.LaTeX.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.LocalApi/src/SuperMemoAssistant.Plugins.LocalApi/SuperMemoAssistant.Plugins.LocalApi.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.OmniMemo/src/SuperMemoAssistant.Plugins.OmniMemo/SuperMemoAssistant.Plugins.OmniMemo.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.PDF/libs/SuperMemoAssistant.Pdfium/SuperMemoAssistant.Pdfium.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.PDF/libs/SuperMemoAssistant.Pdfium.Wpf/SuperMemoAssistant.Pdfium.Wpf.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.PDF/src/SuperMemoAssistant.Plugins.PDF/SuperMemoAssistant.Plugins.PDF.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Template/src/SuperMemoAssistant.Plugins.Template/SuperMemoAssistant.Plugins.Template.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Themes/src/SuperMemoAssistant.Plugins.Themes/SuperMemoAssistant.Plugins.Themes.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Plugins/SuperMemoAssistant.Plugins.Writing/src/SuperMemoAssistant.Plugins.Writing/SuperMemoAssistant.Plugins.Writing.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Services/SuperMemoAssistant.Services.HTML/SuperMemoAssistant.Services.HTML.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Services/SuperMemoAssistant.Services.Medias.Images/SuperMemoAssistant.Services.Medias.Images.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Services/SuperMemoAssistant.Services.ToastNotifications/SuperMemoAssistant.Services.ToastNotifications.csproj">
+      <Platform Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/services/" />
+  <Folder Name="/themes/">
+    <Project Path="src/Themes/SuperMemoAssistant.Themes/SuperMemoAssistant.Themes.csproj">
+      <Platform Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="src/Tools/SuperMemoAssistant.CardTool/SuperMemoAssistant.CardTool.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Tools/SuperMemoAssistant.PluginFeed/SuperMemoAssistant.PluginFeed.csproj">
+      <Platform Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="src/Tests/SuperMemoAssistant.Tests/SuperMemoAssistant.Tests.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Tests/SuperMemoAssistant.Themes.Tests/SuperMemoAssistant.Themes.Tests.csproj">
+      <Platform Project="x64" />
+    </Project>
+    <Project Path="src/Tests/SuperMemoAssistant.Tests.UiAgent/SuperMemoAssistant.Tests.UiAgent.csproj">
+      <Platform Project="x64" />
+    </Project>
+  </Folder>
+</Solution>

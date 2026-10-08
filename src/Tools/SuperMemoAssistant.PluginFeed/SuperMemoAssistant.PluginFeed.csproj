@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Packs plugins as NuGet packages and writes the static plugin feed that GitHub Pages serves (build\pack-plugins.ps1). -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SuperMemoAssistant.PluginFeed</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Packaging" />
+  </ItemGroup>
+</Project>

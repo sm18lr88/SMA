@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Plugin-side contracts and base classes (PluginBase, PluginHostBase). -->
+  <PropertyGroup>
+    <RootNamespace>PluginManager.Interop</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PluginManager.Shared\**\*.cs" Link="Shared\%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PluginManager.Remoting\PluginManager.Remoting.csproj" />
+  </ItemGroup>
+</Project>

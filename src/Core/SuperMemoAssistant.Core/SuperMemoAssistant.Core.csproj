@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- SMA core: SuperMemo process/agent management, collection registries, plugin management, SMA services. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="AsyncErrorHandler.Fody" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" PrivateAssets="all" />
+    <PackageReference Include="AsyncEvent" />
+    <PackageReference Include="AvalonEdit" />
+    <PackageReference Include="FastMember" />
+    <PackageReference Include="FlaUI.UIA3" />
+    <PackageReference Include="FontAwesome5" />
+    <PackageReference Include="HtmlAgilityPack" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" />
+    <PackageReference Include="morelinq" />
+    <PackageReference Include="QueryString.NET" />
+    <PackageReference Include="Velopack" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+    <ProjectReference Include="..\..\..\libs\PluginManager\src\PluginManager.Core\PluginManager.Core.csproj" />
+    <ProjectReference Include="..\..\..\libs\Process.NET\src\Process.NET\Process.NET.csproj" />
+    <ProjectReference Include="..\..\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
+    <ProjectReference Include="..\..\Services\SuperMemoAssistant.Services.UI\SuperMemoAssistant.Services.UI.csproj" />
+    <ProjectReference Include="..\SuperMemoAssistant.Hooks.Common\SuperMemoAssistant.Hooks.Common.csproj" />
+    <ProjectReference Include="..\SuperMemoAssistant.Hooks.Symbols\SuperMemoAssistant.Hooks.Symbols.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Remove="SuperMemo\Common\Content\Layout\XamlLayouts\GenericLayout.xaml" />
+    <EmbeddedResource Include="SuperMemo\Common\Content\Layout\XamlLayouts\GenericLayout.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="SuperMemoAssistant.Tests" />
+  </ItemGroup>
+</Project>

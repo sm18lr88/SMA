@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Image helpers (PNG encoding via pngcs, format conversions). -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+    <ProjectReference Include="..\..\..\libs\PluginManager\src\PluginManager.Interop\PluginManager.Interop.csproj" />
+    <ProjectReference Include="..\..\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\libs\pngcs\**\*.cs" Link="pngcs\%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

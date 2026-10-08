@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- SuperMemoAssistant.exe: composition root (Program.Main), WPF shell, setup wizard, tray icon. -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>SuperMemoAssistant</RootNamespace>
+    <StartupObject>SuperMemoAssistant.Program</StartupObject>
+    <ApplicationIcon>$(RepoRoot)assets\images\icons\robot.ico</ApplicationIcon>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <!-- Development builds run from artifacts\app-dev (see SMAExecutableInfo); installs use Velopack's "current" folder. -->
+    <OutputPath>$(RepoRoot)artifacts\app-dev\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" PrivateAssets="all" />
+    <PackageReference Include="CommandLineParser" />
+    <PackageReference Include="FontAwesome5" />
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" />
+    <PackageReference Include="Markdig.Wpf" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" />
+    <PackageReference Include="QueryString.NET" />
+    <PackageReference Include="Velopack" />
+    <PackageReference Include="WpfAnimatedGif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuperMemoAssistant.Core\SuperMemoAssistant.Core.csproj" />
+    <ProjectReference Include="..\..\..\libs\PluginManager\src\PluginManager.PluginHost\PluginManager.PluginHost.csproj"
+                      ReferenceOutputAssembly="false" Private="false" />
+    <ProjectReference Include="..\SuperMemoAssistant.Hooks.Agent\SuperMemoAssistant.Hooks.Agent.csproj"
+                      ReferenceOutputAssembly="false" Private="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="$(RepoRoot)assets\images\icons\robot.ico" Link="Resources\robot.ico" />
+    <Resource Include="$(RepoRoot)assets\images\icons\robot-64.png" Link="Resources\robot-64.png" />
+    <Resource Include="$(RepoRoot)assets\images\icons\plugin-default.png" Link="Resources\plugin-default.png" />
+    <Resource Include="$(RepoRoot)assets\images\animations\robot-flashing.gif" Link="Resources\robot-flashing.gif" />
+    <EmbeddedResource Include="$(RepoRoot)ChangeLogs" Link="Resources\ChangeLogs" />
+    <Content Include="$(RepoRoot)assets\data\quotes.tsv" Link="quotes.tsv" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- The SuperMemo agent is a NativeAOT DLL and PluginHost.exe a separate app: both ship next to SuperMemoAssistant.exe. -->
+  <Target Name="PublishSidecarsToPublishDir" AfterTargets="Publish">
+    <MSBuild Projects="..\SuperMemoAssistant.Hooks.Agent\SuperMemoAssistant.Hooks.Agent.csproj"
+             Targets="Publish"
+             Properties="Configuration=$(Configuration);PublishDir=$(PublishDir);SelfContained=true" />
+    <MSBuild Projects="..\..\..\libs\PluginManager\src\PluginManager.PluginHost\PluginManager.PluginHost.csproj"
+             Targets="Build"
+             Properties="Configuration=$(Configuration);OutDir=$(PublishDir)" />
+  </Target>
+
+  <Target Name="PublishSidecars" AfterTargets="Build">
+    <MSBuild Projects="..\SuperMemoAssistant.Hooks.Agent\SuperMemoAssistant.Hooks.Agent.csproj"
+             Targets="Publish"
+             Properties="Configuration=$(Configuration);PublishDir=$(OutDir)" />
+    <MSBuild Projects="..\..\..\libs\PluginManager\src\PluginManager.PluginHost\PluginManager.PluginHost.csproj"
+             Targets="Build"
+             Properties="Configuration=$(Configuration);OutDir=$(OutDir)" />
+  </Target>
+</Project>

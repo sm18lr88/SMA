@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Managed object model over the PDFium C API (pdfium.dll from bblanchon.PDFium.Win32, Apache-2.0). -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant.Pdfium</RootNamespace>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="bblanchon.PDFium.Win32" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="SuperMemoAssistant.Tests" />
+  </ItemGroup>
+</Project>

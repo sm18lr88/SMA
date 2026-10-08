@@ -1,0 +1,178 @@
+{
+  "BuildId": "x64-6A2496CE-00C63200",
+  "Methods": {
+    "ElWdw_GoToElement": {
+      "Rva": 11442800,
+      "ReturnKind": "None"
+    },
+    "ElWdw_PasteElement": {
+      "Rva": 11493328,
+      "ReturnKind": "None"
+    },
+    "ElWdw_AppendElement": {
+      "Rva": 11479440,
+      "ReturnKind": "Int32"
+    },
+    "ElWdw_GenerateExtract": {
+      "Rva": 11789872,
+      "ReturnKind": "Int32"
+    },
+    "ElWdw_GenerateClozeDeletion": {
+      "Rva": 11690640,
+      "ReturnKind": "None"
+    },
+    "ElWdw_AddElementFromText": {
+      "Rva": 11557424,
+      "ReturnKind": "None"
+    },
+    "ElWdw_DeleteCurrentElement": {
+      "Rva": 11476256,
+      "ReturnKind": "None"
+    },
+    "ElWdw_GetText": {
+      "Rva": 11659920,
+      "ReturnKind": "None"
+    },
+    "ElWdw_EnterUpdateLock": {
+      "Rva": 11776512,
+      "ReturnKind": "None"
+    },
+    "ElWdw_QuitUpdateLock": {
+      "Rva": 11776608,
+      "ReturnKind": "None"
+    },
+    "ElWdw_PasteArticle": {
+      "Rva": 11587264,
+      "ReturnKind": "None"
+    },
+    "ElWdw_NextElementInLearningQueue": {
+      "Rva": 11700480,
+      "ReturnKind": "None"
+    },
+    "ElWdw_SetElementState": {
+      "Rva": 11699760,
+      "ReturnKind": "None"
+    },
+    "ElWdw_ScheduleInInterval": {
+      "Rva": 11552288,
+      "ReturnKind": "None"
+    },
+    "ElWdw_ExecuteUncommittedRepetition": {
+      "Rva": 11671888,
+      "ReturnKind": "Byte"
+    },
+    "ElWdw_ForceRepetitionExt": {
+      "Rva": 11590768,
+      "ReturnKind": "None"
+    },
+    "ElWdw_NewTemplate": {
+      "Rva": 11692256,
+      "ReturnKind": "None"
+    },
+    "TCompData_GetType": {
+      "Rva": 10411488,
+      "ReturnKind": "Byte"
+    },
+    "TCompData_GetText": {
+      "Rva": 10447808,
+      "ReturnKind": "None"
+    },
+    "TCompData_SetText": {
+      "Rva": 10480688,
+      "ReturnKind": "None"
+    },
+    "TCompData_GetTextRegMember": {
+      "Rva": 10489504,
+      "ReturnKind": "Int32"
+    },
+    "TCompData_SetTextRegMember": {
+      "Rva": 10499168,
+      "ReturnKind": "Byte"
+    },
+    "TCompData_GetImageRegMember": {
+      "Rva": 10415056,
+      "ReturnKind": "Int32"
+    },
+    "TCompData_SetImageRegMember": {
+      "Rva": 10415120,
+      "ReturnKind": "Byte"
+    },
+    "TSMMain_SelectDefaultConcept": {
+      "Rva": 10966272,
+      "ReturnKind": "None"
+    },
+    "TSMMain_NewTitle": {
+      "Rva": 10948400,
+      "ReturnKind": "Int32"
+    },
+    "TRegistry_AddMember": {
+      "Rva": 10268960,
+      "ReturnKind": "Int32"
+    },
+    "TRegistry_ImportFile": {
+      "Rva": 10241056,
+      "ReturnKind": "Int32"
+    },
+    "FileSpace_GetTopSlot": {
+      "Rva": 9658048,
+      "ReturnKind": "Int32"
+    },
+    "FileSpace_IsSlotOccupied": {
+      "Rva": 9656944,
+      "ReturnKind": "Byte"
+    },
+    "Queue_GetItem": {
+      "Rva": 10602368,
+      "ReturnKind": "Int32"
+    },
+    "ElWdw_Done": {
+      "Rva": 11804720,
+      "ReturnKind": "None"
+    },
+    "ElWdw_RestoreLearningMode": {
+      "Rva": 11479408,
+      "ReturnKind": "None"
+    }
+  },
+  "Pointers": {
+    "ElWdw_ElementIdPtr": 7097,
+    "ElWdw_ObjectsPtr": 8051,
+    "ElWdw_ComponentsDataPtr": 8851,
+    "ElWdw_RecentGradePtr": 8859,
+    "ElWdw_FocusedComponentPtr": 9195,
+    "ElWdw_LearningModePtr": 9201,
+    "Registry_FileSpaceInstance": 16,
+    "Registry_TextRegistryInstance": 1401,
+    "Registry_ImageRegistryInstance": 1449,
+    "Registry_SoundRegistryInstance": 1457,
+    "Registry_VideoRegistryInstance": 1465,
+    "Registry_BinaryRegistryInstance": 1489,
+    "Registry_TemplateRegistryInstance": 1497,
+    "Registry_ConceptRegistryInstance": 1529,
+    "FileSpace_EmptySlotsOffset": 16,
+    "FileSpace_AllocatedSlotsOffset": 48,
+    "ElWdw_ComponentData_ComponentDataArrOffset": 75,
+    "ElWdw_ComponentData_ComponentCountPtr": 14,
+    "ElWdw_ComponentData_IsModifiedPtr": 31,
+    "Control_ParentOffset": 120,
+    "Control_WindowProcOffset": 128,
+    "Control_LeftOffset": 144,
+    "Control_TopOffset": 148,
+    "Control_WidthOffset": 152,
+    "Control_HeightOffset": 156,
+    "Control_HandleOffset": 1168,
+    "Queue_SizeOffset": 9,
+    "Application_OnMessageOffset": 512,
+    "ElWdw_ComponentData_ComponentDataArrItemLength": 17,
+    "SMMain_InstancePtr": 15395312,
+    "ElWdw_InstancePtr": 15395728,
+    "Application_InstancePtr": 14045104,
+    "Database_InstancePtr": 15393792,
+    "Globals_LimitChildrenCountPtr": 15067640,
+    "Globals_IgnoreUserConfirmationPtr": 15394880,
+    "Globals_CurrentConceptGroupIdPtr": 15067644,
+    "Globals_CurrentRootIdPtr": 15067648,
+    "Globals_CurrentHookIdPtr": 15067652,
+    "Globals_CurrentConceptIdPtr": 15067676
+  }
+}

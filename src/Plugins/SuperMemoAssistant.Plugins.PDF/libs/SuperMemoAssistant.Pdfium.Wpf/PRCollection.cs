@@ -1,0 +1,209 @@
+using System;
+using System.Collections.Generic;
+using SuperMemoAssistant.Pdfium;
+using System.Windows;
+using System.Windows.Media;
+
+namespace SuperMemoAssistant.Pdfium.Wpf
+{
+	public class PRCollection : Dictionary<PdfPage, PRItem>
+	{
+        internal event EventHandler<EventArgs<Int32Rect>> PaintBackground = null;
+        private PdfBitmap _canvasBitmap = null;
+		private int _waitTime;
+		private long _prevTicks;
+
+		public PdfBitmap CanvasBitmap { get { return _canvasBitmap; } }
+		public Helpers.Int32Size CanvasSize { get; private set; }
+
+
+		public void InitCanvas(Helpers.Int32Size size)
+		{
+			if (_canvasBitmap == null)
+			{
+				_canvasBitmap = new PdfBitmap(size.Width, size.Height, false);
+				CanvasSize = size;
+			}
+
+			_waitTime = 70;
+			_prevTicks = DateTime.Now.Ticks;
+		}
+
+		public void ReleaseCanvas()
+		{
+			foreach (var i in this)
+				ReleasePage(i.Key);
+			this.Clear();
+
+			if (_canvasBitmap != null)
+				_canvasBitmap.Dispose();
+			_canvasBitmap = null;
+
+		}
+
+		/// <summary>
+		/// Checks whether all visible pages are rendered
+		/// </summary>
+		/// <value>True if they still need to be painted, False otherwise.</value>
+		public bool IsNeedContinuePaint
+		{
+			get
+			{
+				foreach (var item in this)
+					if (item.Value.status == ProgressiveStatus.ToBeContinued
+						|| item.Value.status == ProgressiveStatus.Ready)
+						return true;
+				return false;
+			}
+		}
+
+		/// <summary>
+		/// Checks whether rendering should be paused and control should be returned to UI thread.
+		/// </summary>
+		/// <returns>True means that application shoul continue painting.</returns>
+		internal bool IsNeedPause(PdfPage page)
+		{
+			if (!this.ContainsKey(page))
+				return false;
+
+			var currentTicks = DateTime.Now.Ticks;
+			var ms = TimeSpan.FromTicks(currentTicks - _prevTicks).Milliseconds;
+			var ret = ms > _waitTime;
+			return ret;
+		}
+
+		/// <summary>
+		/// Start/Continue progressive rendering for specified page
+		/// </summary>
+		/// <param name="page">Pdf page object</param>
+		/// <param name="pageRect">Actual page's rectangle. </param>
+		/// <param name="pageRotate">Page orientation: 0 (normal), 1 (rotated 90 degrees clockwise), 2 (rotated 180 degrees), 3 (rotated 90 degrees counter-clockwise).</param>
+		/// <param name="renderFlags">0 for normal display, or combination of flags defined above.</param>
+		/// <param name="useProgressiveRender">True for use progressive render</param>
+		/// <returns>Null if page still painting, PdfBitmap object if page successfully rendered.</returns>
+		internal bool RenderPage(PdfPage page, Int32Rect pageRect, PageRotate pageRotate, RenderFlags renderFlags, bool useProgressiveRender)
+		{
+			if (!this.ContainsKey(page))
+            {
+                ProcessNew(page); //Add new page into collection
+                if (PaintBackground != null)
+                    PaintBackground(this, new EventArgs<Int32Rect>(pageRect));
+            }
+
+            if ((renderFlags & RenderFlags.Thumbnail) != 0)
+				this[page].status = ProgressiveStatus.Done + 4;
+			else if (!useProgressiveRender)
+				this[page].status = ProgressiveStatus.Done + 3;
+
+            PdfBitmap bitmap = this[page].Bitmap;
+            bool ret = ProcessExisting(bitmap ?? CanvasBitmap, page, pageRect, pageRotate, renderFlags);
+            if (bitmap != null)
+                CanvasBitmap.CompositeOver(bitmap, pageRect.X, pageRect.Y, pageRect.Width, pageRect.Height);
+            return ret;
+        }
+
+        /// <summary>
+        /// Process existing pages
+        /// </summary>
+        /// <returns>Null if page still painting, PdfBitmap object if page successfully rendered.</returns>
+        private bool ProcessExisting(PdfBitmap bitmap, PdfPage page, Int32Rect pageRect, PageRotate pageRotate, RenderFlags renderFlags)
+		{
+            switch (this[page].status)
+			{
+				case ProgressiveStatus.Ready:
+					this[page].status = page.StartProgressiveRender(bitmap, pageRect.X, pageRect.Y, pageRect.Width, pageRect.Height, pageRotate, renderFlags);
+					if (this[page].status == ProgressiveStatus.Done)
+						return true;
+					return false; //Start rendering. Return nothing.
+
+				case ProgressiveStatus.Done:
+					page.CancelProgressiveRender();
+					this[page].status = ProgressiveStatus.Done + 2;
+					return true; //Stop rendering. Return image.
+
+				case ProgressiveStatus.Done + 2:
+					return true; //Rendering already stoped. return image
+
+				case ProgressiveStatus.Done + 3:
+					this[page].status = ProgressiveStatus.Done + 2;
+					page.Render(bitmap, pageRect.X, pageRect.Y, pageRect.Width, pageRect.Height, pageRotate, renderFlags);
+					return true; //Rendering in non progressive mode
+
+				case ProgressiveStatus.Done + 4:
+					this[page].status = ProgressiveStatus.Done + 2;
+					DrawThumbnail(bitmap, page, pageRect, pageRotate, renderFlags);
+					return true; //Rendering thumbnails
+
+				case ProgressiveStatus.ToBeContinued:
+					this[page].status = page.ContinueProgressiveRender();
+					return false; //Continue rendering. Return nothing.
+
+				case ProgressiveStatus.Failed:
+				default:
+                    bitmap.BlendRect(pageRect.X, pageRect.Y, pageRect.Width, pageRect.Height, Helpers.ToArgb(Colors.Red));
+                    bitmap.BlendRect(pageRect.X + 5, pageRect.Y + 5, pageRect.Width - 10, pageRect.Height - 10, Helpers.ToArgb(Colors.White));
+					page.CancelProgressiveRender();
+					this[page].status = ProgressiveStatus.Done + 2;
+					return true; //An error has occurred. Stop rendering. return special image
+			}
+		}
+
+		private void DrawThumbnail(PdfBitmap bitmap, PdfPage page, Int32Rect pageRect, PageRotate pageRotate, RenderFlags renderFlags)
+		{
+			int w = Math.Max((int)page.Width, pageRect.Width);
+			int h = Math.Max((int)page.Height, pageRect.Height);
+			using (var bmp = new PdfBitmap(w, h, true))
+			{
+				page.Render(bmp, 0, 0, w, h, pageRotate, renderFlags);
+
+				using (var g = System.Drawing.Graphics.FromImage(bitmap.GetImage()))
+				{
+					g.DrawImage(bmp.GetImage(), pageRect.X, pageRect.Y, pageRect.Width, pageRect.Height);
+				}
+			}
+		}
+
+
+		/// <summary>
+		/// Adds page into collection
+		/// </summary>
+		private void ProcessNew(PdfPage page)
+		{
+            var item = new PRItem(ProgressiveStatus.Ready, page.HasTransparency ? CanvasSize : new Helpers.Int32Size(0, 0));
+			this.Add(page, item);
+			page.Disposed += Page_Disposed;
+		}
+
+		/// <summary>
+		/// Delete page from colection
+		/// </summary>
+		private void PageRemove(PdfPage page)
+		{
+			if (this.ContainsKey(page))
+			{
+				ReleasePage(page);
+				this.Remove(page);
+			}
+		}
+		
+		/// <summary>
+		/// Stops progressive rendering if need and unsubscribe events
+		/// </summary>
+		private void ReleasePage(PdfPage page)
+		{
+			if (this[page].status == ProgressiveStatus.ToBeContinued)
+				page.CancelProgressiveRender();
+            this[page].Dispose();
+			page.Disposed -= Page_Disposed;
+		}
+
+		/// <summary>
+		/// Occurs then the page is disposed
+		/// </summary>
+		private void Page_Disposed(object sender, EventArgs e)
+		{
+			PageRemove(sender as PdfPage);
+		}
+
+	}
+}

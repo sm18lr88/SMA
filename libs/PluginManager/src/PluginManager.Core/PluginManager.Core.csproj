@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Host-side plugin manager: plugin packages (NuGet), PluginHost processes, service registry. -->
+  <PropertyGroup>
+    <RootNamespace>PluginManager</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PluginManager.Shared.MgrHost\**\*.cs" Link="Shared\%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Custom.Fody" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" PrivateAssets="all" />
+    <PackageReference Include="CommandLineParser" />
+    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="Nito.AsyncEx" />
+    <PackageReference Include="NuGet.PackageManagement" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PluginManager.Interop\PluginManager.Interop.csproj" />
+    <ProjectReference Include="..\PluginManager.Remoting\PluginManager.Remoting.csproj" />
+    <ProjectReference Include="..\..\..\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+  </ItemGroup>
+</Project>

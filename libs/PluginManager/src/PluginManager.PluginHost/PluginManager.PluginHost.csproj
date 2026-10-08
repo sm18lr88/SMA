@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- PluginHost.exe: one process per plugin; loads the plugin assembly and its PluginHost entry type. -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>PluginHost</AssemblyName>
+    <RootNamespace>PluginHost</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PluginManager.Shared\**\*.cs" Link="Shared\%(RecursiveDir)%(Filename)%(Extension)" />
+    <Compile Include="..\PluginManager.Shared.MgrHost\**\*.cs" Link="Shared\%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" />
+  </ItemGroup>
+</Project>

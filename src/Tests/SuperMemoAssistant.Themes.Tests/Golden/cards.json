@@ -1,0 +1,5224 @@
+{
+ "css_set": [
+  {
+   "css": "",
+   "selector": "BODY",
+   "prop": "color",
+   "value": "#111111",
+   "out": "BODY {color: #111111;}\n"
+  },
+  {
+   "css": "",
+   "selector": "body",
+   "prop": "background-color",
+   "value": "#222222",
+   "out": "body {background-color: #222222;}\n"
+  },
+  {
+   "css": "",
+   "selector": ".Cloze",
+   "prop": "color",
+   "value": null,
+   "out": ""
+  },
+  {
+   "css": "",
+   "selector": ".New",
+   "prop": "color",
+   "value": "#333333",
+   "out": ".New {color: #333333;}\n"
+  },
+  {
+   "css": "",
+   "selector": "A",
+   "prop": "color",
+   "value": "#444444",
+   "out": "A {color: #444444;}\n"
+  },
+  {
+   "css": "",
+   "selector": ".Cloze",
+   "prop": "background-color",
+   "value": "#555555",
+   "out": ".Cloze {background-color: #555555;}\n"
+  },
+  {
+   "css": "",
+   "selector": "BODY",
+   "prop": "font-size",
+   "value": "10pt",
+   "out": "BODY {font-size: 10pt;}\n"
+  },
+  {
+   "css": "",
+   "selector": ".Missing",
+   "prop": "color",
+   "value": null,
+   "out": ""
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "selector": "BODY",
+   "prop": "color",
+   "value": "#111111",
+   "out": "BODY {color: #111111;}\n"
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "selector": "body",
+   "prop": "background-color",
+   "value": "#222222",
+   "out": "BODY {color: red; background-color: #222222;}\n"
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "selector": ".Cloze",
+   "prop": "color",
+   "value": null,
+   "out": "BODY {color: red}\n"
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "selector": ".New",
+   "prop": "color",
+   "value": "#333333",
+   "out": "BODY {color: red}\n.New {color: #333333;}\n"
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "selector": "A",
+   "prop": "color",
+   "value": "#444444",
+   "out": "BODY {color: red}\nA {color: #444444;}\n"
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "selector": ".Cloze",
+   "prop": "background-color",
+   "value": "#555555",
+   "out": "BODY {color: red}\n.Cloze {background-color: #555555;}\n"
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "selector": "BODY",
+   "prop": "font-size",
+   "value": "10pt",
+   "out": "BODY {color: red; font-size: 10pt;}\n"
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "selector": ".Missing",
+   "prop": "color",
+   "value": null,
+   "out": "BODY {color: red}\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "selector": "BODY",
+   "prop": "color",
+   "value": "#111111",
+   "out": "body { COLOR: #111111; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "selector": "body",
+   "prop": "background-color",
+   "value": "#222222",
+   "out": "body { COLOR: #123456; BACKGROUND-COLOR: #222222;}\r\n.Cloze { font-weight: bold }\r\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "selector": ".Cloze",
+   "prop": "color",
+   "value": null,
+   "out": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "selector": ".New",
+   "prop": "color",
+   "value": "#333333",
+   "out": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n.New {color: #333333;}\r\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "selector": "A",
+   "prop": "color",
+   "value": "#444444",
+   "out": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\nA {color: #444444;}\r\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "selector": ".Cloze",
+   "prop": "background-color",
+   "value": "#555555",
+   "out": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold; background-color: #555555;}\r\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "selector": "BODY",
+   "prop": "font-size",
+   "value": "10pt",
+   "out": "body { COLOR: #123456; BACKGROUND-COLOR: white; FONT-SIZE: 10pt;}\r\n.Cloze { font-weight: bold }\r\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "selector": ".Missing",
+   "prop": "color",
+   "value": null,
+   "out": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "selector": "BODY",
+   "prop": "color",
+   "value": "#111111",
+   "out": ".Cloze{background-color:#000;color:#fff;}\nBODY {color: #111111;}\n"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "selector": "body",
+   "prop": "background-color",
+   "value": "#222222",
+   "out": ".Cloze{background-color:#000;color:#fff;}\nbody {background-color: #222222;}\n"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "selector": ".Cloze",
+   "prop": "color",
+   "value": null,
+   "out": ".Cloze{background-color:#000;}"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "selector": ".New",
+   "prop": "color",
+   "value": "#333333",
+   "out": ".Cloze{background-color:#000;color:#fff;}\n.New {color: #333333;}\n"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "selector": "A",
+   "prop": "color",
+   "value": "#444444",
+   "out": ".Cloze{background-color:#000;color:#fff;}\nA {color: #444444;}\n"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "selector": ".Cloze",
+   "prop": "background-color",
+   "value": "#555555",
+   "out": ".Cloze{background-color: #555555;color:#fff;}"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "selector": "BODY",
+   "prop": "font-size",
+   "value": "10pt",
+   "out": ".Cloze{background-color:#000;color:#fff;}\nBODY {font-size: 10pt;}\n"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "selector": ".Missing",
+   "prop": "color",
+   "value": null,
+   "out": ".Cloze{background-color:#000;color:#fff;}"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "selector": "BODY",
+   "prop": "color",
+   "value": "#111111",
+   "out": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }\nBODY {color: #111111;}\n"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "selector": "body",
+   "prop": "background-color",
+   "value": "#222222",
+   "out": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }\nbody {background-color: #222222;}\n"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "selector": ".Cloze",
+   "prop": "color",
+   "value": null,
+   "out": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "selector": ".New",
+   "prop": "color",
+   "value": "#333333",
+   "out": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }\n.New {color: #333333;}\n"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "selector": "A",
+   "prop": "color",
+   "value": "#444444",
+   "out": "A { text-decoration: none; color: #444444;}\n/* comment */\n.Extract { margin: 0 }"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "selector": ".Cloze",
+   "prop": "background-color",
+   "value": "#555555",
+   "out": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }\n.Cloze {background-color: #555555;}\n"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "selector": "BODY",
+   "prop": "font-size",
+   "value": "10pt",
+   "out": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }\nBODY {font-size: 10pt;}\n"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "selector": ".Missing",
+   "prop": "color",
+   "value": null,
+   "out": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "selector": "BODY",
+   "prop": "color",
+   "value": "#111111",
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt; COLOR: #111111;}\n"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "selector": "body",
+   "prop": "background-color",
+   "value": "#222222",
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt; BACKGROUND-COLOR: #222222;}\n"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "selector": ".Cloze",
+   "prop": "color",
+   "value": null,
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "selector": ".New",
+   "prop": "color",
+   "value": "#333333",
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n.New {color: #333333;}\n"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "selector": "A",
+   "prop": "color",
+   "value": "#444444",
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\nA {color: #444444;}\n"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "selector": ".Cloze",
+   "prop": "background-color",
+   "value": "#555555",
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n.Cloze {background-color: #555555;}\n"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "selector": "BODY",
+   "prop": "font-size",
+   "value": "10pt",
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 10pt;}\n"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "selector": ".Missing",
+   "prop": "color",
+   "value": null,
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "selector": "BODY",
+   "prop": "color",
+   "value": "#111111",
+   "out": "BODY { color: #111111; }\nBODY { color: blue; }"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "selector": "body",
+   "prop": "background-color",
+   "value": "#222222",
+   "out": "BODY { color : red ; background-color: #222222;}\nBODY { color: blue; }"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "selector": ".Cloze",
+   "prop": "color",
+   "value": null,
+   "out": "BODY { color : red ; }\nBODY { color: blue; }"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "selector": ".New",
+   "prop": "color",
+   "value": "#333333",
+   "out": "BODY { color : red ; }\nBODY { color: blue; }\n.New {color: #333333;}\n"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "selector": "A",
+   "prop": "color",
+   "value": "#444444",
+   "out": "BODY { color : red ; }\nBODY { color: blue; }\nA {color: #444444;}\n"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "selector": ".Cloze",
+   "prop": "background-color",
+   "value": "#555555",
+   "out": "BODY { color : red ; }\nBODY { color: blue; }\n.Cloze {background-color: #555555;}\n"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "selector": "BODY",
+   "prop": "font-size",
+   "value": "10pt",
+   "out": "BODY { color : red ; font-size: 10pt;}\nBODY { color: blue; }"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "selector": ".Missing",
+   "prop": "color",
+   "value": null,
+   "out": "BODY { color : red ; }\nBODY { color: blue; }"
+  }
+ ],
+ "ini_set": [
+  {
+   "text": "[Defaults]\r\nTheme=Windows\r\nDark Theme=Dark\r\n\r\n[Other]\r\nA=1\r\n",
+   "section": "Defaults",
+   "key": "Theme",
+   "value": "New Theme",
+   "out": "[Defaults]\r\nTheme=New Theme\r\nDark Theme=Dark\r\n\r\n[Other]\r\nA=1\r\n"
+  },
+  {
+   "text": "[Defaults]\r\nTheme=Windows\r\nDark Theme=Dark\r\n\r\n[Other]\r\nA=1\r\n",
+   "section": "Defaults",
+   "key": "Dark Theme",
+   "value": "Dark X",
+   "out": "[Defaults]\r\nTheme=Windows\r\nDark Theme=Dark X\r\n\r\n[Other]\r\nA=1\r\n"
+  },
+  {
+   "text": "[Defaults]\r\nTheme=Windows\r\nDark Theme=Dark\r\n\r\n[Other]\r\nA=1\r\n",
+   "section": "SuperMemo",
+   "key": "Dark mode",
+   "value": "1",
+   "out": "[Defaults]\r\nTheme=Windows\r\nDark Theme=Dark\r\n\r\n[Other]\r\nA=1\r\n[SuperMemo]\r\nDark mode=1\r\n"
+  },
+  {
+   "text": "[Defaults]\r\nTheme=Windows\r\nDark Theme=Dark\r\n\r\n[Other]\r\nA=1\r\n",
+   "section": "Missing",
+   "key": "Key",
+   "value": "v",
+   "out": "[Defaults]\r\nTheme=Windows\r\nDark Theme=Dark\r\n\r\n[Other]\r\nA=1\r\n[Missing]\r\nKey=v\r\n"
+  },
+  {
+   "text": "[Defaults]\nTheme=Windows\n",
+   "section": "Defaults",
+   "key": "Theme",
+   "value": "New Theme",
+   "out": "[Defaults]\nTheme=New Theme\n"
+  },
+  {
+   "text": "[Defaults]\nTheme=Windows\n",
+   "section": "Defaults",
+   "key": "Dark Theme",
+   "value": "Dark X",
+   "out": "[Defaults]\nTheme=Windows\nDark Theme=Dark X\n"
+  },
+  {
+   "text": "[Defaults]\nTheme=Windows\n",
+   "section": "SuperMemo",
+   "key": "Dark mode",
+   "value": "1",
+   "out": "[Defaults]\nTheme=Windows\n[SuperMemo]\nDark mode=1\n"
+  },
+  {
+   "text": "[Defaults]\nTheme=Windows\n",
+   "section": "Missing",
+   "key": "Key",
+   "value": "v",
+   "out": "[Defaults]\nTheme=Windows\n[Missing]\nKey=v\n"
+  },
+  {
+   "text": "[SuperMemo]\nDark mode=0\n[Next]\nX=1",
+   "section": "Defaults",
+   "key": "Theme",
+   "value": "New Theme",
+   "out": "[SuperMemo]\nDark mode=0\n[Next]\nX=1\n[Defaults]\nTheme=New Theme\n"
+  },
+  {
+   "text": "[SuperMemo]\nDark mode=0\n[Next]\nX=1",
+   "section": "Defaults",
+   "key": "Dark Theme",
+   "value": "Dark X",
+   "out": "[SuperMemo]\nDark mode=0\n[Next]\nX=1\n[Defaults]\nDark Theme=Dark X\n"
+  },
+  {
+   "text": "[SuperMemo]\nDark mode=0\n[Next]\nX=1",
+   "section": "SuperMemo",
+   "key": "Dark mode",
+   "value": "1",
+   "out": "[SuperMemo]\nDark mode=1\n[Next]\nX=1"
+  },
+  {
+   "text": "[SuperMemo]\nDark mode=0\n[Next]\nX=1",
+   "section": "Missing",
+   "key": "Key",
+   "value": "v",
+   "out": "[SuperMemo]\nDark mode=0\n[Next]\nX=1\n[Missing]\nKey=v\n"
+  },
+  {
+   "text": "",
+   "section": "Defaults",
+   "key": "Theme",
+   "value": "New Theme",
+   "out": "\n[Defaults]\nTheme=New Theme\n"
+  },
+  {
+   "text": "",
+   "section": "Defaults",
+   "key": "Dark Theme",
+   "value": "Dark X",
+   "out": "\n[Defaults]\nDark Theme=Dark X\n"
+  },
+  {
+   "text": "",
+   "section": "SuperMemo",
+   "key": "Dark mode",
+   "value": "1",
+   "out": "\n[SuperMemo]\nDark mode=1\n"
+  },
+  {
+   "text": "",
+   "section": "Missing",
+   "key": "Key",
+   "value": "v",
+   "out": "\n[Missing]\nKey=v\n"
+  },
+  {
+   "text": "[Termination]\nCollection=abc\n",
+   "section": "Defaults",
+   "key": "Theme",
+   "value": "New Theme",
+   "out": "[Termination]\nCollection=abc\n[Defaults]\nTheme=New Theme\n"
+  },
+  {
+   "text": "[Termination]\nCollection=abc\n",
+   "section": "Defaults",
+   "key": "Dark Theme",
+   "value": "Dark X",
+   "out": "[Termination]\nCollection=abc\n[Defaults]\nDark Theme=Dark X\n"
+  },
+  {
+   "text": "[Termination]\nCollection=abc\n",
+   "section": "SuperMemo",
+   "key": "Dark mode",
+   "value": "1",
+   "out": "[Termination]\nCollection=abc\n[SuperMemo]\nDark mode=1\n"
+  },
+  {
+   "text": "[Termination]\nCollection=abc\n",
+   "section": "Missing",
+   "key": "Key",
+   "value": "v",
+   "out": "[Termination]\nCollection=abc\n[Missing]\nKey=v\n"
+  },
+  {
+   "text": "[defaults]\ntheme=old\n\n[x]\ny=z\n",
+   "section": "Defaults",
+   "key": "Theme",
+   "value": "New Theme",
+   "out": "[defaults]\nTheme=New Theme\n\n[x]\ny=z\n"
+  },
+  {
+   "text": "[defaults]\ntheme=old\n\n[x]\ny=z\n",
+   "section": "Defaults",
+   "key": "Dark Theme",
+   "value": "Dark X",
+   "out": "[defaults]\ntheme=old\nDark Theme=Dark X\n\n[x]\ny=z\n"
+  },
+  {
+   "text": "[defaults]\ntheme=old\n\n[x]\ny=z\n",
+   "section": "SuperMemo",
+   "key": "Dark mode",
+   "value": "1",
+   "out": "[defaults]\ntheme=old\n\n[x]\ny=z\n[SuperMemo]\nDark mode=1\n"
+  },
+  {
+   "text": "[defaults]\ntheme=old\n\n[x]\ny=z\n",
+   "section": "Missing",
+   "key": "Key",
+   "value": "v",
+   "out": "[defaults]\ntheme=old\n\n[x]\ny=z\n[Missing]\nKey=v\n"
+  }
+ ],
+ "card_rules": [
+  {
+   "id": "0x96f",
+   "roles": {
+    "bg": "#262427",
+    "bg_alt": "#3B393C",
+    "surface": "#403E41",
+    "border": "#5C5A5C",
+    "selection": "#514F52",
+    "fg": "#FCFCFC",
+    "fg_dim": "#7C7B7D",
+    "muted": "#676567",
+    "accent": "#49CAE4",
+    "accent_fg": "#000000",
+    "alt_fg": "#FCFCFC",
+    "surface_fg": "#FCFCFC",
+    "selection_fg": "#FCFCFC",
+    "red": "#FF7272",
+    "orange": "#FC9D6F",
+    "yellow": "#FFCA58",
+    "green": "#BCDF59",
+    "cyan": "#AEE8F4",
+    "blue": "#49CAE4",
+    "purple": "#A093E2"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#262427"
+    ],
+    [
+     "BODY",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#675636"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#66483D"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#305660"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#3B393C"
+    ],
+    [
+     ".headers",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#40382D"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#3E3A4C"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#725E38"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#927740"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#637C83"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#473032"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#FCFCFC"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#3B393C"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#49CAE4"
+    ],
+    [
+     "A",
+     "color",
+     "#49CAE4"
+    ]
+   ]
+  },
+  {
+   "id": "atelier-cave-light",
+   "roles": {
+    "bg": "#EFECF4",
+    "bg_alt": "#E2DFE7",
+    "surface": "#B3AFB9",
+    "border": "#84808C",
+    "selection": "#8B8792",
+    "fg": "#585260",
+    "fg_dim": "#655F6D",
+    "muted": "#7E7887",
+    "accent": "#576DDB",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#585260",
+    "surface_fg": "#000000",
+    "selection_fg": "#000000",
+    "red": "#BE4678",
+    "orange": "#AA573C",
+    "yellow": "#A06E3B",
+    "green": "#2A9292",
+    "cyan": "#398BC6",
+    "blue": "#576DDB",
+    "purple": "#955AE7"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#EFECF4"
+    ],
+    [
+     "BODY",
+     "color",
+     "#585260"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#D7C6BC"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#585260"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#DABFBD"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#C1C6EC"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#000000"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#E2DFE7"
+    ],
+    [
+     ".headers",
+     "color",
+     "#585260"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#E6DDDE"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#585260"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#DDCFF1"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#585260"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#D3C0B3"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#585260"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#C8AD98"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#9DC0DF"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#E8D3E1"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#585260"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#E2DFE7"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#585260"
+    ],
+    [
+     "A",
+     "color",
+     "#585260"
+    ]
+   ]
+  },
+  {
+   "id": "atelier-sulphurpool-light",
+   "roles": {
+    "bg": "#F5F7FF",
+    "bg_alt": "#DFE2F1",
+    "surface": "#BDC1D2",
+    "border": "#9096AC",
+    "selection": "#979DB4",
+    "fg": "#5E6687",
+    "fg_dim": "#6B7394",
+    "muted": "#898EA4",
+    "accent": "#3D8FD1",
+    "accent_fg": "#000000",
+    "alt_fg": "#5E6687",
+    "surface_fg": "#000000",
+    "selection_fg": "#000000",
+    "red": "#C94922",
+    "orange": "#C76B29",
+    "yellow": "#C08B30",
+    "green": "#AC9739",
+    "cyan": "#22A2C9",
+    "blue": "#3D8FD1",
+    "purple": "#6679CC"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#F5F7FF"
+    ],
+    [
+     "BODY",
+     "color",
+     "#5E6687"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#E5D7C1"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#C94922"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#E7CDBF"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#BED8F1"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#000000"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#DFE2F1"
+    ],
+    [
+     ".headers",
+     "color",
+     "#5E6687"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#EFEAE6"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#5E6687"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#D8DEF5"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#E2D1B7"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#C94922"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#DAC198"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#96D1E7"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#EEDDDE"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#000000"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#DFE2F1"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#000000"
+    ],
+    [
+     "A",
+     "color",
+     "#5E6687"
+    ]
+   ]
+  },
+  {
+   "id": "black-metal-gorgoroth",
+   "roles": {
+    "bg": "#000000",
+    "bg_alt": "#121212",
+    "surface": "#141414",
+    "border": "#2A2A2A",
+    "selection": "#222222",
+    "fg": "#C1C1C1",
+    "fg_dim": "#999999",
+    "muted": "#333333",
+    "accent": "#888888",
+    "accent_fg": "#000000",
+    "alt_fg": "#C1C1C1",
+    "surface_fg": "#C1C1C1",
+    "selection_fg": "#C1C1C1",
+    "red": "#5F8787",
+    "orange": "#AAAAAA",
+    "yellow": "#8C7F70",
+    "green": "#9B8D7F",
+    "cyan": "#AAAAAA",
+    "blue": "#888888",
+    "purple": "#999999"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#000000"
+    ],
+    [
+     "BODY",
+     "color",
+     "#C1C1C1"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#2A2622"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#5F8787"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#333333"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#C1C1C1"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#292929"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#C1C1C1"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#121212"
+    ],
+    [
+     ".headers",
+     "color",
+     "#C1C1C1"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#110F0D"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#C1C1C1"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#1F1F1F"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#999999"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#312C27"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#5F8787"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#464038"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#C1C1C1"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#4C4C4C"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#C1C1C1"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#0E1414"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#C1C1C1"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#121212"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#888888"
+    ],
+    [
+     "A",
+     "color",
+     "#888888"
+    ]
+   ]
+  },
+  {
+   "id": "bosque",
+   "roles": {
+    "bg": "#0E1410",
+    "bg_alt": "#16211A",
+    "surface": "#18251B",
+    "border": "#3D4F40",
+    "selection": "#1E3023",
+    "fg": "#CFE5D2",
+    "fg_dim": "#96AA98",
+    "muted": "#5C6E5E",
+    "accent": "#6DAE9E",
+    "accent_fg": "#000000",
+    "alt_fg": "#CFE5D2",
+    "surface_fg": "#CFE5D2",
+    "selection_fg": "#CFE5D2",
+    "red": "#E2706A",
+    "orange": "#7DC97A",
+    "yellow": "#C8B84A",
+    "green": "#6FC56E",
+    "cyan": "#5FD0B8",
+    "blue": "#6DAE9E",
+    "purple": "#B894D0"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#0E1410"
+    ],
+    [
+     "BODY",
+     "color",
+     "#CFE5D2"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#464521"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#E2706A"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#2F4A30"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#CFE5D2"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#2A423B"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#CFE5D2"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#16211A"
+    ],
+    [
+     ".headers",
+     "color",
+     "#CFE5D2"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#242817"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#CFE5D2"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#302E36"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#96AA98"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#4F4D24"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#CFE5D2"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#6B662D"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#32695C"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#CFE5D2"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#2E221E"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#CFE5D2"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#16211A"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#6DAE9E"
+    ],
+    [
+     "A",
+     "color",
+     "#6DAE9E"
+    ]
+   ]
+  },
+  {
+   "id": "catppuccin-frappe",
+   "roles": {
+    "bg": "#303446",
+    "bg_alt": "#292C3C",
+    "surface": "#3A3E51",
+    "border": "#494E63",
+    "selection": "#414559",
+    "fg": "#C6D0F5",
+    "fg_dim": "#626880",
+    "muted": "#51576D",
+    "accent": "#8CAAEE",
+    "accent_fg": "#000000",
+    "alt_fg": "#C6D0F5",
+    "surface_fg": "#C6D0F5",
+    "selection_fg": "#C6D0F5",
+    "red": "#E78284",
+    "orange": "#EF9F76",
+    "yellow": "#E5C890",
+    "green": "#A6D189",
+    "cyan": "#81C8BE",
+    "blue": "#8CAAEE",
+    "purple": "#CA9EE6"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#303446"
+    ],
+    [
+     "BODY",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#66605C"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#695454"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#4C5778"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#292C3C"
+    ],
+    [
+     ".headers",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#46464F"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#4F4966"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#6F6860"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#8A7E6B"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#54777C"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#4B404F"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#C6D0F5"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#292C3C"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#8CAAEE"
+    ],
+    [
+     "A",
+     "color",
+     "#8CAAEE"
+    ]
+   ]
+  },
+  {
+   "id": "chicago-night",
+   "roles": {
+    "bg": "#1E2A24",
+    "bg_alt": "#2A3B32",
+    "surface": "#2C3E35",
+    "border": "#4A6054",
+    "selection": "#364C40",
+    "fg": "#A7B8AF",
+    "fg_dim": "#8A9A91",
+    "muted": "#5F7368",
+    "accent": "#522398",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#A7B8AF",
+    "surface_fg": "#A7B8AF",
+    "selection_fg": "#A7B8AF",
+    "red": "#C60C30",
+    "orange": "#F9461C",
+    "yellow": "#F9E300",
+    "green": "#009B3A",
+    "cyan": "#00A1DE",
+    "blue": "#522398",
+    "purple": "#E27EA6"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#1E2A24"
+    ],
+    [
+     "BODY",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#606219"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#603222"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#2E2847"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#2A3B32"
+    ],
+    [
+     ".headers",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#384020"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#453B3E"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#6B6B17"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#8C8612"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#106078"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#372626"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#2A3B32"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#A7B8AF"
+    ],
+    [
+     "A",
+     "color",
+     "#A7B8AF"
+    ]
+   ]
+  },
+  {
+   "id": "cyberdyne",
+   "roles": {
+    "bg": "#151144",
+    "bg_alt": "#080808",
+    "surface": "#232236",
+    "border": "#464646",
+    "selection": "#2D2D2D",
+    "fg": "#C0C0C0",
+    "fg_dim": "#8F8F8F",
+    "muted": "#5E5E5E",
+    "accent": "#0071CF",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#C0C0C0",
+    "surface_fg": "#C0C0C0",
+    "selection_fg": "#C0C0C0",
+    "red": "#FF8272",
+    "orange": "#D2A700",
+    "yellow": "#C1E3FE",
+    "green": "#00C172",
+    "cyan": "#6BFFDC",
+    "blue": "#0071CF",
+    "purple": "#FF8FFD"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#151144"
+    ],
+    [
+     "BODY",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#49507C"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#FF8272"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#4E3E30"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#0F2E6E"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#080808"
+    ],
+    [
+     ".headers",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#2A2A5A"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#442A69"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#515A85"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#6B7AA1"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#3C7C88"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#38224B"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#080808"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#C0C0C0"
+    ],
+    [
+     "A",
+     "color",
+     "#C0C0C0"
+    ]
+   ]
+  },
+  {
+   "id": "deep",
+   "roles": {
+    "bg": "#080808",
+    "bg_alt": "#000000",
+    "surface": "#353535",
+    "border": "#646464",
+    "selection": "#535353",
+    "fg": "#BCBCBC",
+    "fg_dim": "#999999",
+    "muted": "#767676",
+    "accent": "#5665FE",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#BCBCBC",
+    "surface_fg": "#BCBCBC",
+    "selection_fg": "#BCBCBC",
+    "red": "#D60005",
+    "orange": "#D9BC25",
+    "yellow": "#9FA8FE",
+    "green": "#1CD815",
+    "cyan": "#4FD2D9",
+    "blue": "#5665FE",
+    "purple": "#AF51D9"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#080808"
+    ],
+    [
+     "BODY",
+     "color",
+     "#BCBCBC"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#353852"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#BCBCBC"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#473E11"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#BCBCBC"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#1F2452"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#BCBCBC"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#000000"
+    ],
+    [
+     ".headers",
+     "color",
+     "#BCBCBC"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#1A1B26"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#BCBCBC"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#291732"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#999999"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#3D405E"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#BCBCBC"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#545883"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#286366"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#270708"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#BCBCBC"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#000000"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#5665FE"
+    ],
+    [
+     "A",
+     "color",
+     "#BCBCBC"
+    ]
+   ]
+  },
+  {
+   "id": "embarcadero",
+   "roles": {
+    "bg": "#252A2F",
+    "bg_alt": "#43474C",
+    "surface": "#494D51",
+    "border": "#707476",
+    "selection": "#616568",
+    "fg": "#BCBDC0",
+    "fg_dim": "#9EA0A2",
+    "muted": "#7F8285",
+    "accent": "#4080D0",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#BCBDC0",
+    "surface_fg": "#BCBDC0",
+    "selection_fg": "#FFFFFF",
+    "red": "#ED5D86",
+    "orange": "#FFCB3D",
+    "yellow": "#EB824D",
+    "green": "#20C290",
+    "cyan": "#02EFEF",
+    "blue": "#4080D0",
+    "purple": "#A070D0"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#252A2F"
+    ],
+    [
+     "BODY",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#604438"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#665A33"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#2D445F"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#43474C"
+    ],
+    [
+     ".headers",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#3D3533"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#3E384F"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#6A493A"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#88563E"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#158385"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#43323C"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#43474C"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#BCBDC0"
+    ],
+    [
+     "A",
+     "color",
+     "#BCBDC0"
+    ]
+   ]
+  },
+  {
+   "id": "everforest-dark-soft",
+   "roles": {
+    "bg": "#333C43",
+    "bg_alt": "#3A464C",
+    "surface": "#434D54",
+    "border": "#697674",
+    "selection": "#4D5960",
+    "fg": "#D3C6AA",
+    "fg_dim": "#9DA9A0",
+    "muted": "#859289",
+    "accent": "#7FBBB3",
+    "accent_fg": "#000000",
+    "alt_fg": "#D3C6AA",
+    "surface_fg": "#D3C6AA",
+    "selection_fg": "#D3C6AA",
+    "red": "#E67E80",
+    "orange": "#E69875",
+    "yellow": "#DBBC7F",
+    "green": "#A7C080",
+    "cyan": "#83C092",
+    "blue": "#7FBBB3",
+    "purple": "#D699B6"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#333C43"
+    ],
+    [
+     "BODY",
+     "color",
+     "#D3C6AA"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#656255"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#D3C6AA"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#695852"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#4A6265"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#3A464C"
+    ],
+    [
+     ".headers",
+     "color",
+     "#D3C6AA"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#474B4A"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#D3C6AA"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#544F5A"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#D3C6AA"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#6E6958"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#D3C6AA"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#877C61"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#577767"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#4E464C"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#D3C6AA"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#3A464C"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#D3C6AA"
+    ],
+    [
+     "A",
+     "color",
+     "#7FBBB3"
+    ]
+   ]
+  },
+  {
+   "id": "fruit-soda",
+   "roles": {
+    "bg": "#F1ECF1",
+    "bg_alt": "#E0DEE0",
+    "surface": "#E2DEE0",
+    "border": "#C6C4C6",
+    "selection": "#D8D5D5",
+    "fg": "#515151",
+    "fg_dim": "#979598",
+    "muted": "#B5B4B6",
+    "accent": "#2931DF",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#515151",
+    "surface_fg": "#515151",
+    "selection_fg": "#515151",
+    "red": "#FE3E31",
+    "orange": "#FE6D08",
+    "yellow": "#F7E203",
+    "green": "#47F74C",
+    "cyan": "#0F9CFD",
+    "blue": "#2931DF",
+    "purple": "#611FCE"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#F1ECF1"
+    ],
+    [
+     "BODY",
+     "color",
+     "#515151"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#F3E9AA"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#515151"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#F5C6AB"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#515151"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#B5B4EC"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#000000"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#E0DEE0"
+    ],
+    [
+     ".headers",
+     "color",
+     "#515151"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#F2EBD4"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#515151"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#D4C3EA"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#515151"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#F3E89E"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#515151"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#F4E77A"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#515151"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#8BC8F6"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#F3D2D4"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#515151"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#E0DEE0"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#2931DF"
+    ],
+    [
+     "A",
+     "color",
+     "#2931DF"
+    ]
+   ]
+  },
+  {
+   "id": "google-light",
+   "roles": {
+    "bg": "#FFFFFF",
+    "bg_alt": "#E0E0E0",
+    "surface": "#DCDEDD",
+    "border": "#BCC0BD",
+    "selection": "#C5C8C6",
+    "fg": "#373B41",
+    "fg_dim": "#969896",
+    "muted": "#B4B7B4",
+    "accent": "#3971ED",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#373B41",
+    "surface_fg": "#373B41",
+    "selection_fg": "#373B41",
+    "red": "#CC342B",
+    "orange": "#F96A38",
+    "yellow": "#FBA922",
+    "green": "#198844",
+    "cyan": "#3971ED",
+    "blue": "#3971ED",
+    "purple": "#A36AC7"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#FFFFFF"
+    ],
+    [
+     "BODY",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#FEE5BD"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#CC342B"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#FDD2C3"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#C4D4FA"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#E0E0E0"
+    ],
+    [
+     ".headers",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#FFF5E4"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#EDE1F4"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#FEE1B2"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#CC342B"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#FDD490"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#A6BFF7"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#F7E1DF"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#373B41"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#E0E0E0"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#373B41"
+    ],
+    [
+     "A",
+     "color",
+     "#373B41"
+    ]
+   ]
+  },
+  {
+   "id": "gruvbox-material-dark-hard",
+   "roles": {
+    "bg": "#202020",
+    "bg_alt": "#2A2827",
+    "surface": "#3D3936",
+    "border": "#554E48",
+    "selection": "#504945",
+    "fg": "#DDC7A1",
+    "fg_dim": "#BDAE93",
+    "muted": "#5A524C",
+    "accent": "#7DAEA3",
+    "accent_fg": "#000000",
+    "alt_fg": "#DDC7A1",
+    "surface_fg": "#DDC7A1",
+    "selection_fg": "#DDC7A1",
+    "red": "#EA6962",
+    "orange": "#E78A4E",
+    "yellow": "#D8A657",
+    "green": "#A9B665",
+    "cyan": "#89B482",
+    "blue": "#7DAEA3",
+    "purple": "#D3869B"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#202020"
+    ],
+    [
+     "BODY",
+     "color",
+     "#DDC7A1"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#574830"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#DDC7A1"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#5C402E"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#DDC7A1"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#3C4B47"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#DDC7A1"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#2A2827"
+    ],
+    [
+     ".headers",
+     "color",
+     "#DDC7A1"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#363027"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#DDC7A1"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#443439"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#BDAE93"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#604F33"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#DDC7A1"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#7C633C"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#4F634C"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#3E2B2A"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#DDC7A1"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#2A2827"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#7DAEA3"
+    ],
+    [
+     "A",
+     "color",
+     "#7DAEA3"
+    ]
+   ]
+  },
+  {
+   "id": "hivacruz",
+   "roles": {
+    "bg": "#132537",
+    "bg_alt": "#202746",
+    "surface": "#48546F",
+    "border": "#707898",
+    "selection": "#6B7394",
+    "fg": "#8C92AC",
+    "fg_dim": "#8188A4",
+    "muted": "#767D9C",
+    "accent": "#3D8FD1",
+    "accent_fg": "#000000",
+    "alt_fg": "#8C92AC",
+    "surface_fg": "#FFFFFF",
+    "selection_fg": "#FFFFFF",
+    "red": "#C94922",
+    "orange": "#C08B30",
+    "yellow": "#898EA4",
+    "green": "#AC9739",
+    "cyan": "#22A2C9",
+    "blue": "#3D8FD1",
+    "purple": "#6679CC"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#132537"
+    ],
+    [
+     "BODY",
+     "color",
+     "#8C92AC"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#364458"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#8C92AC"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#474435"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#204565"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#202746"
+    ],
+    [
+     ".headers",
+     "color",
+     "#8C92AC"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#213244"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#243655"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#3C4A5D"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#4E5A6E"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#1A5D79"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#2E2A34"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#8C92AC"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#202746"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#8C92AC"
+    ],
+    [
+     "A",
+     "color",
+     "#8C92AC"
+    ]
+   ]
+  },
+  {
+   "id": "ir-black",
+   "roles": {
+    "bg": "#000000",
+    "bg_alt": "#242422",
+    "surface": "#2B2B29",
+    "border": "#5A5A55",
+    "selection": "#484844",
+    "fg": "#B5B3AA",
+    "fg_dim": "#918F88",
+    "muted": "#6C6C66",
+    "accent": "#96CBFE",
+    "accent_fg": "#000000",
+    "alt_fg": "#B5B3AA",
+    "surface_fg": "#B5B3AA",
+    "selection_fg": "#B5B3AA",
+    "red": "#FF6C60",
+    "orange": "#E9C062",
+    "yellow": "#FFFFB6",
+    "green": "#A8FF60",
+    "cyan": "#C6C5FE",
+    "blue": "#96CBFE",
+    "purple": "#FF73FD"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#000000"
+    ],
+    [
+     "BODY",
+     "color",
+     "#B5B3AA"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#4C4C37"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#FF6C60"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#463A1D"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#B5B3AA"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#2D3D4C"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#B5B3AA"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#242422"
+    ],
+    [
+     ".headers",
+     "color",
+     "#B5B3AA"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#1F1F16"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#B5B3AA"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#331733"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#918F88"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#595940"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#B5B3AA"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#80805B"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#595972"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#26100E"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#B5B3AA"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#242422"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#96CBFE"
+    ],
+    [
+     "A",
+     "color",
+     "#96CBFE"
+    ]
+   ]
+  },
+  {
+   "id": "laser",
+   "roles": {
+    "bg": "#030D18",
+    "bg_alt": "#616161",
+    "surface": "#565A5F",
+    "border": "#9A9A9A",
+    "selection": "#8E8E8E",
+    "fg": "#D8D8D8",
+    "fg_dim": "#BFBFBF",
+    "muted": "#A6A6A6",
+    "accent": "#FED300",
+    "accent_fg": "#000000",
+    "alt_fg": "#D8D8D8",
+    "surface_fg": "#D8D8D8",
+    "selection_fg": "#030D18",
+    "red": "#FF8272",
+    "orange": "#09B4BD",
+    "yellow": "#F92883",
+    "green": "#B4FA72",
+    "cyan": "#D0D1FE",
+    "blue": "#FED300",
+    "purple": "#FF8FFD"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#030D18"
+    ],
+    [
+     "BODY",
+     "color",
+     "#D8D8D8"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#4D1538"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#FF8272"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#053F4A"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#D8D8D8"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#4E4811"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#D8D8D8"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#616161"
+    ],
+    [
+     ".headers",
+     "color",
+     "#D8D8D8"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#211025"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#D8D8D8"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#352746"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#BFBFBF"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#59163D"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#FF8272"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#7E1A4E"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#D8D8D8"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#5F6580"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#291F26"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#A6A6A6"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#616161"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     "A",
+     "color",
+     "#FED300"
+    ]
+   ]
+  },
+  {
+   "id": "material",
+   "roles": {
+    "bg": "#263238",
+    "bg_alt": "#2E3C43",
+    "surface": "#2D3D42",
+    "border": "#425A62",
+    "selection": "#314549",
+    "fg": "#EEFFFF",
+    "fg_dim": "#B2CCD6",
+    "muted": "#546E7A",
+    "accent": "#82AAFF",
+    "accent_fg": "#000000",
+    "alt_fg": "#EEFFFF",
+    "surface_fg": "#EEFFFF",
+    "selection_fg": "#EEFFFF",
+    "red": "#F07178",
+    "orange": "#F78C6C",
+    "yellow": "#FFCB6B",
+    "green": "#C3E88D",
+    "cyan": "#89DDFF",
+    "blue": "#82AAFF",
+    "purple": "#C792EA"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#263238"
+    ],
+    [
+     "BODY",
+     "color",
+     "#EEFFFF"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#676047"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#EEFFFF"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#654D48"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#EEFFFF"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#425674"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#EEFFFF"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#2E3C43"
+    ],
+    [
+     ".headers",
+     "color",
+     "#EEFFFF"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#40443E"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#EEFFFF"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#46455C"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#B2CCD6"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#72684A"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#EEFFFF"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#927E52"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#537F92"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#443B42"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#EEFFFF"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#2E3C43"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#82AAFF"
+    ],
+    [
+     "A",
+     "color",
+     "#82AAFF"
+    ]
+   ]
+  },
+  {
+   "id": "molokai",
+   "roles": {
+    "bg": "#121212",
+    "bg_alt": "#121212",
+    "surface": "#3A3A3A",
+    "border": "#626262",
+    "selection": "#555555",
+    "fg": "#A1A1A1",
+    "fg_dim": "#888888",
+    "muted": "#6E6E6E",
+    "accent": "#0F7FCF",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#A1A1A1",
+    "surface_fg": "#A1A1A1",
+    "selection_fg": "#FFFFFF",
+    "red": "#FA2573",
+    "orange": "#DFD460",
+    "yellow": "#00AFFF",
+    "green": "#97E123",
+    "cyan": "#42A7CF",
+    "blue": "#0F7FCF",
+    "purple": "#8700FF"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#121212"
+    ],
+    [
+     "BODY",
+     "color",
+     "#A1A1A1"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#0D4159"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#A1A1A1"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#504C29"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#11334B"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#A1A1A1"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#121212"
+    ],
+    [
+     ".headers",
+     "color",
+     "#A1A1A1"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#10252E"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#A1A1A1"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#290E41"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#888888"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#0C4965"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#A1A1A1"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#096088"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#285567"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#351521"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#A1A1A1"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#121212"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#A1A1A1"
+    ],
+    [
+     "A",
+     "color",
+     "#A1A1A1"
+    ]
+   ]
+  },
+  {
+   "id": "nova",
+   "roles": {
+    "bg": "#3C4C55",
+    "bg_alt": "#556873",
+    "surface": "#586974",
+    "border": "#7A8C98",
+    "selection": "#6A7D89",
+    "fg": "#C5D4DD",
+    "fg_dim": "#899BA6",
+    "muted": "#899BA6",
+    "accent": "#83AFE5",
+    "accent_fg": "#000000",
+    "alt_fg": "#FFFFFF",
+    "surface_fg": "#FFFFFF",
+    "selection_fg": "#000000",
+    "red": "#83AFE5",
+    "orange": "#7FC1CA",
+    "yellow": "#A8CE93",
+    "green": "#7FC1CA",
+    "cyan": "#F2C38F",
+    "blue": "#83AFE5",
+    "purple": "#9A93E1"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#3C4C55"
+    ],
+    [
+     "BODY",
+     "color",
+     "#C5D4DD"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#5C7368"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#C5D4DD"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#506F78"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#516A80"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#556873"
+    ],
+    [
+     ".headers",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#495C5C"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#C5D4DD"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#4F5A71"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#C5D4DD"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#627A6B"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#C5D4DD"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#728D74"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#8E826F"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#475B6B"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#C5D4DD"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#556873"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     "A",
+     "color",
+     "#C5D4DD"
+    ]
+   ]
+  },
+  {
+   "id": "oxocarbon-dark",
+   "roles": {
+    "bg": "#161616",
+    "bg_alt": "#262626",
+    "surface": "#2B2B2B",
+    "border": "#464646",
+    "selection": "#393939",
+    "fg": "#F2F4F8",
+    "fg_dim": "#DDE1E6",
+    "muted": "#525252",
+    "accent": "#33B1FF",
+    "accent_fg": "#000000",
+    "alt_fg": "#F2F4F8",
+    "surface_fg": "#F2F4F8",
+    "selection_fg": "#F2F4F8",
+    "red": "#EE5396",
+    "orange": "#FF7EB6",
+    "yellow": "#FF6F00",
+    "green": "#42BE65",
+    "cyan": "#3DDBD9",
+    "blue": "#33B1FF",
+    "purple": "#BE95FF"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#161616"
+    ],
+    [
+     "BODY",
+     "color",
+     "#F2F4F8"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#5C310F"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#EE5396"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#5C3546"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#F2F4F8"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#1F445C"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#F2F4F8"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#262626"
+    ],
+    [
+     ".headers",
+     "color",
+     "#F2F4F8"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#322113"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#F2F4F8"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#382F45"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#DDE1E6"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#68350E"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#EE5396"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#8A420B"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#F2F4F8"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#286F6E"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#F2F4F8"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#361F29"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#F2F4F8"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#262626"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#33B1FF"
+    ],
+    [
+     "A",
+     "color",
+     "#33B1FF"
+    ]
+   ]
+  },
+  {
+   "id": "pencil-light",
+   "roles": {
+    "bg": "#F1F1F1",
+    "bg_alt": "#212121",
+    "surface": "#888888",
+    "border": "#545454",
+    "selection": "#424242",
+    "fg": "#B3B3B3",
+    "fg_dim": "#8D8D8D",
+    "muted": "#676767",
+    "accent": "#008EC4",
+    "accent_fg": "#000000",
+    "alt_fg": "#B3B3B3",
+    "surface_fg": "#000000",
+    "selection_fg": "#B3B3B3",
+    "red": "#C30771",
+    "orange": "#A89C14",
+    "yellow": "#20BBFC",
+    "green": "#10A778",
+    "cyan": "#20A5BA",
+    "blue": "#008EC4",
+    "purple": "#523C79"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#F1F1F1"
+    ],
+    [
+     "BODY",
+     "color",
+     "#B3B3B3"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#B2E1F4"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#C30771"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#DBD8AF"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#A9D3E4"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#000000"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#212121"
+    ],
+    [
+     ".headers",
+     "color",
+     "#B3B3B3"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#D8EBF2"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#D1CDD9"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#A8DEF5"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#C30771"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#88D6F6"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#93CFD8"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#EACEDE"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#000000"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#212121"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#B3B3B3"
+    ],
+    [
+     "A",
+     "color",
+     "#000000"
+    ]
+   ]
+  },
+  {
+   "id": "precious-light-white",
+   "roles": {
+    "bg": "#FFFFFF",
+    "bg_alt": "#EDEDED",
+    "surface": "#E9E9E9",
+    "border": "#B0B0B0",
+    "selection": "#DBDBDB",
+    "fg": "#555555",
+    "fg_dim": "#636363",
+    "muted": "#848484",
+    "accent": "#186DAA",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#555555",
+    "surface_fg": "#555555",
+    "selection_fg": "#555555",
+    "red": "#AF4947",
+    "orange": "#A0570D",
+    "yellow": "#876500",
+    "green": "#557301",
+    "cyan": "#087767",
+    "blue": "#186DAA",
+    "purple": "#7B4ECB"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#FFFFFF"
+    ],
+    [
+     "BODY",
+     "color",
+     "#555555"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#DBD1B2"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#AF4947"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#E2CDB6"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#555555"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#BAD3E6"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#555555"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#EDEDED"
+    ],
+    [
+     ".headers",
+     "color",
+     "#555555"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#F1EDE0"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#555555"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#E5DCF5"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#636363"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#D5C9A6"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#AF4947"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#C3B280"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#90C2BB"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#F3E4E3"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#555555"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#EDEDED"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#186DAA"
+    ],
+    [
+     "A",
+     "color",
+     "#186DAA"
+    ]
+   ]
+  },
+  {
+   "id": "rose-pine-moon",
+   "roles": {
+    "bg": "#232136",
+    "bg_alt": "#2A273F",
+    "surface": "#302D47",
+    "border": "#54506C",
+    "selection": "#393552",
+    "fg": "#E0DEF4",
+    "fg_dim": "#908CAA",
+    "muted": "#6E6A86",
+    "accent": "#C4A7E7",
+    "accent_fg": "#000000",
+    "alt_fg": "#E0DEF4",
+    "surface_fg": "#E0DEF4",
+    "selection_fg": "#E0DEF4",
+    "red": "#EB6F92",
+    "orange": "#F6C177",
+    "yellow": "#EA9A97",
+    "green": "#3E8FB0",
+    "cyan": "#9CCFD8",
+    "blue": "#C4A7E7",
+    "purple": "#F6C177"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#232136"
+    ],
+    [
+     "BODY",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#5F4553"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#62514A"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#53496B"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#2A273F"
+    ],
+    [
+     ".headers",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#3B3042"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#4D4143"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#694B58"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#865E66"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#596F7F"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#412D44"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#E0DEF4"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#2A273F"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#C4A7E7"
+    ],
+    [
+     "A",
+     "color",
+     "#C4A7E7"
+    ]
+   ]
+  },
+  {
+   "id": "serendipity-midnight",
+   "roles": {
+    "bg": "#151726",
+    "bg_alt": "#1C1E2D",
+    "surface": "#252736",
+    "border": "#444654",
+    "selection": "#414F72",
+    "fg": "#DEE0EF",
+    "fg_dim": "#8D8F9E",
+    "muted": "#6B6D7C",
+    "accent": "#94B8FF",
+    "accent_fg": "#000000",
+    "alt_fg": "#DEE0EF",
+    "surface_fg": "#DEE0EF",
+    "selection_fg": "#DEE0EF",
+    "red": "#EE8679",
+    "orange": "#EE8679",
+    "yellow": "#A78BFA",
+    "green": "#5BA2D0",
+    "cyan": "#F8D2C9",
+    "blue": "#94B8FF",
+    "purple": "#A78BFA"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#151726"
+    ],
+    [
+     "BODY",
+     "color",
+     "#DEE0EF"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#413A66"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#EE8679"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#56383F"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#DEE0EF"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#3B4767"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#DEE0EF"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#1C1E2D"
+    ],
+    [
+     ".headers",
+     "color",
+     "#DEE0EF"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#27253F"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#DEE0EF"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#322E50"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#DEE0EF"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#484070"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#EE8679"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#5E5190"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#DEE0EF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#7B6B6F"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#362832"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#DEE0EF"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#1C1E2D"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#94B8FF"
+    ],
+    [
+     "A",
+     "color",
+     "#94B8FF"
+    ]
+   ]
+  },
+  {
+   "id": "solarized-dark",
+   "roles": {
+    "bg": "#002B36",
+    "bg_alt": "#073642",
+    "surface": "#35535C",
+    "border": "#5E747C",
+    "selection": "#586E75",
+    "fg": "#93A1A1",
+    "fg_dim": "#839496",
+    "muted": "#657B83",
+    "accent": "#268BD2",
+    "accent_fg": "#000000",
+    "alt_fg": "#93A1A1",
+    "surface_fg": "#FFFFFF",
+    "selection_fg": "#FFFFFF",
+    "red": "#DC322F",
+    "orange": "#CB4B16",
+    "yellow": "#B58900",
+    "green": "#859900",
+    "cyan": "#2AA198",
+    "blue": "#268BD2",
+    "purple": "#6C71C4"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#002B36"
+    ],
+    [
+     "BODY",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#364726"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#3D352C"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#0B4865"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#073642"
+    ],
+    [
+     ".headers",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#163630"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#163952"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#3F4C23"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#5A5A1B"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#136062"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#212C35"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#073642"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#93A1A1"
+    ],
+    [
+     "A",
+     "color",
+     "#93A1A1"
+    ]
+   ]
+  },
+  {
+   "id": "summerfruit-light",
+   "roles": {
+    "bg": "#FFFFFF",
+    "bg_alt": "#E0E0E0",
+    "surface": "#E3E3E3",
+    "border": "#C0C0C0",
+    "selection": "#D0D0D0",
+    "fg": "#101010",
+    "fg_dim": "#000000",
+    "muted": "#B0B0B0",
+    "accent": "#3777E6",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#101010",
+    "surface_fg": "#101010",
+    "selection_fg": "#101010",
+    "red": "#FF0086",
+    "orange": "#FD8900",
+    "yellow": "#ABA800",
+    "green": "#00C918",
+    "cyan": "#1FAAAA",
+    "blue": "#3777E6",
+    "purple": "#AD00A1"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#FFFFFF"
+    ],
+    [
+     "BODY",
+     "color",
+     "#101010"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#E6E5B2"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#101010"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#FEDCB2"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#101010"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#C3D6F8"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#101010"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#E0E0E0"
+    ],
+    [
+     ".headers",
+     "color",
+     "#101010"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#F5F5E0"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#101010"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#EFCCEC"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#E2E1A6"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#101010"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#D5D480"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#101010"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#9AD9D9"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#101010"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#FFD9ED"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#101010"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#E0E0E0"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#101010"
+    ],
+    [
+     "A",
+     "color",
+     "#101010"
+    ]
+   ]
+  },
+  {
+   "id": "tokyo-city-dark",
+   "roles": {
+    "bg": "#171D23",
+    "bg_alt": "#1D252C",
+    "surface": "#212A31",
+    "border": "#3D4A55",
+    "selection": "#28323A",
+    "fg": "#D8E2EC",
+    "fg_dim": "#B7C5D3",
+    "muted": "#526270",
+    "accent": "#7AA2F7",
+    "accent_fg": "#000000",
+    "alt_fg": "#D8E2EC",
+    "surface_fg": "#D8E2EC",
+    "selection_fg": "#D8E2EC",
+    "red": "#F7768E",
+    "orange": "#FF9E64",
+    "yellow": "#B7C5D3",
+    "green": "#9ECE6A",
+    "cyan": "#89DDFF",
+    "blue": "#7AA2F7",
+    "purple": "#BB9AF7"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#171D23"
+    ],
+    [
+     "BODY",
+     "color",
+     "#D8E2EC"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#474F58"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#F7768E"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#5D4436"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#D8E2EC"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#354563"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#D8E2EC"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#1D252C"
+    ],
+    [
+     ".headers",
+     "color",
+     "#D8E2EC"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#2A3138"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#D8E2EC"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#38364D"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#B7C5D3"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#4F5861"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#D8E2EC"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#67717B"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#4A7386"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#392A33"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#D8E2EC"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#1D252C"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#7AA2F7"
+    ],
+    [
+     "A",
+     "color",
+     "#7AA2F7"
+    ]
+   ]
+  },
+  {
+   "id": "tomorrow-night-base24",
+   "roles": {
+    "bg": "#1D1F21",
+    "bg_alt": "#282A2E",
+    "surface": "#2D3034",
+    "border": "#666A6C",
+    "selection": "#373B41",
+    "fg": "#C5C8C6",
+    "fg_dim": "#B4B7B4",
+    "muted": "#969896",
+    "accent": "#81A2BE",
+    "accent_fg": "#000000",
+    "alt_fg": "#C5C8C6",
+    "surface_fg": "#C5C8C6",
+    "selection_fg": "#C5C8C6",
+    "red": "#CC6666",
+    "orange": "#DE935F",
+    "yellow": "#F0C674",
+    "green": "#B5BD68",
+    "cyan": "#8ABEB7",
+    "blue": "#81A2BE",
+    "purple": "#B294BB"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#1D1F21"
+    ],
+    [
+     "BODY",
+     "color",
+     "#C5C8C6"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#5C513A"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#C5C8C6"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#574234"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#C5C8C6"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#3B4650"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#C5C8C6"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#282A2E"
+    ],
+    [
+     ".headers",
+     "color",
+     "#C5C8C6"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#36332B"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#C5C8C6"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#3B3640"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#B4B7B4"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#67593E"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#C5C8C6"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#86724A"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#4E6764"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#372A2B"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#969896"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#282A2E"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#81A2BE"
+    ],
+    [
+     "A",
+     "color",
+     "#81A2BE"
+    ]
+   ]
+  },
+  {
+   "id": "violet-light",
+   "roles": {
+    "bg": "#FCF4DC",
+    "bg_alt": "#56595C",
+    "surface": "#8E8D85",
+    "border": "#56595A",
+    "selection": "#45484B",
+    "fg": "#AFAEA9",
+    "fg_dim": "#8C8C8A",
+    "muted": "#686A6A",
+    "accent": "#2E8BCE",
+    "accent_fg": "#000000",
+    "alt_fg": "#FFFFFF",
+    "surface_fg": "#000000",
+    "selection_fg": "#AFAEA9",
+    "red": "#C94C22",
+    "orange": "#B4881D",
+    "yellow": "#2075C7",
+    "green": "#85981C",
+    "cyan": "#32A198",
+    "blue": "#2E8BCE",
+    "purple": "#D13A82"
+   },
+   "rules": [
+    [
+     "BODY",
+     "background-color",
+     "#FCF4DC"
+    ],
+    [
+     "BODY",
+     "color",
+     "#AFAEA9"
+    ],
+    [
+     ".Cloze",
+     "background-color",
+     "#BACED6"
+    ],
+    [
+     ".Cloze",
+     "color",
+     "#000000"
+    ],
+    [
+     ".clozed",
+     "background-color",
+     "#E6D4A3"
+    ],
+    [
+     ".clozed",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Extract",
+     "background-color",
+     "#BED4D8"
+    ],
+    [
+     ".Extract",
+     "color",
+     "#000000"
+    ],
+    [
+     ".headers",
+     "background-color",
+     "#56595C"
+    ],
+    [
+     ".headers",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     ".RefText",
+     "background-color",
+     "#E2E5D9"
+    ],
+    [
+     ".RefText",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Reference",
+     "background-color",
+     "#F3CFCA"
+    ],
+    [
+     ".Reference",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Highlight",
+     "background-color",
+     "#AFC8D5"
+    ],
+    [
+     ".Highlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight",
+     "background-color",
+     "#8EB4D2"
+    ],
+    [
+     ".SearchHighlight",
+     "color",
+     "#000000"
+    ],
+    [
+     ".SearchHighlight1",
+     "background-color",
+     "#A1CFBD"
+    ],
+    [
+     ".SearchHighlight1",
+     "color",
+     "#000000"
+    ],
+    [
+     ".Ignore",
+     "background-color",
+     "#F4DBC0"
+    ],
+    [
+     ".Ignore",
+     "color",
+     "#000000"
+    ],
+    [
+     ".tablelabel",
+     "background-color",
+     "#56595C"
+    ],
+    [
+     ".tablelabel",
+     "color",
+     "#FFFFFF"
+    ],
+    [
+     "A",
+     "color",
+     "#000000"
+    ]
+   ]
+  }
+ ],
+ "apply": [
+  {
+   "css": "",
+   "id": "0x96f",
+   "out": "BODY {background-color: #262427; color: #FCFCFC;}\n.Cloze {background-color: #675636; color: #FCFCFC;}\n.clozed {background-color: #66483D; color: #FCFCFC;}\n.Extract {background-color: #305660; color: #FCFCFC;}\n.headers {background-color: #3B393C; color: #FCFCFC;}\n.RefText {background-color: #40382D; color: #FCFCFC;}\n.Reference {background-color: #3E3A4C; color: #FCFCFC;}\n.Highlight {background-color: #725E38; color: #FCFCFC;}\n.SearchHighlight {background-color: #927740; color: #000000;}\n.SearchHighlight1 {background-color: #637C83; color: #FCFCFC;}\n.Ignore {background-color: #473032; color: #FCFCFC;}\n.tablelabel {background-color: #3B393C; color: #49CAE4;}\nA {color: #49CAE4;}\n"
+  },
+  {
+   "css": "BODY {color: red}\n",
+   "id": "dark-visual-studio",
+   "out": "BODY {color: #D4D4D4; background-color: #1E1E1E;}\n.Cloze {background-color: #564D3A; color: #D4D4D4;}\n.clozed {background-color: #564D3A; color: #D4D4D4;}\n.Extract {background-color: #193344; color: #D4D4D4;}\n.headers {background-color: #252526; color: #D4D4D4;}\n.RefText {background-color: #343129; color: #D4D4D4;}\n.Reference {background-color: #3F333E; color: #D4D4D4;}\n.Highlight {background-color: #5F553F; color: #D4D4D4;}\n.SearchHighlight {background-color: #7A6C4E; color: #FFFFFF;}\n.SearchHighlight1 {background-color: #577483; color: #FFFFFF;}\n.Ignore {background-color: #3E2424; color: #D4D4D4;}\n.tablelabel {background-color: #252526; color: #D4D4D4;}\nA {color: #6796E6;}\n"
+  },
+  {
+   "css": "body { COLOR: #123456; BACKGROUND-COLOR: white }\r\n.Cloze { font-weight: bold }\r\n",
+   "id": "jellybeans",
+   "out": "body { COLOR: #D5D5D5; BACKGROUND-COLOR: #121212;}\r\n.Cloze { font-weight: bold; background-color: #594F3D; color: #FFA1A1;}\r\n.clozed {background-color: #594432; color: #D5D5D5;}\r\n.Extract {background-color: #424D56; color: #D5D5D5;}\r\n.headers {background-color: #929292; color: #000000;}\r\n.RefText {background-color: #2E2A23; color: #D5D5D5;}\r\n.Reference {background-color: #413A41; color: #CDCDCD;}\r\n.Highlight {background-color: #655944; color: #FFA1A1;}\r\n.SearchHighlight {background-color: #887759; color: #000000;}\r\n.SearchHighlight1 {background-color: #165A56; color: #D5D5D5;}\r\n.Ignore {background-color: #362727; color: #C5C5C5;}\r\n.tablelabel {background-color: #929292; color: #000000;}\r\nA {color: #B1D8F6;}\r\n"
+  },
+  {
+   "css": ".Cloze{background-color:#000;color:#fff;}",
+   "id": "red-alert",
+   "out": ".Cloze{background-color: #714C60;color: #AAAAAA;}\nBODY {background-color: #762423; color: #AAAAAA;}\n.clozed {background-color: #8C5039; color: #FFFFFF;}\n.Extract {background-color: #684860; color: #FFFFFF;}\n.headers {background-color: #000000; color: #AAAAAA;}\n.RefText {background-color: #74343C; color: #FFFFFF;}\n.Reference {background-color: #8D3547; color: #FFFFFF;}\n.Highlight {background-color: #70536B; color: #FFFFFF;}\n.SearchHighlight {background-color: #6E668A; color: #FFFFFF;}\n.SearchHighlight1 {background-color: #716966; color: #FFFFFF;}\n.Ignore {background-color: #842629; color: #FFFFFF;}\n.tablelabel {background-color: #000000; color: #479BED;}\nA {color: #FFFFFF;}\n"
+  },
+  {
+   "css": "A { text-decoration: none; }\n/* comment */\n.Extract { margin: 0 }",
+   "id": "3024-day",
+   "out": "A { text-decoration: none; color: #000000;}\n/* comment */\n.Extract { margin: 0 }\nBODY {background-color: #F7F7F7; color: #928F8E;}\n.Cloze {background-color: #D3D2D2; color: #DB2D20;}\n.clozed {background-color: #F9F4AE; color: #000000;}\n.Extract {background-color: #ADDDF1; color: #000000;}\n.headers {background-color: #090300; color: #928F8E;}\n.RefText {background-color: #E9E8E8; color: #000000;}\n.Reference {background-color: #E6DBE3; color: #000000;}\n.Highlight {background-color: #CDCCCC; color: #000000;}\n.SearchHighlight {background-color: #BCBABA; color: #000000;}\n.SearchHighlight1 {background-color: #D9EEF6; color: #000000;}\n.Ignore {background-color: #F3D9D7; color: #000000;}\n.tablelabel {background-color: #090300; color: #01A0E4;}\n"
+  },
+  {
+   "css": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt\n}\n",
+   "id": "default-light",
+   "out": "BODY {\n  FONT-FAMILY: Arial;\n  FONT-SIZE: 12pt; BACKGROUND-COLOR: #F8F8F8; COLOR: #383838;}\n.Cloze {background-color: #F8EAD6; color: #AB4642;}\n.clozed {background-color: #F0DBC7; color: #383838;}\n.Extract {background-color: #D3E2E8; color: #383838;}\n.headers {background-color: #E8E8E8; color: #383838;}\n.RefText {background-color: #F8F2EB; color: #383838;}\n.Reference {background-color: #ECE2E9; color: #585858;}\n.Highlight {background-color: #F8E8D1; color: #AB4642;}\n.SearchHighlight {background-color: #F8E1C0; color: #383838;}\n.SearchHighlight1 {background-color: #C5DFDC; color: #383838;}\n.Ignore {background-color: #ECDDDD; color: #383838;}\n.tablelabel {background-color: #E8E8E8; color: #383838;}\nA {color: #383838;}\n"
+  },
+  {
+   "css": "BODY { color : red ; }\nBODY { color: blue; }",
+   "id": "humanoid-light",
+   "out": "BODY { color: #232629; background-color: #F8F8F2;}\nBODY { color: blue; }\n.Cloze {background-color: #FAE4B5; color: #B0151A;}\n.clozed {background-color: #FAC0A9; color: #232629;}\n.Extract {background-color: #AED5E6; color: #232629;}\n.headers {background-color: #EFEFE9; color: #232629;}\n.RefText {background-color: #F9F0DA; color: #232629;}\n.Reference {background-color: #DDC9E0; color: #232629;}\n.Highlight {background-color: #FAE1AB; color: #B0151A;}\n.SearchHighlight {background-color: #FCD78C; color: #232629;}\n.SearchHighlight1 {background-color: #88C8C5; color: #232629;}\n.Ignore {background-color: #EDD6D2; color: #232629;}\n.tablelabel {background-color: #EFEFE9; color: #232629;}\nA {color: #232629;}\n"
+  }
+ ],
+ "plans": {
+  "files": {
+   "bin/DarkMode.css": "BODY {color: #ddd; background-color: #111}\n.Cloze {font-weight: bold}\n",
+   "bin/LightMode.css": "BODY {color: #222}\n",
+   "bin/supermemo.css": "BODY {color: #ddd}\n",
+   "bin/supermemo.ini": "[SuperMemo]\nDark mode=1\n[Other]\nA=1\n",
+   "systems/coll/collection.ini": "[Defaults]\nTheme=Light Style\nDark Theme=Dark Style\n"
+  },
+  "active": {
+   "light": "Light Style",
+   "dark": "Dark Style",
+   "mode": "dark"
+  },
+  "entry": {
+   "id": "0x96f",
+   "name": "0x96f",
+   "variant": "dark",
+   "source": "tinted-theming base16",
+   "roles": {
+    "bg": "#262427",
+    "bg_alt": "#3B393C",
+    "surface": "#403E41",
+    "border": "#5C5A5C",
+    "selection": "#514F52",
+    "fg": "#FCFCFC",
+    "fg_dim": "#7C7B7D",
+    "muted": "#676567",
+    "accent": "#49CAE4",
+    "accent_fg": "#000000",
+    "alt_fg": "#FCFCFC",
+    "surface_fg": "#FCFCFC",
+    "selection_fg": "#FCFCFC",
+    "red": "#FF7272",
+    "orange": "#FC9D6F",
+    "yellow": "#FFCA58",
+    "green": "#BCDF59",
+    "cyan": "#AEE8F4",
+    "blue": "#49CAE4",
+    "purple": "#A093E2"
+   }
+  },
+  "cards_live": {
+   "bin/DarkMode.css": "BODY {color: #FCFCFC; background-color: #262427;}\n.Cloze {font-weight: bold; background-color: #675636; color: #FCFCFC;}\n.clozed {background-color: #66483D; color: #FCFCFC;}\n.Extract {background-color: #305660; color: #FCFCFC;}\n.headers {background-color: #3B393C; color: #FCFCFC;}\n.RefText {background-color: #40382D; color: #FCFCFC;}\n.Reference {background-color: #3E3A4C; color: #FCFCFC;}\n.Highlight {background-color: #725E38; color: #FCFCFC;}\n.SearchHighlight {background-color: #927740; color: #000000;}\n.SearchHighlight1 {background-color: #637C83; color: #FCFCFC;}\n.Ignore {background-color: #473032; color: #FCFCFC;}\n.tablelabel {background-color: #3B393C; color: #49CAE4;}\nA {color: #49CAE4;}\n",
+   "bin/supermemo.css": "BODY {color: #FCFCFC; background-color: #262427;}\n.Cloze {background-color: #675636; color: #FCFCFC;}\n.clozed {background-color: #66483D; color: #FCFCFC;}\n.Extract {background-color: #305660; color: #FCFCFC;}\n.headers {background-color: #3B393C; color: #FCFCFC;}\n.RefText {background-color: #40382D; color: #FCFCFC;}\n.Reference {background-color: #3E3A4C; color: #FCFCFC;}\n.Highlight {background-color: #725E38; color: #FCFCFC;}\n.SearchHighlight {background-color: #927740; color: #000000;}\n.SearchHighlight1 {background-color: #637C83; color: #FCFCFC;}\n.Ignore {background-color: #473032; color: #FCFCFC;}\n.tablelabel {background-color: #3B393C; color: #49CAE4;}\nA {color: #49CAE4;}\n"
+  },
+  "cards_not_live": {
+   "bin/DarkMode.css": "BODY {color: #FCFCFC; background-color: #262427;}\n.Cloze {font-weight: bold; background-color: #675636; color: #FCFCFC;}\n.clozed {background-color: #66483D; color: #FCFCFC;}\n.Extract {background-color: #305660; color: #FCFCFC;}\n.headers {background-color: #3B393C; color: #FCFCFC;}\n.RefText {background-color: #40382D; color: #FCFCFC;}\n.Reference {background-color: #3E3A4C; color: #FCFCFC;}\n.Highlight {background-color: #725E38; color: #FCFCFC;}\n.SearchHighlight {background-color: #927740; color: #000000;}\n.SearchHighlight1 {background-color: #637C83; color: #FCFCFC;}\n.Ignore {background-color: #473032; color: #FCFCFC;}\n.tablelabel {background-color: #3B393C; color: #49CAE4;}\nA {color: #49CAE4;}\n"
+  },
+  "settings": {
+   "systems/coll/collection.ini": "[Defaults]\nTheme=Light Style\nDark Theme=My Style\n",
+   "bin/supermemo.ini": "[SuperMemo]\nDark mode=1\n[Other]\nA=1\n"
+  },
+  "settings_other": {
+   "systems/coll/collection.ini": "[Defaults]\nTheme=Other\nDark Theme=Dark Style\n",
+   "bin/supermemo.ini": "[SuperMemo]\nDark mode=0\n[Other]\nA=1\n"
+  },
+  "stylesheet_dark": "BODY {color: #FCFCFC; background-color: #262427;}\n.Cloze {font-weight: bold; background-color: #675636; color: #FCFCFC;}\n.clozed {background-color: #66483D; color: #FCFCFC;}\n.Extract {background-color: #305660; color: #FCFCFC;}\n.headers {background-color: #3B393C; color: #FCFCFC;}\n.RefText {background-color: #40382D; color: #FCFCFC;}\n.Reference {background-color: #3E3A4C; color: #FCFCFC;}\n.Highlight {background-color: #725E38; color: #FCFCFC;}\n.SearchHighlight {background-color: #927740; color: #000000;}\n.SearchHighlight1 {background-color: #637C83; color: #FCFCFC;}\n.Ignore {background-color: #473032; color: #FCFCFC;}\n.tablelabel {background-color: #3B393C; color: #49CAE4;}\nA {color: #49CAE4;}\n",
+  "stylesheet_light": "BODY {color: #FCFCFC; background-color: #262427;}\n.Cloze {background-color: #675636; color: #FCFCFC;}\n.clozed {background-color: #66483D; color: #FCFCFC;}\n.Extract {background-color: #305660; color: #FCFCFC;}\n.headers {background-color: #3B393C; color: #FCFCFC;}\n.RefText {background-color: #40382D; color: #FCFCFC;}\n.Reference {background-color: #3E3A4C; color: #FCFCFC;}\n.Highlight {background-color: #725E38; color: #FCFCFC;}\n.SearchHighlight {background-color: #927740; color: #000000;}\n.SearchHighlight1 {background-color: #637C83; color: #FCFCFC;}\n.Ignore {background-color: #473032; color: #FCFCFC;}\n.tablelabel {background-color: #3B393C; color: #49CAE4;}\nA {color: #49CAE4;}\n"
+ }
+}

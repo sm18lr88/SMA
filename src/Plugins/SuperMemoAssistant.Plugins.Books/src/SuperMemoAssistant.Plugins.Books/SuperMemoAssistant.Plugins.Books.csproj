@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Imports EPUB books and Kindle highlights into SuperMemo as incremental-reading topics. -->
+  <PropertyGroup>
+    <RootNamespace>SuperMemoAssistant.Plugins.Books</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" PrivateAssets="all" />
+    <PackageReference Include="Anotar.Serilog.Fody" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" PrivateAssets="all" />
+    <PackageReference Include="Forge.Forms" />
+    <PackageReference Include="HtmlAgilityPack" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(RepoRoot)src\Interop\src\SuperMemoAssistant.Interop\SuperMemoAssistant.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\PluginManager\src\PluginManager.Interop\PluginManager.Interop.csproj" />
+    <ProjectReference Include="$(RepoRoot)libs\Extensions.System.IO\src\Extensions.System.IO.csproj" />
+    <ProjectReference Include="$(RepoRoot)src\Services\SuperMemoAssistant.Services.UI\SuperMemoAssistant.Services.UI.csproj" />
+  </ItemGroup>
+</Project>

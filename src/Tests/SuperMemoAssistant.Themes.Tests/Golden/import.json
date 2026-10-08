@@ -1,0 +1,1429 @@
+{
+ "css": {
+  "rules": [
+   {
+    "css": "",
+    "out": []
+   },
+   {
+    "css": "body { --a: 1; }",
+    "out": [
+     [
+      "body",
+      " --a: 1; "
+     ]
+    ]
+   },
+   {
+    "css": "/* c */ .x { --a: 1; --b: 2 }",
+    "out": [
+     [
+      ".x",
+      " --a: 1; --b: 2 "
+     ]
+    ]
+   },
+   {
+    "css": ".d { --icon: url(\"data:image/svg+xml;charset=UTF-8,<svg a='b'>{x}</svg>\"); --b: 1px solid Canvas; } :root { --c: red }",
+    "out": [
+     [
+      ".d",
+      " --icon: url(\"data:image/svg+xml;charset=UTF-8,<svg a='b'>{x}</svg>\"); --b: 1px solid Canvas; "
+     ],
+     [
+      ":root",
+      " --c: red "
+     ]
+    ]
+   },
+   {
+    "css": "@media (x) { .theme-dark { --a: 1 } } .theme-light { --b: 2 }",
+    "out": [
+     [
+      ".theme-light",
+      " --b: 2 "
+     ]
+    ]
+   },
+   {
+    "css": ".a, .b > .c, body.theme-dark.x { --v: var(--w, calc(1px + 2px)); }",
+    "out": [
+     [
+      ".a, .b > .c, body.theme-dark.x",
+      " --v: var(--w, calc(1px + 2px)); "
+     ]
+    ]
+   },
+   {
+    "css": ".esc { --s: 'a\\'b;c'; --t: 1 }",
+    "out": [
+     [
+      ".esc",
+      " --s: 'a\\'b;c'; --t: 1 "
+     ]
+    ]
+   },
+   {
+    "css": ".x { --y: foo(bar;baz); }",
+    "out": [
+     [
+      ".x",
+      " --y: foo(bar;baz); "
+     ]
+    ]
+   },
+   {
+    "css": "body{--a:1}}.z{--b:2}",
+    "out": [
+     [
+      "body",
+      "--a:1"
+     ],
+     [
+      "",
+      ""
+     ],
+     [
+      ".z",
+      "--b:2"
+     ]
+    ]
+   }
+  ],
+  "custom_properties": [
+   {
+    "body": " --a: 1; ",
+    "out": {
+     "--a": "1"
+    }
+   },
+   {
+    "body": " --a: 1; --b: 2 ",
+    "out": {
+     "--a": "1",
+     "--b": "2"
+    }
+   },
+   {
+    "body": " --icon: url(\"data:image/svg+xml;charset=UTF-8,<svg a='b'>{x}</svg>\"); --b: 1px solid Canvas; ",
+    "out": {
+     "--icon": "url(\"data:image/svg+xml;charset=UTF-8,<svg a='b'>{x}</svg>\")",
+     "--b": "1px solid Canvas"
+    }
+   },
+   {
+    "body": " --c: red ",
+    "out": {
+     "--c": "red"
+    }
+   },
+   {
+    "body": " --b: 2 ",
+    "out": {
+     "--b": "2"
+    }
+   },
+   {
+    "body": " --v: var(--w, calc(1px + 2px)); ",
+    "out": {
+     "--v": "var(--w, calc(1px + 2px))"
+    }
+   },
+   {
+    "body": " --s: 'a\\'b;c'; --t: 1 ",
+    "out": {
+     "--s": "'a\\'b;c'",
+     "--t": "1"
+    }
+   },
+   {
+    "body": " --y: foo(bar;baz); ",
+    "out": {
+     "--y": "foo(bar;baz)"
+    }
+   },
+   {
+    "body": "--a:1",
+    "out": {
+     "--a": "1"
+    }
+   },
+   {
+    "body": "",
+    "out": {}
+   },
+   {
+    "body": "--b:2",
+    "out": {
+     "--b": "2"
+    }
+   }
+  ],
+  "body_classes": [
+   {
+    "part": "body",
+    "out": []
+   },
+   {
+    "part": " body.theme-dark ",
+    "out": [
+     "theme-dark"
+    ]
+   },
+   {
+    "part": ".theme-light.x",
+    "out": [
+     "theme-light",
+     "x"
+    ]
+   },
+   {
+    "part": ":root",
+    "out": []
+   },
+   {
+    "part": "html.a-b",
+    "out": [
+     "a-b"
+    ]
+   },
+   {
+    "part": "body > div",
+    "out": null
+   },
+   {
+    "part": "div.x",
+    "out": null
+   },
+   {
+    "part": "",
+    "out": null
+   },
+   {
+    "part": "  ",
+    "out": null
+   },
+   {
+    "part": "body .x",
+    "out": null
+   },
+   {
+    "part": ".a.b.c",
+    "out": [
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   {
+    "part": "#id",
+    "out": null
+   },
+   {
+    "part": "body.x:hover",
+    "out": null
+   }
+  ],
+  "split_top": [
+   {
+    "text": "a, b",
+    "out": [
+     "a",
+     " b"
+    ]
+   },
+   {
+    "text": "a(b, c), d",
+    "out": [
+     "a(b, c)",
+     " d"
+    ]
+   },
+   {
+    "text": "var(--x, rgb(1, 2, 3)), z",
+    "out": [
+     "var(--x, rgb(1, 2, 3))",
+     " z"
+    ]
+   },
+   {
+    "text": "",
+    "out": [
+     ""
+    ]
+   },
+   {
+    "text": "no commas",
+    "out": [
+     "no commas"
+    ]
+   },
+   {
+    "text": "a,,b",
+    "out": [
+     "a",
+     "",
+     "b"
+    ]
+   }
+  ],
+  "resolve_env": {
+   "--a": "#112233",
+   "--b": "var(--a)",
+   "--c": "var(--missing, var(--a))",
+   "--loop": "var(--loop)",
+   "--empty": "",
+   "--mix": "color-mix(in srgb, var(--a) 50%, white)",
+   "--tr": "rgba(0, 0, 0, 0.5)"
+  },
+  "resolve": [
+   {
+    "value": "var(--a)",
+    "out": "#112233"
+   },
+   {
+    "value": "var(--b)",
+    "out": "#112233"
+   },
+   {
+    "value": "var(--c)",
+    "out": " #112233"
+   },
+   {
+    "value": "var(--nothing)",
+    "out": ""
+   },
+   {
+    "value": "var(--nothing, red)",
+    "out": " red"
+   },
+   {
+    "value": "var(--nothing, var(--a), x)",
+    "out": " #112233, x"
+   },
+   {
+    "value": "var(--loop)",
+    "out": ""
+   },
+   {
+    "value": "var(--empty)",
+    "out": ""
+   },
+   {
+    "value": "var(--empty, #fff)",
+    "out": ""
+   },
+   {
+    "value": "calc(var(--a) + var(--b))",
+    "out": "calc(#112233 + #112233)"
+   },
+   {
+    "value": "var(--mix)",
+    "out": "color-mix(in srgb, #112233 50%, white)"
+   },
+   {
+    "value": "plain",
+    "out": "plain"
+   },
+   {
+    "value": "var(--a",
+    "out": ""
+   },
+   {
+    "value": "var(",
+    "out": ""
+   },
+   {
+    "value": "var(--b) var(--a)",
+    "out": "#112233 #112233"
+   }
+  ],
+  "jsonc": [
+   {
+    "text": "{\"a\": 1}",
+    "out": {
+     "a": 1
+    }
+   },
+   {
+    "text": "{\"a\": 1, // c\n \"b\": 2,}",
+    "out": {
+     "a": 1,
+     "b": 2
+    }
+   },
+   {
+    "text": "{\"u\": \"http://x/y\", /* c */ \"v\": [1, 2,],}",
+    "out": {
+     "u": "http://x/y",
+     "v": [
+      1,
+      2
+     ]
+    }
+   },
+   {
+    "text": "{\"s\": \"a // b /* c */\"}",
+    "out": {
+     "s": "a // b /* c */"
+    }
+   },
+   {
+    "text": "[1, 2, 3,]",
+    "out": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "text": "{\"a\": }",
+    "error": true
+   },
+   {
+    "text": "",
+    "error": true
+   },
+   {
+    "text": "// only a comment\n{\"a\": 1}",
+    "out": {
+     "a": 1
+    }
+   }
+  ]
+ },
+ "yaml": {
+  "files": {
+   "a-dark.yaml": "system: \"base16\"\nname: \"Test Nord\"\nauthor: \"Someone\"\nvariant: \"dark\"\npalette:\n  base00: \"2e3440\"\n  base01: \"3b4252\"\n  base02: \"434c5e\"\n  base03: \"4c566a\"\n  base04: \"d8dee9\"\n  base05: \"e5e9f0\"\n  base06: \"eceff4\"\n  base07: \"8fbcbb\"\n  base08: \"bf616a\"\n  base09: \"d08770\"\n  base0A: \"ebcb8b\"\n  base0B: \"a3be8c\"\n  base0C: \"88c0d0\"\n  base0D: \"81a1c1\"\n  base0E: \"b48ead\"\n  base0F: \"5e81ac\"\n",
+   "b-light24.yml": "# a base24 light scheme with # prefixes and lower-case keys\nsystem: base24\nname: Daylight Test   # trailing comment\nvariant: \"light\"\npalette:\n  base00: \"#fafafa\"\n  base01: \"#f0f0f0\"\n  base02: \"#e0e0e0\"\n  base03: \"#a0a0a0\"\n  base04: \"#606060\"\n  base05: \"#303030\"\n  base06: \"#202020\"\n  base07: \"#101010\"\n  base08: \"#d03030\"\n  base09: \"#d07020\"\n  base0a: \"#c0a000\"\n  base0b: \"#30a030\"\n  base0c: \"#20a0a0\"\n  base0d: \"#3050d0\"\n  base0e: \"#9030c0\"\n  base0f: \"#804020\"\n  base10: \"#eeeeee\"\n  base11: \"#dddddd\"\n  base12: \"#ff0000\"\n  base13: \"#ffff00\"\n  base14: \"#00ff00\"\n  base15: \"#00ffff\"\n  base16: \"#0000ff\"\n  base17: \"#ff00ff\"\n",
+   "c-crlf.yaml": "system: \"base16\"\r\nname: \"Crlf Scheme\"\r\nauthor: \"Someone\"\r\npalette:\r\n  base00: \"102030\"\r\n  base01: \"3b4252\"\r\n  base02: \"434c5e\"\r\n  base03: \"4c566a\"\r\n  base04: \"d8dee9\"\r\n  base05: \"e5e9f0\"\r\n  base06: \"eceff4\"\r\n  base07: \"8fbcbb\"\r\n  base08: \"bf616a\"\r\n  base09: \"d08770\"\r\n  base0A: \"ebcb8b\"\r\n  base0B: \"a3be8c\"\r\n  base0C: \"88c0d0\"\r\n  base0D: \"81a1c1\"\r\n  base0E: \"b48ead\"\r\n  base0F: \"5e81ac\"\r\n",
+   "d-auto-light.yaml": "system: \"base16\"\nname: \"Auto Light\"\nauthor: \"Someone\"\npalette:\n  base00: \"f4f4f4\"\n  base01: \"3b4252\"\n  base02: \"434c5e\"\n  base03: \"4c566a\"\n  base04: \"d8dee9\"\n  base05: \"e5e9f0\"\n  base06: \"eceff4\"\n  base07: \"8fbcbb\"\n  base08: \"bf616a\"\n  base09: \"d08770\"\n  base0A: \"ebcb8b\"\n  base0B: \"a3be8c\"\n  base0C: \"88c0d0\"\n  base0D: \"81a1c1\"\n  base0E: \"b48ead\"\n  base0F: \"5e81ac\"\n",
+   "e-missing-color.yaml": "system: \"base16\"\nname: \"No E\"\nauthor: \"Someone\"\nvariant: \"dark\"\npalette:\n  base00: \"2e3440\"\n  base01: \"3b4252\"\n  base02: \"434c5e\"\n  base03: \"4c566a\"\n  base04: \"d8dee9\"\n  base05: \"e5e9f0\"\n  base06: \"eceff4\"\n  base07: \"8fbcbb\"\n  base08: \"bf616a\"\n  base09: \"d08770\"\n  base0A: \"ebcb8b\"\n  base0B: \"a3be8c\"\n  base0C: \"88c0d0\"\n  base0D: \"81a1c1\"\n  base0F: \"5e81ac\"\n",
+   "f-no-name.yaml": "system: \"base16\"\nauthor: \"Someone\"\nvariant: \"dark\"\npalette:\n  base00: \"2e3440\"\n  base01: \"3b4252\"\n  base02: \"434c5e\"\n  base03: \"4c566a\"\n  base04: \"d8dee9\"\n  base05: \"e5e9f0\"\n  base06: \"eceff4\"\n  base07: \"8fbcbb\"\n  base08: \"bf616a\"\n  base09: \"d08770\"\n  base0A: \"ebcb8b\"\n  base0B: \"a3be8c\"\n  base0C: \"88c0d0\"\n  base0D: \"81a1c1\"\n  base0E: \"b48ead\"\n  base0F: \"5e81ac\"\n",
+   "g-bad-variant.yaml": "system: \"base16\"\nname: \"Bad Variant\"\nauthor: \"Someone\"\nvariant: \"Dark\"\npalette:\n  base00: \"2e3440\"\n  base01: \"3b4252\"\n  base02: \"434c5e\"\n  base03: \"4c566a\"\n  base04: \"d8dee9\"\n  base05: \"e5e9f0\"\n  base06: \"eceff4\"\n  base07: \"8fbcbb\"\n  base08: \"bf616a\"\n  base09: \"d08770\"\n  base0A: \"ebcb8b\"\n  base0B: \"a3be8c\"\n  base0C: \"88c0d0\"\n  base0D: \"81a1c1\"\n  base0E: \"b48ead\"\n  base0F: \"5e81ac\"\n",
+   "h-hash-in-name.yaml": "system: \"base16\"\nname: \"Foo # Bar\"\nauthor: \"Someone\"\nvariant: \"dark\"\npalette:\n  base00: \"2e3440\"\n  base01: \"3b4252\"\n  base02: \"434c5e\"\n  base03: \"4c566a\"\n  base04: \"d8dee9\"\n  base05: \"e5e9f0\"\n  base06: \"eceff4\"\n  base07: \"8fbcbb\"\n  base08: \"bf616a\"\n  base09: \"d08770\"\n  base0A: \"ebcb8b\"\n  base0B: \"a3be8c\"\n  base0C: \"88c0d0\"\n  base0D: \"81a1c1\"\n  base0E: \"b48ead\"\n  base0F: \"5e81ac\"\n",
+   "i-single-quotes.yaml": "system: \"base16\"\nname: \"Single Quotes\"\nauthor: \"Someone\"\nvariant: \"dark\"\npalette:\n  base00: \"2e3440\"\n  base01: '3b4252'\n  base02: \"434c5e\"\n  base03: \"4c566a\"\n  base04: \"d8dee9\"\n  base05: \"e5e9f0\"\n  base06: \"eceff4\"\n  base07: \"8fbcbb\"\n  base08: \"bf616a\"\n  base09: \"d08770\"\n  base0A: \"ebcb8b\"\n  base0B: \"a3be8c\"\n  base0C: \"88c0d0\"\n  base0D: \"81a1c1\"\n  base0E: \"b48ead\"\n  base0F: \"5e81ac\"\n",
+   "notes.txt": "not a scheme"
+  },
+  "singles": {
+   "a-dark.yaml": {
+    "entry": {
+     "id": "test-nord",
+     "name": "Test Nord",
+     "variant": "dark",
+     "source": "tinted-theming base16",
+     "roles": {
+      "bg": "#2E3440",
+      "bg_alt": "#3B4252",
+      "surface": "#3B4252",
+      "border": "#485164",
+      "selection": "#434C5E",
+      "fg": "#E5E9F0",
+      "fg_dim": "#D8DEE9",
+      "muted": "#4C566A",
+      "accent": "#81A1C1",
+      "accent_fg": "#000000",
+      "alt_fg": "#E5E9F0",
+      "surface_fg": "#E5E9F0",
+      "selection_fg": "#E5E9F0",
+      "red": "#BF616A",
+      "orange": "#D08770",
+      "yellow": "#EBCB8B",
+      "green": "#A3BE8C",
+      "cyan": "#88C0D0",
+      "blue": "#81A1C1",
+      "purple": "#B48EAD"
+     }
+    }
+   },
+   "b-light24.yml": {
+    "entry": {
+     "id": "daylight-test",
+     "name": "Daylight Test",
+     "variant": "light",
+     "source": "tinted-theming base24",
+     "roles": {
+      "bg": "#FAFAFA",
+      "bg_alt": "#F0F0F0",
+      "surface": "#EAEAEA",
+      "border": "#C0C0C0",
+      "selection": "#E0E0E0",
+      "fg": "#303030",
+      "fg_dim": "#606060",
+      "muted": "#A0A0A0",
+      "accent": "#3050D0",
+      "accent_fg": "#FFFFFF",
+      "alt_fg": "#303030",
+      "surface_fg": "#303030",
+      "selection_fg": "#303030",
+      "red": "#D03030",
+      "orange": "#D07020",
+      "yellow": "#C0A000",
+      "green": "#30A030",
+      "cyan": "#20A0A0",
+      "blue": "#3050D0",
+      "purple": "#9030C0"
+     }
+    }
+   },
+   "c-crlf.yaml": {
+    "entry": {
+     "id": "crlf-scheme",
+     "name": "Crlf Scheme",
+     "variant": "dark",
+     "source": "tinted-theming base16",
+     "roles": {
+      "bg": "#102030",
+      "bg_alt": "#3B4252",
+      "surface": "#2F3A4C",
+      "border": "#485164",
+      "selection": "#434C5E",
+      "fg": "#E5E9F0",
+      "fg_dim": "#D8DEE9",
+      "muted": "#4C566A",
+      "accent": "#81A1C1",
+      "accent_fg": "#000000",
+      "alt_fg": "#E5E9F0",
+      "surface_fg": "#E5E9F0",
+      "selection_fg": "#E5E9F0",
+      "red": "#BF616A",
+      "orange": "#D08770",
+      "yellow": "#EBCB8B",
+      "green": "#A3BE8C",
+      "cyan": "#88C0D0",
+      "blue": "#81A1C1",
+      "purple": "#B48EAD"
+     }
+    }
+   },
+   "d-auto-light.yaml": {
+    "entry": {
+     "id": "auto-light",
+     "name": "Auto Light",
+     "variant": "light",
+     "source": "tinted-theming base16",
+     "roles": {
+      "bg": "#F4F4F4",
+      "bg_alt": "#3B4252",
+      "surface": "#8A8F9A",
+      "border": "#485164",
+      "selection": "#434C5E",
+      "fg": "#E5E9F0",
+      "fg_dim": "#D8DEE9",
+      "muted": "#4C566A",
+      "accent": "#81A1C1",
+      "accent_fg": "#000000",
+      "alt_fg": "#E5E9F0",
+      "surface_fg": "#000000",
+      "selection_fg": "#E5E9F0",
+      "red": "#BF616A",
+      "orange": "#D08770",
+      "yellow": "#EBCB8B",
+      "green": "#A3BE8C",
+      "cyan": "#88C0D0",
+      "blue": "#81A1C1",
+      "purple": "#B48EAD"
+     }
+    }
+   },
+   "e-missing-color.yaml": {
+    "error": true
+   },
+   "f-no-name.yaml": {
+    "error": true
+   },
+   "g-bad-variant.yaml": {
+    "error": true
+   },
+   "h-hash-in-name.yaml": {
+    "entry": {
+     "id": "foo",
+     "name": "Foo",
+     "variant": "dark",
+     "source": "tinted-theming base16",
+     "roles": {
+      "bg": "#2E3440",
+      "bg_alt": "#3B4252",
+      "surface": "#3B4252",
+      "border": "#485164",
+      "selection": "#434C5E",
+      "fg": "#E5E9F0",
+      "fg_dim": "#D8DEE9",
+      "muted": "#4C566A",
+      "accent": "#81A1C1",
+      "accent_fg": "#000000",
+      "alt_fg": "#E5E9F0",
+      "surface_fg": "#E5E9F0",
+      "selection_fg": "#E5E9F0",
+      "red": "#BF616A",
+      "orange": "#D08770",
+      "yellow": "#EBCB8B",
+      "green": "#A3BE8C",
+      "cyan": "#88C0D0",
+      "blue": "#81A1C1",
+      "purple": "#B48EAD"
+     }
+    }
+   },
+   "i-single-quotes.yaml": {
+    "error": true
+   }
+  },
+  "folder": [
+   {
+    "id": "test-nord",
+    "name": "Test Nord",
+    "variant": "dark",
+    "source": "tinted-theming base16",
+    "roles": {
+     "bg": "#2E3440",
+     "bg_alt": "#3B4252",
+     "surface": "#3B4252",
+     "border": "#485164",
+     "selection": "#434C5E",
+     "fg": "#E5E9F0",
+     "fg_dim": "#D8DEE9",
+     "muted": "#4C566A",
+     "accent": "#81A1C1",
+     "accent_fg": "#000000",
+     "alt_fg": "#E5E9F0",
+     "surface_fg": "#E5E9F0",
+     "selection_fg": "#E5E9F0",
+     "red": "#BF616A",
+     "orange": "#D08770",
+     "yellow": "#EBCB8B",
+     "green": "#A3BE8C",
+     "cyan": "#88C0D0",
+     "blue": "#81A1C1",
+     "purple": "#B48EAD"
+    }
+   },
+   {
+    "id": "daylight-test",
+    "name": "Daylight Test",
+    "variant": "light",
+    "source": "tinted-theming base24",
+    "roles": {
+     "bg": "#FAFAFA",
+     "bg_alt": "#F0F0F0",
+     "surface": "#EAEAEA",
+     "border": "#C0C0C0",
+     "selection": "#E0E0E0",
+     "fg": "#303030",
+     "fg_dim": "#606060",
+     "muted": "#A0A0A0",
+     "accent": "#3050D0",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#303030",
+     "surface_fg": "#303030",
+     "selection_fg": "#303030",
+     "red": "#D03030",
+     "orange": "#D07020",
+     "yellow": "#C0A000",
+     "green": "#30A030",
+     "cyan": "#20A0A0",
+     "blue": "#3050D0",
+     "purple": "#9030C0"
+    }
+   },
+   {
+    "id": "crlf-scheme",
+    "name": "Crlf Scheme",
+    "variant": "dark",
+    "source": "tinted-theming base16",
+    "roles": {
+     "bg": "#102030",
+     "bg_alt": "#3B4252",
+     "surface": "#2F3A4C",
+     "border": "#485164",
+     "selection": "#434C5E",
+     "fg": "#E5E9F0",
+     "fg_dim": "#D8DEE9",
+     "muted": "#4C566A",
+     "accent": "#81A1C1",
+     "accent_fg": "#000000",
+     "alt_fg": "#E5E9F0",
+     "surface_fg": "#E5E9F0",
+     "selection_fg": "#E5E9F0",
+     "red": "#BF616A",
+     "orange": "#D08770",
+     "yellow": "#EBCB8B",
+     "green": "#A3BE8C",
+     "cyan": "#88C0D0",
+     "blue": "#81A1C1",
+     "purple": "#B48EAD"
+    }
+   },
+   {
+    "id": "auto-light",
+    "name": "Auto Light",
+    "variant": "light",
+    "source": "tinted-theming base16",
+    "roles": {
+     "bg": "#F4F4F4",
+     "bg_alt": "#3B4252",
+     "surface": "#8A8F9A",
+     "border": "#485164",
+     "selection": "#434C5E",
+     "fg": "#E5E9F0",
+     "fg_dim": "#D8DEE9",
+     "muted": "#4C566A",
+     "accent": "#81A1C1",
+     "accent_fg": "#000000",
+     "alt_fg": "#E5E9F0",
+     "surface_fg": "#000000",
+     "selection_fg": "#E5E9F0",
+     "red": "#BF616A",
+     "orange": "#D08770",
+     "yellow": "#EBCB8B",
+     "green": "#A3BE8C",
+     "cyan": "#88C0D0",
+     "blue": "#81A1C1",
+     "purple": "#B48EAD"
+    }
+   },
+   {
+    "id": "foo",
+    "name": "Foo",
+    "variant": "dark",
+    "source": "tinted-theming base16",
+    "roles": {
+     "bg": "#2E3440",
+     "bg_alt": "#3B4252",
+     "surface": "#3B4252",
+     "border": "#485164",
+     "selection": "#434C5E",
+     "fg": "#E5E9F0",
+     "fg_dim": "#D8DEE9",
+     "muted": "#4C566A",
+     "accent": "#81A1C1",
+     "accent_fg": "#000000",
+     "alt_fg": "#E5E9F0",
+     "surface_fg": "#E5E9F0",
+     "selection_fg": "#E5E9F0",
+     "red": "#BF616A",
+     "orange": "#D08770",
+     "yellow": "#EBCB8B",
+     "green": "#A3BE8C",
+     "cyan": "#88C0D0",
+     "blue": "#81A1C1",
+     "purple": "#B48EAD"
+    }
+   }
+  ],
+  "folder_skipped": [
+   "e-missing-color.yaml",
+   "f-no-name.yaml",
+   "g-bad-variant.yaml",
+   "i-single-quotes.yaml"
+  ]
+ },
+ "vscode": {
+  "files": {
+   "vs/base.json": "// a base theme with comments and trailing commas\n{\n  \"name\": \"Base Night\",\n  \"type\": \"dark\",\n  /* workbench colors */\n  \"colors\": {\n    \"editor.background\": \"#1f2430\",\n    \"editor.foreground\": \"#cad3f5\",\n    \"sideBar.background\": \"#181c26\",\n    \"input.background\": \"#2a3040\",\n    \"panel.border\": \"#ffffff22\",\n    \"editor.selectionBackground\": \"#3a4a7a88\",\n    \"button.background\": \"#5a7bd8\",\n    \"descriptionForeground\": \"#cad3f5b3\",\n    \"editorLineNumber.foreground\": \"#6e738d\",\n    \"terminal.ansiRed\": \"#ed8796\",\n    \"terminal.ansiGreen\": \"#a6da95\",\n    \"ignored.number\": 5,\n    \"url.like\": \"http://example.test/not-a-comment\",\n  },\n  \"tokenColors\": [\n    { \"scope\": \"keyword\", \"settings\": { \"foreground\": \"#c6a0f6\" } },\n    { \"scope\": \"string\", \"settings\": { \"foreground\": \"#a6da95\" } },\n    { \"scope\": \"number\", \"settings\": { \"foreground\": \"#f5a97f\" } },\n    { \"scope\": \"func\", \"settings\": { \"foreground\": \"#8aadf4\" } },\n    { \"scope\": \"warn\", \"settings\": { \"foreground\": \"#eed49f\" } },\n    { \"scope\": \"info\", \"settings\": { \"foreground\": \"#8bd5ca\" } },\n    { \"scope\": \"gray\", \"settings\": { \"foreground\": \"#808080\" } },\n    { \"scope\": \"nofg\", \"settings\": { \"fontStyle\": \"italic\" } },\n    { \"scope\": \"nosettings\" },\n  ],\n}\n",
+   "vs/child.json": "{ \"include\": \"./base.json\", \"name\": \"Child Night\", \"colors\": { \"editor.background\": \"#202020\" }, \"tokenColors\": [ { \"settings\": { \"foreground\": \"#ff3355\" } } ] }",
+   "vs/light.json": "{ \"type\": \"light\", \"colors\": { \"editor.background\": \"#fdf6e3\", \"editor.foreground\": \"#586e75\", \"sideBar.background\": \"#eee8d5\", \"panel.border\": \"#00000033\", \"editor.selectionBackground\": \"#07368333\", \"button.background\": \"#268bd2cc\" }, \"tokenColors\": [ { \"settings\": { \"foreground\": \"#dc322f\" } }, { \"settings\": { \"foreground\": \"#859900\" } } ] }",
+   "vs/plain.json": "{}",
+   "vs/hc.json": "{ \"type\": \"hc-light\", \"colors\": { \"editor.background\": \"#ffffff\" } }",
+   "vs/bom.json": "\ufeff{ \"name\": \"Bom Theme\", \"colors\": { \"editor.background\": \"#101820\" } }",
+   "vs/broken.json": "{ \"name\": \"Broken\", ",
+   "ext/package.json": "{ \"name\": \"my-ext\", \"displayName\": \"%ext.name%\", \"contributes\": { \"themes\": [ { \"label\": \"%theme.a%\", \"uiTheme\": \"vs-dark\", \"path\": \"./themes/a.json\" }, { \"label\": \"%theme.b%\", \"uiTheme\": \"vs\", \"path\": \"./themes/b.json\" }, { \"id\": \"only-id\", \"path\": \"./themes/c.json\" } ] } }",
+   "ext/package.nls.json": "{ \"ext.name\": \"My Extension\", \"theme.a\": { \"message\": \"Alpha\" }, \"theme.b\": \"Beta\" }",
+   "ext/themes/a.json": "{ \"colors\": { \"editor.background\": \"#101018\" }, \"tokenColors\": [ { \"settings\": { \"foreground\": \"#ff5577\" } } ] }",
+   "ext/themes/b.json": "{ \"colors\": { \"editor.background\": \"#f8f8f0\" } }",
+   "ext/themes/c.json": "{ \"type\": \"dark\", \"colors\": { \"editor.background\": \"#0a0a0a\" } }"
+  },
+  "imports": {
+   "base": {
+    "id": "base-night",
+    "name": "Base Night",
+    "variant": "dark",
+    "source": "VS Code",
+    "roles": {
+     "bg": "#1F2430",
+     "bg_alt": "#181C26",
+     "surface": "#2A3040",
+     "border": "#3D414C",
+     "selection": "#2D3857",
+     "fg": "#CAD3F5",
+     "fg_dim": "#979FBA",
+     "muted": "#6E738D",
+     "accent": "#5A7BD8",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#CAD3F5",
+     "surface_fg": "#CAD3F5",
+     "selection_fg": "#CAD3F5",
+     "red": "#ED8796",
+     "orange": "#F5A97F",
+     "yellow": "#EED49F",
+     "green": "#A6DA95",
+     "cyan": "#8BD5CA",
+     "blue": "#8AADF4",
+     "purple": "#C6A0F6"
+    }
+   },
+   "child": {
+    "id": "child-night",
+    "name": "Child Night",
+    "variant": "dark",
+    "source": "VS Code",
+    "roles": {
+     "bg": "#202020",
+     "bg_alt": "#181C26",
+     "surface": "#2A3040",
+     "border": "#3E3E3E",
+     "selection": "#2E3650",
+     "fg": "#CAD3F5",
+     "fg_dim": "#979EB6",
+     "muted": "#6E738D",
+     "accent": "#5A7BD8",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#CAD3F5",
+     "surface_fg": "#CAD3F5",
+     "selection_fg": "#CAD3F5",
+     "red": "#ED8796",
+     "orange": "#F5A97F",
+     "yellow": "#EED49F",
+     "green": "#A6DA95",
+     "cyan": "#8BD5CA",
+     "blue": "#8AADF4",
+     "purple": "#C6A0F6"
+    }
+   },
+   "light": {
+    "id": "light",
+    "name": "light",
+    "variant": "light",
+    "source": "VS Code",
+    "roles": {
+     "bg": "#FDF6E3",
+     "bg_alt": "#EEE8D5",
+     "surface": "#FFFFFF",
+     "border": "#CAC5B6",
+     "selection": "#CCD0D0",
+     "fg": "#586E75",
+     "fg_dim": "#717171",
+     "muted": "#237893",
+     "accent": "#51A0D5",
+     "accent_fg": "#000000",
+     "alt_fg": "#586E75",
+     "surface_fg": "#586E75",
+     "selection_fg": "#000000",
+     "red": "#DC322F",
+     "orange": "#C26A00",
+     "yellow": "#859900",
+     "green": "#00BC00",
+     "cyan": "#0598BC",
+     "blue": "#0451A5",
+     "purple": "#BC05BC"
+    }
+   },
+   "plain": {
+    "id": "plain",
+    "name": "plain",
+    "variant": "dark",
+    "source": "VS Code",
+    "roles": {
+     "bg": "#1E1E1E",
+     "bg_alt": "#252526",
+     "surface": "#3C3C3C",
+     "border": "#404040",
+     "selection": "#264F78",
+     "fg": "#D4D4D4",
+     "fg_dim": "#989898",
+     "muted": "#858585",
+     "accent": "#0E639C",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#D4D4D4",
+     "surface_fg": "#D4D4D4",
+     "selection_fg": "#D4D4D4",
+     "red": "#F14C4C",
+     "orange": "#E5A050",
+     "yellow": "#E5E510",
+     "green": "#23D18B",
+     "cyan": "#29B8DB",
+     "blue": "#3B8EEA",
+     "purple": "#D670D6"
+    }
+   },
+   "hc": {
+    "id": "hc",
+    "name": "hc",
+    "variant": "light",
+    "source": "VS Code",
+    "roles": {
+     "bg": "#FFFFFF",
+     "bg_alt": "#F3F3F3",
+     "surface": "#EBEBEB",
+     "border": "#D3D3D3",
+     "selection": "#ADD6FF",
+     "fg": "#000000",
+     "fg_dim": "#717171",
+     "muted": "#237893",
+     "accent": "#007ACC",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#000000",
+     "surface_fg": "#000000",
+     "selection_fg": "#000000",
+     "red": "#CD3131",
+     "orange": "#C26A00",
+     "yellow": "#949800",
+     "green": "#00BC00",
+     "cyan": "#0598BC",
+     "blue": "#0451A5",
+     "purple": "#BC05BC"
+    }
+   },
+   "bom": {
+    "id": "bom-theme",
+    "name": "Bom Theme",
+    "variant": "dark",
+    "source": "VS Code",
+    "roles": {
+     "bg": "#101820",
+     "bg_alt": "#252526",
+     "surface": "#3C3C3C",
+     "border": "#373C42",
+     "selection": "#264F78",
+     "fg": "#D4D4D4",
+     "fg_dim": "#949699",
+     "muted": "#858585",
+     "accent": "#0E639C",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#D4D4D4",
+     "surface_fg": "#D4D4D4",
+     "selection_fg": "#D4D4D4",
+     "red": "#F14C4C",
+     "orange": "#E5A050",
+     "yellow": "#E5E510",
+     "green": "#23D18B",
+     "cyan": "#29B8DB",
+     "blue": "#3B8EEA",
+     "purple": "#D670D6"
+    }
+   }
+  },
+  "named": {
+   "id": "given-name",
+   "name": "Given Name",
+   "variant": "dark",
+   "source": "VS Code",
+   "roles": {
+    "bg": "#1E1E1E",
+    "bg_alt": "#252526",
+    "surface": "#3C3C3C",
+    "border": "#404040",
+    "selection": "#264F78",
+    "fg": "#D4D4D4",
+    "fg_dim": "#989898",
+    "muted": "#858585",
+    "accent": "#0E639C",
+    "accent_fg": "#FFFFFF",
+    "alt_fg": "#D4D4D4",
+    "surface_fg": "#D4D4D4",
+    "selection_fg": "#D4D4D4",
+    "red": "#F14C4C",
+    "orange": "#E5A050",
+    "yellow": "#E5E510",
+    "green": "#23D18B",
+    "cyan": "#29B8DB",
+    "blue": "#3B8EEA",
+    "purple": "#D670D6"
+   }
+  },
+  "broken_raises": true,
+  "extension_all": [
+   {
+    "id": "alpha",
+    "name": "Alpha",
+    "variant": "dark",
+    "source": "VS Code: My Extension",
+    "roles": {
+     "bg": "#101018",
+     "bg_alt": "#252526",
+     "surface": "#3C3C3C",
+     "border": "#37373C",
+     "selection": "#264F78",
+     "fg": "#D4D4D4",
+     "fg_dim": "#949496",
+     "muted": "#858585",
+     "accent": "#0E639C",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#D4D4D4",
+     "surface_fg": "#D4D4D4",
+     "selection_fg": "#D4D4D4",
+     "red": "#FF5577",
+     "orange": "#E5A050",
+     "yellow": "#E5E510",
+     "green": "#23D18B",
+     "cyan": "#29B8DB",
+     "blue": "#3B8EEA",
+     "purple": "#D670D6"
+    }
+   },
+   {
+    "id": "beta",
+    "name": "Beta",
+    "variant": "light",
+    "source": "VS Code: My Extension",
+    "roles": {
+     "bg": "#F8F8F0",
+     "bg_alt": "#F3F3F3",
+     "surface": "#FFFFFF",
+     "border": "#CECEC9",
+     "selection": "#ADD6FF",
+     "fg": "#000000",
+     "fg_dim": "#717171",
+     "muted": "#237893",
+     "accent": "#007ACC",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#000000",
+     "surface_fg": "#000000",
+     "selection_fg": "#000000",
+     "red": "#CD3131",
+     "orange": "#C26A00",
+     "yellow": "#949800",
+     "green": "#00BC00",
+     "cyan": "#0598BC",
+     "blue": "#0451A5",
+     "purple": "#BC05BC"
+    }
+   },
+   {
+    "id": "only-id",
+    "name": "only-id",
+    "variant": "dark",
+    "source": "VS Code: My Extension",
+    "roles": {
+     "bg": "#0A0A0A",
+     "bg_alt": "#252526",
+     "surface": "#3C3C3C",
+     "border": "#333333",
+     "selection": "#264F78",
+     "fg": "#D4D4D4",
+     "fg_dim": "#929292",
+     "muted": "#858585",
+     "accent": "#0E639C",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#D4D4D4",
+     "surface_fg": "#D4D4D4",
+     "selection_fg": "#D4D4D4",
+     "red": "#F14C4C",
+     "orange": "#E5A050",
+     "yellow": "#E5E510",
+     "green": "#23D18B",
+     "cyan": "#29B8DB",
+     "blue": "#3B8EEA",
+     "purple": "#D670D6"
+    }
+   }
+  ],
+  "extension_only": [
+   {
+    "id": "alpha",
+    "name": "Alpha",
+    "variant": "dark",
+    "source": "VS Code: My Extension",
+    "roles": {
+     "bg": "#101018",
+     "bg_alt": "#252526",
+     "surface": "#3C3C3C",
+     "border": "#37373C",
+     "selection": "#264F78",
+     "fg": "#D4D4D4",
+     "fg_dim": "#949496",
+     "muted": "#858585",
+     "accent": "#0E639C",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#D4D4D4",
+     "surface_fg": "#D4D4D4",
+     "selection_fg": "#D4D4D4",
+     "red": "#FF5577",
+     "orange": "#E5A050",
+     "yellow": "#E5E510",
+     "green": "#23D18B",
+     "cyan": "#29B8DB",
+     "blue": "#3B8EEA",
+     "purple": "#D670D6"
+    }
+   },
+   {
+    "id": "beta",
+    "name": "Beta",
+    "variant": "light",
+    "source": "VS Code: My Extension",
+    "roles": {
+     "bg": "#F8F8F0",
+     "bg_alt": "#F3F3F3",
+     "surface": "#FFFFFF",
+     "border": "#CECEC9",
+     "selection": "#ADD6FF",
+     "fg": "#000000",
+     "fg_dim": "#717171",
+     "muted": "#237893",
+     "accent": "#007ACC",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#000000",
+     "surface_fg": "#000000",
+     "selection_fg": "#000000",
+     "red": "#CD3131",
+     "orange": "#C26A00",
+     "yellow": "#949800",
+     "green": "#00BC00",
+     "cyan": "#0598BC",
+     "blue": "#0451A5",
+     "purple": "#BC05BC"
+    }
+   }
+  ],
+  "vs_light_variant": "light"
+ },
+ "obsidian": {
+  "files": {
+   "MyTheme/theme.css": "/* My Theme */\n.theme-dark {\n  --background-primary: #14161b;\n  --background-secondary: #1b1e25;\n  --text-normal: #dcdfe4;\n  --text-muted: var(--text-normal);\n  --interactive-accent: hsl(210, 60%, 55%);\n  --color-red: rgba(240, 80, 80, 0.9);\n  --icon: url(\"data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg'><path d='M0 0'/></svg>\");\n  --text-faint: var(--missing, #808080);\n}\n.theme-light {\n  --background-primary: #fbfbf8;\n  --text-normal: #222;\n  --interactive-accent: color-mix(in srgb, #3355ff 70%, white);\n  --text-selection: rgba(51, 85, 255, 0.2);\n}\n.theme-dark.blue-accent { --interactive-accent: #4d8dff; --background-primary: #101820; }\n.theme-light.blue-accent { --interactive-accent: #2255dd; }\n.theme-dark.is-translucent { --background-primary: rgba(0, 0, 0, 0.5); }\n.theme-dark.red-accent { --interactive-accent: #ff5555; }\n.some-toggle-enable.theme-dark { --background-secondary: #000; }\n@media (min-width: 1px) { .theme-dark { --background-primary: red; } }\nbody { --color-blue: #5588ff; }\n",
+   "DarkOnly/theme.css": ".theme-dark { --background-primary: #202020; --text-normal: #eee; }\n.theme-dark.warm { --background-primary: #302018; }\n"
+  },
+  "fallback_my_theme": [
+   {
+    "id": "mytheme-dark",
+    "name": "MyTheme (dark)",
+    "variant": "dark",
+    "source": "Obsidian theme MyTheme",
+    "roles": {
+     "bg": "#14161B",
+     "bg_alt": "#1B1E25",
+     "surface": "#363636",
+     "border": "#363636",
+     "selection": "#2E2C4A",
+     "fg": "#DCDFE4",
+     "fg_dim": "#DCDFE4",
+     "muted": "#808080",
+     "accent": "#478CD1",
+     "accent_fg": "#000000",
+     "alt_fg": "#DCDFE4",
+     "surface_fg": "#DCDFE4",
+     "selection_fg": "#DCDFE4",
+     "red": "#DA4A4B",
+     "orange": "#E9973F",
+     "yellow": "#E0AC00",
+     "green": "#08B94E",
+     "cyan": "#00BFBC",
+     "blue": "#5588FF",
+     "purple": "#7852EE"
+    }
+   },
+   {
+    "id": "mytheme-blue-accent-dark",
+    "name": "MyTheme Blue Accent (dark)",
+    "variant": "dark",
+    "source": "Obsidian theme MyTheme",
+    "roles": {
+     "bg": "#101820",
+     "bg_alt": "#1B1E25",
+     "surface": "#363636",
+     "border": "#363636",
+     "selection": "#2B2D4E",
+     "fg": "#DCDFE4",
+     "fg_dim": "#DCDFE4",
+     "muted": "#808080",
+     "accent": "#4D8DFF",
+     "accent_fg": "#000000",
+     "alt_fg": "#DCDFE4",
+     "surface_fg": "#DCDFE4",
+     "selection_fg": "#DCDFE4",
+     "red": "#DA4A4B",
+     "orange": "#E9973F",
+     "yellow": "#E0AC00",
+     "green": "#08B94E",
+     "cyan": "#00BFBC",
+     "blue": "#5588FF",
+     "purple": "#7852EE"
+    }
+   },
+   {
+    "id": "mytheme-light",
+    "name": "MyTheme (light)",
+    "variant": "light",
+    "source": "Obsidian theme MyTheme",
+    "roles": {
+     "bg": "#FBFBF8",
+     "bg_alt": "#FAFAFA",
+     "surface": "#EAEAE7",
+     "border": "#E0E0E0",
+     "selection": "#D3DAF9",
+     "fg": "#222222",
+     "fg_dim": "#5C5C5C",
+     "muted": "#ABABAB",
+     "accent": "#7088FF",
+     "accent_fg": "#000000",
+     "alt_fg": "#222222",
+     "surface_fg": "#222222",
+     "selection_fg": "#222222",
+     "red": "#E93147",
+     "orange": "#E9973F",
+     "yellow": "#E0AC00",
+     "green": "#08B94E",
+     "cyan": "#00BFBC",
+     "blue": "#5588FF",
+     "purple": "#7852EE"
+    }
+   }
+  ],
+  "fallback_dark_only": [
+   {
+    "id": "darkonly-dark",
+    "name": "DarkOnly (dark)",
+    "variant": "dark",
+    "source": "Obsidian theme DarkOnly",
+    "roles": {
+     "bg": "#202020",
+     "bg_alt": "#262626",
+     "surface": "#363636",
+     "border": "#363636",
+     "selection": "#37334E",
+     "fg": "#EEEEEE",
+     "fg_dim": "#BABABA",
+     "muted": "#666666",
+     "accent": "#7B6CD9",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#EEEEEE",
+     "surface_fg": "#EEEEEE",
+     "selection_fg": "#EEEEEE",
+     "red": "#E93147",
+     "orange": "#E9973F",
+     "yellow": "#E0AC00",
+     "green": "#08B94E",
+     "cyan": "#00BFBC",
+     "blue": "#086DDD",
+     "purple": "#7852EE"
+    }
+   },
+   {
+    "id": "darkonly-warm-dark",
+    "name": "DarkOnly Warm (dark)",
+    "variant": "dark",
+    "source": "Obsidian theme DarkOnly",
+    "roles": {
+     "bg": "#302018",
+     "bg_alt": "#262626",
+     "surface": "#363636",
+     "border": "#363636",
+     "selection": "#433348",
+     "fg": "#EEEEEE",
+     "fg_dim": "#BABABA",
+     "muted": "#666666",
+     "accent": "#7B6CD9",
+     "accent_fg": "#FFFFFF",
+     "alt_fg": "#EEEEEE",
+     "surface_fg": "#EEEEEE",
+     "selection_fg": "#EEEEEE",
+     "red": "#E93147",
+     "orange": "#E9973F",
+     "yellow": "#E0AC00",
+     "green": "#08B94E",
+     "cyan": "#00BFBC",
+     "blue": "#086DDD",
+     "purple": "#7852EE"
+    }
+   }
+  ],
+  "titles": [
+   {
+    "text": "blue-accent",
+    "out": "Blue Accent"
+   },
+   {
+    "text": "x2y",
+    "out": "X2Y"
+   },
+   {
+    "text": "a-b-c",
+    "out": "A B C"
+   },
+   {
+    "text": "Mixed-CASE",
+    "out": "Mixed Case"
+   },
+   {
+    "text": "o'neil",
+    "out": "O'Neil"
+   },
+   {
+    "text": "1st-place",
+    "out": "1St Place"
+   },
+   {
+    "text": "\u00fcn\u00ef-c\u00f6d\u00e9",
+    "out": "\u00dcn\u00ef C\u00f6d\u00e9"
+   }
+  ],
+  "real": {
+   "asar_size": 25787463,
+   "base_sha256": "ea2d4661e16c6edbb275fa40f78032fd12458adfc6c2ced16a921cf524be0597",
+   "rule_count": 165,
+   "entry_hashes": [
+    "a8fbb16b1cd72f55ffc50a128029f807bbad54020d98d265a27bc319d43204fd",
+    "55c39920d4929ae3a2f4e7008c05323c16812cafbc40d4824fa9ae4db7ac6898",
+    "b62f6cdcef72bf05e8631f921f5e86b9c653c3b252a9e408c2f5dcc83e022ba9"
+   ],
+   "entry_names": [
+    "MyTheme (dark)",
+    "MyTheme Blue Accent (dark)",
+    "MyTheme (light)"
+   ]
+  }
+ },
+ "merge": {
+  "library": [
+   {
+    "id": "nord",
+    "name": "Nord",
+    "variant": "dark",
+    "source": "tinted-theming base16",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "solo",
+    "name": "Solo",
+    "variant": "dark",
+    "source": "VS Code: A",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "obs",
+    "name": "Obs",
+    "variant": "dark",
+    "source": "Obsidian theme Obs (dark)",
+    "roles": {
+     "bg": "#000000"
+    }
+   }
+  ],
+  "new": [
+   {
+    "id": "nord",
+    "name": "Nord",
+    "variant": "dark",
+    "source": "tinted-theming base16",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "nord",
+    "name": "Nord",
+    "variant": "dark",
+    "source": "VS Code: Nord Ext",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "solo",
+    "name": "Solo",
+    "variant": "dark",
+    "source": "tinted-theming base24",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "obs",
+    "name": "Obs",
+    "variant": "dark",
+    "source": "Obsidian theme Other (dark)",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "fresh",
+    "name": "Fresh",
+    "variant": "dark",
+    "source": "Obsidian theme Fresh",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "nord",
+    "name": "Nord",
+    "variant": "dark",
+    "source": "Custom source name",
+    "roles": {
+     "bg": "#000000"
+    }
+   }
+  ],
+  "added": [
+   {
+    "id": "nord",
+    "name": "Nord",
+    "variant": "dark",
+    "source": "tinted-theming base16",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "nord-vs-code",
+    "name": "Nord (VS Code)",
+    "variant": "dark",
+    "source": "VS Code: Nord Ext",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "solo-base24",
+    "name": "Solo (base24)",
+    "variant": "dark",
+    "source": "tinted-theming base24",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "obs-obsidian",
+    "name": "Obs (Obsidian)",
+    "variant": "dark",
+    "source": "Obsidian theme Other (dark)",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "fresh",
+    "name": "Fresh",
+    "variant": "dark",
+    "source": "Obsidian theme Fresh",
+    "roles": {
+     "bg": "#000000"
+    }
+   },
+   {
+    "id": "nord-custom",
+    "name": "Nord (Custom)",
+    "variant": "dark",
+    "source": "Custom source name",
+    "roles": {
+     "bg": "#000000"
+    }
+   }
+  ],
+  "merged_ids": [
+   "fresh",
+   "nord",
+   "nord-custom",
+   "nord-vs-code",
+   "obs",
+   "obs-obsidian",
+   "solo",
+   "solo-base24"
+  ]
+ }
+}

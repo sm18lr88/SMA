@@ -1,0 +1,53 @@
+{
+  "name": "SuperMemo Connector",
+  "description": "Import web content in your SuperMemo collection.",
+  "author": "Alexis Incogito",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "nativeMessaging"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": [
+	  "consts.js",
+      "config.js",
+      "global.js",
+	  "background.nativeMessaging.messages.js",
+	  "background.nativeMessaging.js",
+	  "background.contextMenus.js",
+	  "background.messages.js",
+	  "background.js"
+    ]
+  },
+  "homepage_url": "https://github.com/supermemo/",
+  "icons": {
+    "16": "data/icons/robot-16.png",
+    "24": "data/icons/robot-24.png",
+    "32": "data/icons/robot-32.png",
+    "48": "data/icons/robot-48.png",
+    "64": "data/icons/robot-64.png",
+    "128": "data/icons/robot-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "data/icons/robot-16.png",
+      "24": "data/icons/robot-24.png",
+      "32": "data/icons/robot-32.png",
+      "48": "data/icons/robot-48.png",
+      "64": "data/icons/robot-64.png",
+      "128": "data/icons/robot-128.png"
+    },
+	"default_title": "SuperMemo Connector (disconnected)"
+  },
+  "commands": {
+      "_extract_selection": {
+          "suggested_key": {
+              "default": "Alt+X"
+          },
+          "description": "Import selection in SuperMemo"
+      }
+  }
+}

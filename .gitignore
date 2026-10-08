@@ -1,0 +1,40 @@
+# Build outputs and local dependencies
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/packages/
+.nuget/
+.vs/
+/artifacts/
+/release/
+/releases/
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.zip
+*.user
+*.suo
+*.snk
+*.pfx
+*.log
+__pycache__/
+# SuperMemo and personal data
+*.asm
+*.pdf
+# Folders such as SuperMemoAssistant.Plugins.PDF must not match the rule above.
+!*.[Pp][Dd][Ff]/
+/Configs/
+/Logs/
+/RecoveryBackups/
+
+# Coding-agent session state
+.omo/
+/TestResults/
+/.solidkg/
+
+# Local-only technical notes: they stay on the maintainer's machine and are never published
+/docs/decisions/0001-sm20-x64-and-dotnet10.md
+/skills/supermemo-appearance/references/
+/local/
