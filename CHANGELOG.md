@@ -2,6 +2,10 @@
 
 **English** | [简体中文](CHANGELOG.zh-CN.md)
 
+## 3.1.3 - 2026-10-09
+
+- **Slow first start.** SMA no longer closes when its plugins start slowly, for example on the first start after an update while antivirus software scans the new files. SMA waits up to one minute for each plugin, and a plugin that answers too late is stopped without affecting SMA.
+
 ## 3.1.2 - 2026-10-09
 
 - **Command palette.** Ctrl+Alt+Shift+P opens the palette again. Before, the palette did not open while SuperMemo showed an element. The palette and the other windows that hotkeys open now come to the front and take the keyboard focus.

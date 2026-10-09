@@ -39,7 +39,8 @@ namespace SuperMemoAssistant.Plugins
 #if DEBUG
     public override int PluginConnectTimeout => 300000;
 #else
-    public override int PluginConnectTimeout => 10000;
+    // The first start after an update can be slow: twelve new processes start at once while antivirus software scans them.
+    public override int PluginConnectTimeout => 60000;
 #endif
 
     #endregion

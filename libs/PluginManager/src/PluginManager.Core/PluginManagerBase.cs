@@ -44,6 +44,7 @@ using PluginManager.Logger;
 using PluginManager.Models;
 using PluginManager.PackageManager;
 using PluginManager.PackageManager.NuGet;
+using PluginManager.Remoting;
 
 // ReSharper disable RedundantTypeArgumentsOfMethod
 
@@ -345,7 +346,18 @@ namespace PluginManager
     {
       LogTo.Information($"Connected {pluginInstance.Denomination} {pluginInstance.Package.Id}.");
 
-      UISynchronizationContext.Send(_ => { pluginInstance.OnConnected(plugin); }, null);
+      UISynchronizationContext.Send(_ =>
+      {
+        try
+        {
+          pluginInstance.OnConnected(plugin);
+        }
+        catch (RemotingException ex)
+        {
+          // The plugin connected after its start timed out and its process was killed: it is stopping, not connected.
+          LogTo.Warning(ex, $"{pluginInstance.ToString().CapitalizeFirst()} connected after its process was stopped.");
+        }
+      }, null);
     }
 
     /// <summary>

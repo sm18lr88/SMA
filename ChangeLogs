@@ -1,5 +1,8 @@
 # SuperMemo Assistant change log. SMA shows this file after an update.
 
+[3.1.3 / 2026-10-09]
+- Fixed: SMA no longer closes when its plugins start slowly, for example on the first start after an update.
+
 [3.1.2 / 2026-10-09]
 - Fixed: Ctrl+Alt+Shift+P opens the command palette again, also while SuperMemo shows an element.
 - Fixed: Windows that hotkeys open come to the front and take the keyboard focus.
