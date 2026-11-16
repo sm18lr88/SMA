@@ -2,19 +2,19 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-SuperMemoAssistant (SMA) adds plugins to **SuperMemo 20 (64-bit)** on **.NET 10**. This project continues [supermemo/SuperMemoAssistant](https://github.com/supermemo/SuperMemoAssistant) and [supermemo/SuperMemoAssistant.Plugins.PDF](https://github.com/supermemo/SuperMemoAssistant.Plugins.PDF). Credit belongs to the original authors and contributors, and this project keeps their MIT copyright notices. This is an independent community project. It is not an official upstream release.
+SuperMemoAssistant (SMA) adds plugins to **SuperMemo 20 (64-bit)** on **.NET 10**. This project continues [supermemo/SuperMemoAssistant](https://github.com/supermemo/SuperMemoAssistant) and [supermemo/SuperMemoAssistant.Plugins.PDF](https://github.com/supermemo/SuperMemoAssistant.Plugins.PDF). Credit belongs to the original authors and contributors, and this project keeps their MIT copyright notices. It is an independent community project, not an official upstream release.
 
 To install SMA, see the [installation guide](docs/installation.md).
 
 ## Requirements
 
-- Windows x64 and the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) (x64). `Setup.exe` installs the runtime when it is missing.
+- Windows x64 and the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) (x64). `Setup.exe` installs the runtime if it is missing.
 - SuperMemo **20, 64-bit**. SuperMemo 19.1 is not supported.
 - SMA is tested with SuperMemo 20. If your SuperMemo version is not supported, SMA tells you and does not connect to it.
 
 ## Plugins
 
-The installer includes nine plugins. They update together with SMA.
+The installer includes nine plugins, and they update together with SMA.
 
 | Plugin | What it does |
 | --- | --- |
@@ -24,13 +24,13 @@ The installer includes nine plugins. They update together with SMA.
 | Image Occlusion | Creates image occlusion items. |
 | Import | Imports web pages, browser tabs, and RSS or Atom feeds. |
 | LaTeX | Renders LaTeX formulas in elements. |
-| [Local API](src/Plugins/SuperMemoAssistant.Plugins.LocalApi/README.md) | Runs a token-protected HTTP server on your computer, so that browser extensions and scripts can add elements and navigate. It is off by default. |
+| [Local API](src/Plugins/SuperMemoAssistant.Plugins.LocalApi/README.md) | Runs a token-protected HTTP server on your computer. Browser extensions and scripts can use it to add elements and navigate. It is off by default. |
 | PDF | Reads PDF files incrementally and extracts text, images, and page ranges. |
 | Writing | Compiles a branch into one Markdown or HTML document, and imports a Markdown outline as a branch of topics. |
 
 "Browse plugins" in SMA also installs and updates plugins from the [plugin feed](docs/plugin-feed.md).
 
-**Command palette.** Press Ctrl+Alt+Shift+P to find a command of SMA or of a plugin by its name, and to run it. The palette also shows the hotkey of each command. It lists only the commands that can run in the window that you came from. To change the hotkey, open the SMA settings (Ctrl+Alt+Shift+O) and go to the Hotkeys tab.
+**Command palette.** Press Ctrl+Alt+Shift+P to find a command of SMA or of a plugin by name and run it. The palette also shows the hotkey of each command. It lists only the commands that can run in the window you came from. To change a hotkey, open the SMA settings (Ctrl+Alt+Shift+O) and go to the Hotkeys tab.
 
 **Optional, not in the installer:** the [Themes plugin](src/Plugins/SuperMemoAssistant.Plugins.Themes/README.md) themes the windows, cards, and status bar of SuperMemo. It is off until you turn it on. To add themes, it modifies SuperMemo's own files. It keeps a backup of the originals, and turning the plugin off restores them. Install it from "Browse plugins".
 
@@ -61,13 +61,13 @@ dotnet build SuperMemoAssistant.slnx
 dotnet test --solution SuperMemoAssistant.slnx
 ```
 
-The app builds into `artifacts\app-dev` (ignored by git). Building it needs the Visual Studio C++ workload. The build treats every warning as an error, and a clean build has 0 warnings. For details, see [docs/build.md](docs/build.md).
+The app builds into `artifacts\app-dev` (ignored by git). The build needs the Visual Studio C++ workload. It treats every warning as an error, and a clean build has 0 warnings. For details, see [docs/build.md](docs/build.md).
 
 ## Privacy
 
 SMA sends no telemetry: no crash reports, analytics, usage data, or device identifiers. Errors are written only to log files on your computer, in `%UserProfile%\SuperMemoAssistant\Logs`. To report a problem, right-click the SMA icon in the notification area and select "Open logs folder". Check the log for private information, then attach it to a [GitHub issue](https://github.com/sm18lr88/SMA/issues).
 
-SMA connects to the internet only to check for updates on GitHub, to list the plugins in "Browse plugins", and for plugin features that you use and that need it, for example dictionary lookups or web imports.
+SMA connects to the internet only in three cases: to check for updates on GitHub, to list the plugins in "Browse plugins", and for plugin features that you use and that need it, for example dictionary lookups or web imports.
 
 ## Contributing
 
